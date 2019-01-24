@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/av-theme.scss",
               "src/styles.scss"
             ],
             "scripts": []

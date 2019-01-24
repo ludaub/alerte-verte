@@ -1,0 +1,172 @@
+<mat-toolbar class="av-content__toolbar" color="primary" [class.av-content__toolbar--fullscreen]="isHandset$ | async">
+  <button
+    type="button"
+    aria-label="Toggle sidenav"
+    mat-icon-button
+    (click)="drawer.toggle()"
+    *ngIf="isHandset$ | async">
+    <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="!(isHandset$ | async)">
+    <mat-toolbar>
+      <h1><span class="logo__a">A</span><span class="logo__v">V</span></h1>
+    </mat-toolbar>
+    <mat-selection-list #tags>
+      <mat-list-option class="color--agriculture">
+        <div class="center-vertically">
+            <mat-icon>info</mat-icon>Agriculture
+        </div>
+      </mat-list-option>
+      <mat-list-option class="color--biodiversite">
+        <div class="center-vertically">
+          <mat-icon>info</mat-icon>Biodiversit&eacute;
+        </div>
+      </mat-list-option>
+      <mat-list-option class="color--climat">
+        <div class="center-vertically">
+          <mat-icon>info</mat-icon>Climat
+        </div>
+      </mat-list-option>
+      <mat-list-option class="color--demographie">
+        <div class="center-vertically">
+          <mat-icon>people</mat-icon>D&eacute;mographie
+        </div>
+      </mat-list-option>
+      <mat-list-option class="color--economie">
+        <div class="center-vertically">
+          <mat-icon>euro_symbol</mat-icon>&Eacute;conomie
+        </div>
+      </mat-list-option>
+      <mat-list-option class="color--energie">
+        <div class="center-vertically">
+          <mat-icon>info</mat-icon>&Eacute;nergie
+        </div>
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="sidenav-content">
+    <div class="av-articles_container">
+      <div class="av-articles" fxLayout="row wrap" fxLayout.lt-sm="column">
+        <mat-card class="av-article__card background-color--biodiversite" fxFlex="0 1 calc(33.3% - 32px)" fxFlex.lt-md="0 1 calc(50% - 32px)" fxFlex.lt-sm="100%">
+          <article>
+            <mat-card-title-group>
+              <mat-card-title>
+                <a href="https://theconversation.com/toujours-plus-de-co-dans-les-eaux-perturbe-lodorat-et-le-comportement-des-poissons-108121" class="av-article__card__title">
+                  Toujours plus de CO₂ dans les eaux perturbe l’odorat et le comportement des poissons
+                </a>
+              </mat-card-title>
+              <mat-card-subtitle class="av-article__card__info">
+                <span>The Conversation</span>
+                <time class="av-article__card__time">mercredi 2 janvier 2019</time>
+              </mat-card-subtitle>
+              <img mat-card-sm-image class="av-article__card__img" src="https://images.theconversation.com/files/251475/original/file-20181219-27779-11kye6p.jpg">
+            </mat-card-title-group>
+            <mat-card-content class="av-article__card__quote">
+                La concentration du CO₂ dans l’océan affecte la manière dont les poissons détectent les prédateurs, leurs congénères ou la nourriture. Une menace pour des populations entières de poissons.
+            </mat-card-content>
+            <mat-card-actions class="av-article__card__actions">
+              <button mat-button><mat-icon>share</mat-icon></button>
+              <button mat-button><mat-icon>share</mat-icon></button>
+              <button mat-button><mat-icon>share</mat-icon></button>
+            </mat-card-actions>
+          </article>
+        </mat-card>
+        <mat-card class="av-article__card background-color--climat" fxFlex="0 1 calc(33.3% - 32px)" fxFlex.lt-md="0 1 calc(50% - 32px)" fxFlex.lt-sm="100%">
+          <article>
+            <mat-card-title-group>
+              <mat-card-title>
+                <a href="https://www.liberation.fr/france/2018/12/13/changement-climatique-les-pyrenees-de-moins-en-moins-enneigees_1697258" class="av-article__card__title">
+                  Changement climatique : les Pyrénées de moins en moins enneigées
+                </a>
+              </mat-card-title>
+              <mat-card-subtitle class="av-article__card__info">
+                <span>Libération</span>
+                <time class="av-article__card__time">jeudi 13 décembre 2018</time>
+              </mat-card-subtitle>
+              <img mat-card-sm-image class="av-article__card__img" src="https://medias.liberation.fr/photo/1179580-infographie-rechauffement-climatique-dans-les-pyrenees.png">
+            </mat-card-title-group>
+            <mat-card-content class="av-article__card__quote">
+              Un rapport de l’Observatoire pyrénéen du changement climatique publié mi-novembre recense les conséquences du réchauffement climatique en cours dans la région. D’ici à 2050, la chaîne montagneuse devrait perdre la moitié de l’épaisseur de son manteau neigeux.
+            </mat-card-content>
+            <mat-card-actions class="av-article__card__actions">
+              <button mat-button><mat-icon>share</mat-icon></button>
+            </mat-card-actions>
+          </article>
+        </mat-card>
+        <mat-card class="av-article__card background-color--biodiversite" fxFlex="0 1 calc(33.3% - 32px)" fxFlex.lt-md="0 1 calc(50% - 32px)" fxFlex.lt-sm="100%">
+          <article>
+            <mat-card-title-group>
+              <mat-card-title>
+                <a href="http://www.lefigaro.fr/sciences/2018/12/10/01008-20181210ARTFIG00194-les-oiseaux-marins-affames-par-la-surpeche.php" class="av-article__card__title">
+                  Les oiseaux marins affamés par la surpêche
+                </a>
+              </mat-card-title>
+              <mat-card-subtitle class="av-article__card__info">
+                <span>Le Figaro</span>
+                <time class="av-article__card__time">lundi 10 décembre 2018</time>
+              </mat-card-subtitle>
+              <img mat-card-sm-image class="av-article__card__img" src="https://i.f1g.fr/media/figaro/680x382_crop/2018/12/10/XVMeb7e8a7e-fc91-11e8-b5a2-b44637c34deb.jpg">
+            </mat-card-title-group>
+            <mat-card-content class="av-article__card__quote">
+              Le nombre de ces oiseaux a diminué de près de 70% entre 1950 et 2010.
+            </mat-card-content>
+            <mat-card-actions class="av-article__card__actions">
+              <button mat-button><mat-icon>share</mat-icon></button>
+            </mat-card-actions>
+          </article>
+        </mat-card>
+        <mat-card class="av-article__card background-color--biodiversite" fxFlex="0 1 calc(33.3% - 32px)" fxFlex.lt-md="0 1 calc(50% - 32px)" fxFlex.lt-sm="100%">
+          <article>
+            <mat-card-title-group>
+              <mat-card-title>
+                <a href="https://www.lemonde.fr/planete/article/2018/03/23/sur-tous-les-continents-la-nature-et-le-bien-etre-humain-sont-en-danger_5275433_3244.html" class="av-article__card__title">
+                  Le déclin massif de la biodiversité menace l'humanité
+                </a>
+              </mat-card-title>
+              <mat-card-subtitle class="av-article__card__info">
+                <span>Le Monde</span>
+                <time class="av-article__card__time">vendredi 23 mars 2018</time>
+              </mat-card-subtitle>
+              <img mat-card-sm-image class="av-article__card__img" src="https://img.lemde.fr/2018/03/24/0/0/1068/2579/688/0/60/0/12b5e06_10283-oe766b.w8udn.png">
+            </mat-card-title-group>
+            <mat-card-content class="av-article__card__quote">
+              L'érosion continue de la vie sauvage met en danger les conditions de vie des populations, alertent les experts mondiaux de l'IPBES, le "GIEC de la biodiversité".
+            </mat-card-content>
+            <mat-card-actions class="av-article__card__actions">
+              <button mat-button><mat-icon>share</mat-icon></button>
+            </mat-card-actions>
+          </article>
+        </mat-card>
+        <mat-card class="av-article__card background-color--energie" fxFlex="0 1 calc(33.3% - 32px)" fxFlex.lt-md="0 1 calc(50% - 32px)" fxFlex.lt-sm="100%">
+          <article>
+            <mat-card-title-group>
+              <mat-card-title>
+                <a href="https://www.lemonde.fr/pollution/article/2016/06/21/la-pollution-de-l-air-cause-48-000-morts-en-france_4954601_1652666.html" class="av-article__card__title">
+                  La pollution de l’air cause 48 000 morts en France
+                </a>
+              </mat-card-title>
+              <mat-card-subtitle class="av-article__card__info">
+                  <span>Le Monde</span>
+                  <time class="av-article__card__time">mardi 21 juin 2016</time>
+              </mat-card-subtitle>
+              <img mat-card-sm-image class="av-article__card__img" src="https://img.lemde.fr/2016/05/12/0/0/2943/1920/688/0/60/0/1746c78_17aee0904c284369b060d39045cc592b-0e2da196b0f84294b2e174a00c206aec-0.jpg">
+            </mat-card-title-group>
+            <mat-card-content class="av-article__card__quote">
+                Une étude estime que la pollution aux particules fines provoque 48 000 morts prématurées par an en France.
+            </mat-card-content>
+            <mat-card-actions class="av-article__card__actions">
+              <button mat-button><mat-icon>share</mat-icon></button>
+            </mat-card-actions>
+          </article>
+        </mat-card>
+      </div>
+    </div>
+    <!--<router-outlet></router-outlet>-->
+  </mat-sidenav-content>
+</mat-sidenav-container>

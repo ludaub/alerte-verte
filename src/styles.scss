@@ -1,1 +1,169 @@
-/* You can add global styles to this file, and also import other style files */
+//@import "~@angular/material/prebuilt-themes/purple-green.css";
+
+// Fonts
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./assets/fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: normal;
+  src: url('./assets/fonts/Roboto-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: bold;
+  src: url('./assets/fonts/Roboto-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./assets/fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: normal;
+  src: url('./assets/fonts/RobotoCondensed-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: bold;
+  src: url('./assets/fonts/RobotoCondensed-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/RobotoSlab-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./assets/fonts/RobotoSlab-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/MaterialIcons-Regular.woff2') format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+// Global styles
+body {
+  background-color: #212121;
+  margin: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.center-vertically {
+  display: flex;
+  align-items: center;
+}
+
+.color--agriculture {
+  color: #FFCDD2;
+}
+
+.color--biodiversite {
+  color: #EF9A9A;
+}
+
+.color--climat {
+  color: #E57373;
+}
+
+.color--demographie {
+  color: #EF5350;
+}
+
+.color--economie {
+  color: #F44336;
+}
+
+.color--energie {
+  color: #E53935;
+}
+
+.background-color--agriculture {
+  background-color: #FFCDD2;
+}
+
+.background-color--biodiversite {
+  background-color: #EF9A9A;
+}
+
+.background-color--climat {
+  background-color: #E57373;
+}
+
+.background-color--demographie {
+  background-color: #EF5350;
+}
+
+.background-color--economie {
+  background-color: #F44336;
+}
+
+.background-color--energie {
+  background-color: #E53935;
+}
+
+.mat-pseudo-checkbox {
+  display: none !important;
+  //color: #000000;
+}
