@@ -6,7 +6,12 @@ body {
 body {
   background: #212121; // TODO: Set in theme.
   font-family: sans-serif;
+  font-size: 20px;
   margin: 0;
+}
+
+h2 {
+  margin: 0 0 16px;
 }
 
 .hidden {
@@ -20,6 +25,10 @@ body {
 
 .mat-drawer-backdrop.mat-drawer-shown {
   background-color: #00000099;
+}
+
+.mat-list-item-content {
+  padding: 0 20px !important;
 }
 
 .mat-pseudo-checkbox {

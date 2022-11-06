@@ -1,6 +1,6 @@
 <mat-toolbar
-  class="toolbar"
-  [class.toolbar-fullscreen]="isSmallScreen$ | async"
+  class="small-screen-toolbar"
+  [class.small-screen-toolbar-fullscreen]="isSmallScreen$ | async"
   color="primary"
 >
   <button
@@ -29,7 +29,7 @@
     [mode]="(isSmallScreen$ | async) ? 'over' : 'side'"
     [opened]="!(isSmallScreen$ | async)"
   >
-    <mat-toolbar>
+    <mat-toolbar class="toolbar">
       <h1 class="logo" matTooltip="Alerte Verte">
         <span class="logo-a">A</span><span class="logo-v">V</span>
       </h1>
