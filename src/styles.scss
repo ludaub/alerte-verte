@@ -4,6 +4,24 @@ body {
 }
 
 body {
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background: #212121; // TODO: Set in theme.
+  font-family: sans-serif;
   margin: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.center-vertically {
+  display: flex;
+  align-items: center;
+}
+
+.mat-drawer-backdrop.mat-drawer-shown {
+  background-color: #00000099;
+}
+
+.mat-pseudo-checkbox {
+  display: none !important;
 }

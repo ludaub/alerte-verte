@@ -12,24 +12,23 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$alerte-verte-primary: mat.define-palette(mat.$indigo-palette);
-$alerte-verte-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$av-primary: mat.define-palette(mat.$gray-palette, 900, 800, 900);
+$av-accent: mat.define-palette(mat.$red-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$alerte-verte-warn: mat.define-palette(mat.$red-palette);
+$av-warn: mat.define-palette(mat.$green-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$alerte-verte-theme: mat.define-light-theme((
+$av-theme: mat.define-dark-theme((
   color: (
-    primary: $alerte-verte-primary,
-    accent: $alerte-verte-accent,
-    warn: $alerte-verte-warn,
+    primary: $av-primary,
+    accent: $av-accent,
+    warn: $av-warn,
   )
 ));
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include mat.all-component-themes($alerte-verte-theme);
-
+@include mat.all-component-themes($av-theme);
