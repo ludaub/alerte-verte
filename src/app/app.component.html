@@ -52,7 +52,7 @@
   <mat-sidenav-content class="sidenav-content">
     <div class="articles">
       <mat-card
-        *ngFor="let article of articles"
+        *ngFor="let article of articles$ | async"
         class="article-card"
         [style.background]="categories[article.categoryId].color"
       >

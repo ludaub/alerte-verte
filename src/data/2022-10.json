@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Vers un réchauffement de 2,6 degrés avec les engagements actuels prévient l'ONU",
+    "quote": "Le monde «ne peut plus se permettre de faire du greenwashing», a déclaré le secrétaire général de l'ONU, Antonio Guterres.",
+    "url": "https://www.lefigaro.fr/sciences/vers-un-rechauffement-de-2-6-degres-avec-les-engagements-actuels-previent-l-onu-20221027",
+    "publishedAt": "2022-10-27",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Le monde se dirige vers un réchauffement « catastrophique » de 2,5 °C à la fin du siècle",
+    "quote": "Les progrès entraînés par les nouveaux plans adoptés en 2022 sont « terriblement insuffisants », dit le Programme des Nations unies pour l’environnement, qui conclut à « une année gâchée ».",
+    "url": "https://www.lemonde.fr/planete/article/2022/10/27/le-monde-se-dirige-vers-un-rechauffement-catastrophique-de-2-5-c-a-la-fin-du-siecle_6147562_3244.html",
+    "publishedAt": "2022-10-27",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Les populations d’oiseaux, de poissons, de mammifères, d’amphibiens et de reptiles ont décliné de 69 % en moins de 50 ans",
+    "quote": "Un indicateur publié par le Fonds mondial pour la nature (WWF) témoigne de l’érosion continue de la biodiversité.",
+    "url": "https://www.lemonde.fr/planete/article/2022/10/13/les-populations-de-vertebres-ont-decline-de-69-en-moins-de-cinquante-ans_6145561_3244.html",
+    "publishedAt": "2022-10-13",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  }
+]
