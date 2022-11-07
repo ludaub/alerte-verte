@@ -94,11 +94,11 @@
   width: 100%;
 
   @media screen and (min-width: 600px) {
-    width: calc(50% - 20px / 2 - 32px);
+    width: calc(50% - 20px / 2 - 40px);
   }
 
   @media screen and (min-width: 1280px) {
-    width: calc(33.33333% - 20px * 2 / 3 - 32px);
+    width: calc(33.33333% - 20px * 2 / 3 - 40px);
   }
 }
 
