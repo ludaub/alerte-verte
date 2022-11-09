@@ -35,11 +35,15 @@
       </h1>
     </mat-toolbar>
 
-    <mat-selection-list>
+    <mat-selection-list
+      #categoryList
+      [(ngModel)]="selectedCategoryIds"
+      (ngModelChange)="changeSelectedCategoryIds($event)"
+    >
       <mat-list-option
         *ngFor="let category of categories | keyvalue"
+        [value]="category.key"
         [style.color]="category.value.color"
-        selected
       >
         <div class="list-option-item center-vertically">
           <mat-icon>{{ category.value.icon }}</mat-icon
@@ -52,9 +56,10 @@
   <mat-sidenav-content class="sidenav-content">
     <div class="articles">
       <mat-card
-        *ngFor="let article of articles$ | async"
+        *ngFor="let article of articles$ | async; trackBy: trackArticleByUrl"
         class="article-card"
         [style.background]="categories[article.categoryId].color"
+        [@cardAnimation]
       >
         <article>
           <mat-card-title-group>

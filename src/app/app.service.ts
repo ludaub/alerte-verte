@@ -9,10 +9,12 @@ import { Article } from './article';
   providedIn: 'root',
 })
 export class AppService {
+  /** Dates. */
   readonly dates$: Observable<Array<Date>> = this._http
     .get<Array<string>>('data/dates.json')
     .pipe(map((dates) => dates.map((date) => new Date(date))));
 
+  /** Current date. */
   get currentDate(): Date | undefined {
     return this._currentDate.getValue();
   }
@@ -26,6 +28,7 @@ export class AppService {
 
   readonly currentDate$ = this._currentDate.asObservable();
 
+  /** Articles. */
   get articles(): Array<Article> {
     return this._articles.getValue();
   }
@@ -39,6 +42,21 @@ export class AppService {
 
   readonly articles$: Observable<Array<Article>> =
     this._articles.asObservable();
+
+  /** Selected category IDs. */
+  get selectedCategoryIds(): Array<string> {
+    return this._selectedCategoryIds.getValue();
+  }
+
+  set selectedCategoryIds(categories: Array<string>) {
+    this._selectedCategoryIds.next(categories);
+  }
+
+  private readonly _selectedCategoryIds: BehaviorSubject<Array<string>> =
+    new BehaviorSubject<Array<string>>([]);
+
+  readonly selectedCategoryIds$: Observable<Array<string>> =
+    this._selectedCategoryIds.asObservable();
 
   constructor(private _http: HttpClient) {
     this.dates$.subscribe((dates) => (this.currentDate = dates[0]));
