@@ -75,14 +75,13 @@
 
 .sidenav-content {
   background: #212121;
-  height: calc(100vh - 64px);
+  height: calc(100vh - 64px - 20px);
 }
 
 .articles {
-  display: flex;
-  flex: auto;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
   padding: 0 20px 0 20px;
   width: calc(100% - 40px);
 }
@@ -91,15 +90,6 @@
   border-radius: 0;
   font-family: sans-serif;
   padding: 20px;
-  width: 100%;
-
-  @media screen and (min-width: 600px) {
-    width: calc(50% - 20px / 2 - 40px);
-  }
-
-  @media screen and (min-width: 1280px) {
-    width: calc(33.33333% - 20px * 2 / 3 - 40px);
-  }
 }
 
 .article-title {
@@ -128,9 +118,10 @@
   text-transform: uppercase;
 
   mat-icon {
-    font-size: 10px;
+    font-size: 0.8rem;
     height: auto;
-    margin-right: 4px;
+    margin-right: 2px;
+    vertical-align: middle;
     width: auto;
   }
 }
