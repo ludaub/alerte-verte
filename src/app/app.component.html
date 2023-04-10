@@ -65,7 +65,7 @@
           <mat-card-title-group>
             <mat-card-title>
               <h2>
-                <a [href]="article.url" class="article-title">
+                <a [href]="article.url" class="article-title" target="_blank">
                   {{ article.title }}
                 </a>
               </h2>
@@ -84,7 +84,7 @@
                 article.publishedBy
               }}</span>
               <time class="article-published-at">{{
-                article.publishedAt | date: "fullDate"
+                article.publishedAt | date : "fullDate"
               }}</time>
             </mat-card-subtitle>
           </mat-card-title-group>
