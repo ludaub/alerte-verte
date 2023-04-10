@@ -1,6 +1,21 @@
-import { Component, OnInit } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import {
+  AsyncPipe,
+  DatePipe,
+  KeyValuePipe,
+  NgIf,
+  NgFor,
+} from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
+import { MatLegacyButtonModule } from '@angular/material/legacy-button';
+import { MatLegacyCardModule } from '@angular/material/legacy-card';
+import { MatLegacyListModule } from '@angular/material/legacy-list';
+import { MatLegacyTooltipModule } from '@angular/material/legacy-tooltip';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { Observable, Subject, combineLatest, map, takeUntil } from 'rxjs';
 
@@ -10,7 +25,23 @@ import { categories } from './categories';
 import { Category } from './category';
 
 @Component({
+  standalone: true,
   selector: 'av-root',
+  imports: [
+    AsyncPipe,
+    DatePipe,
+    FormsModule,
+    KeyValuePipe,
+    MatIconModule,
+    MatLegacyButtonModule,
+    MatLegacyCardModule,
+    MatLegacyListModule,
+    MatLegacyTooltipModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    NgIf,
+    NgFor,
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
