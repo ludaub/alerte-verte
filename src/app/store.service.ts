@@ -8,7 +8,7 @@ import { Article } from './article';
 @Injectable({
   providedIn: 'root',
 })
-export class AppService {
+export class Store {
   /** Dates. */
   readonly dates$: Observable<Array<Date>> = this._http
     .get<Array<string>>('data/dates.json')

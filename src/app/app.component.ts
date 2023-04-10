@@ -19,10 +19,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { Observable, Subject, combineLatest, map, takeUntil } from 'rxjs';
 
-import { AppService } from './app.service';
 import { Article } from './article';
 import { categories } from './categories';
 import { Category } from './category';
+import { Store } from './store.service';
 
 @Component({
   standalone: true,
@@ -70,13 +70,13 @@ export class AppComponent implements OnInit {
 
   constructor(
     private _breakpointObserver: BreakpointObserver,
-    private _service: AppService
+    private _store: Store
   ) {}
 
   ngOnInit() {
     this.articles$ = combineLatest([
-      this._service.articles$,
-      this._service.selectedCategoryIds$,
+      this._store.articles$,
+      this._store.selectedCategoryIds$,
     ]).pipe(
       map(([articles, categoryIds]) =>
         articles.filter((article) => categoryIds.includes(article.categoryId))
@@ -89,22 +89,22 @@ export class AppComponent implements OnInit {
         map((result) => result.matches),
         takeUntil(this._destroyed$)
       );
-    this._service.selectedCategoryIds$
+    this._store.selectedCategoryIds$
       .pipe(takeUntil(this._destroyed$))
       .subscribe((categoryIds) => (this.selectedCategoryIds = categoryIds));
-    this._service.selectedCategoryIds = Object.keys(this.categories);
+    this._store.selectedCategoryIds = Object.keys(this.categories);
+  }
+
+  changeSelectedCategoryIds(categoryIds: Array<string>) {
+    this._store.selectedCategoryIds = categoryIds;
+  }
+
+  trackArticleByUrl(_index: number, article: Article) {
+    return article.url;
   }
 
   ngOnDestroy() {
     this._destroyed$.next(null);
     this._destroyed$.complete();
-  }
-
-  changeSelectedCategoryIds(categoryIds: Array<string>) {
-    this._service.selectedCategoryIds = categoryIds;
-  }
-
-  trackArticleByUrl(_index: number, article: Article) {
-    return article.url;
   }
 }
