@@ -1,24 +1,26 @@
-<mat-toolbar
-  class="small-screen-toolbar"
-  [class.small-screen-toolbar-fullscreen]="isSmallScreen$ | async"
-  color="primary"
->
-  <button
-    *ngIf="isSmallScreen$ | async"
-    mat-icon-button
-    (click)="sidenav.toggle()"
-    aria-label="Afficher le menu"
+<header>
+  <mat-toolbar
+    class="small-screen-toolbar"
+    [class.small-screen-toolbar-fullscreen]="isSmallScreen$ | async"
+    color="primary"
   >
-    <mat-icon aria-label="Icône du menu">menu</mat-icon>
-  </button>
-  <h1
-    *ngIf="(isSmallScreen$ | async) && !sidenav.opened"
-    class="logo mobile-logo"
-    matTooltip="Alerte Verte"
-  >
-    <span class="logo-a">A</span><span class="logo-v">V</span>
-  </h1>
-</mat-toolbar>
+    <button
+      *ngIf="isSmallScreen$ | async"
+      mat-icon-button
+      (click)="sidenav.toggle()"
+      aria-label="Afficher le menu"
+    >
+      <mat-icon aria-label="Icône du menu">menu</mat-icon>
+    </button>
+    <h1
+      *ngIf="(isSmallScreen$ | async) && !sidenav.opened"
+      class="logo mobile-logo"
+      matTooltip="Alerte Verte"
+    >
+      <span class="logo-a">A</span><span class="logo-v">V</span>
+    </h1>
+  </mat-toolbar>
+</header>
 
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav
@@ -54,7 +56,7 @@
   </mat-sidenav>
 
   <mat-sidenav-content class="sidenav-content">
-    <div class="articles">
+    <main class="articles">
       <mat-card
         *ngFor="let article of articles$ | async; trackBy: trackArticleByUrl"
         class="article-card"
@@ -93,6 +95,31 @@
           </mat-card-content>
         </article>
       </mat-card>
-    </div>
+    </main>
+
+    <footer>
+      <nav>
+        <a
+          mat-button
+          [routerLink]="previousMonth$ | async"
+          [disabled]="!(previousMonth$ | async)"
+        >
+          <ng-container *ngIf="previousMonth$ | async">
+            <mat-icon>arrow_left</mat-icon
+            >{{ (previousMonth$ | async)?.toString() | date : "MMMM y" }}
+          </ng-container>
+        </a>
+        <a
+          mat-button
+          [routerLink]="nextMonth$ | async"
+          [disabled]="!(nextMonth$ | async)"
+        >
+          <ng-container *ngIf="nextMonth$ | async">
+            {{ (nextMonth$ | async)?.toString() | date : "MMMM y"
+            }}<mat-icon>arrow_right</mat-icon>
+          </ng-container>
+        </a>
+      </nav>
+    </footer>
   </mat-sidenav-content>
 </mat-sidenav-container>

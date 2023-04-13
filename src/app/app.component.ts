@@ -16,12 +16,14 @@ import { MatLegacyListModule } from '@angular/material/legacy-list';
 import { MatLegacyTooltipModule } from '@angular/material/legacy-tooltip';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { RouterModule } from '@angular/router';
 
 import { Observable, Subject, combineLatest, map, takeUntil } from 'rxjs';
 
 import { Article } from './article';
 import { categories } from './categories';
 import { Category } from './category';
+import { Month } from './month';
 import { Store } from './store.service';
 
 @Component({
@@ -41,6 +43,7 @@ import { Store } from './store.service';
     MatToolbarModule,
     NgIf,
     NgFor,
+    RouterModule,
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
@@ -60,9 +63,13 @@ import { Store } from './store.service';
 export class AppComponent implements OnInit {
   categories: Record<string, Category> = categories;
 
+  selectedCategoryIds: Array<string> = [];
+
   articles$!: Observable<Array<Article>>;
 
-  selectedCategoryIds: Array<string> = [];
+  previousMonth$!: Observable<Month>;
+
+  nextMonth$!: Observable<Month>;
 
   isSmallScreen$!: Observable<boolean>;
 
@@ -83,6 +90,8 @@ export class AppComponent implements OnInit {
       ),
       takeUntil(this._destroyed$)
     );
+    this.previousMonth$ = this._store.previousMonth$;
+    this.nextMonth$ = this._store.nextMonth$;
     this.isSmallScreen$ = this._breakpointObserver
       .observe([Breakpoints.XSmall, Breakpoints.Small])
       .pipe(

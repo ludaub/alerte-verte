@@ -1,32 +1,71 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
-import { BehaviorSubject, Observable, filter, map } from 'rxjs';
+import { BehaviorSubject, Observable, filter } from 'rxjs';
 
+import { ApiClient } from './api-client.service';
 import { Article } from './article';
+import { Month, compareMonths, isMonth } from './month';
 
 @Injectable({
   providedIn: 'root',
 })
 export class Store {
-  /** Dates. */
-  readonly dates$: Observable<Array<Date>> = this._http
-    .get<Array<string>>('data/dates.json')
-    .pipe(map((dates) => dates.map((date) => new Date(date))));
-
-  /** Current date. */
-  get currentDate(): Date | undefined {
-    return this._currentDate.getValue();
+  /** Months. */
+  get months(): Array<Month> {
+    return this._months.getValue();
   }
 
-  set currentDate(date: Date | undefined) {
-    this._currentDate.next(date);
+  set months(months: Array<Month>) {
+    this._months.next(months);
   }
 
-  private readonly _currentDate: BehaviorSubject<Date | undefined> =
-    new BehaviorSubject<Date | undefined>(undefined);
+  private readonly _months: BehaviorSubject<Array<Month>> = new BehaviorSubject<
+    Array<Month>
+  >([]);
 
-  readonly currentDate$ = this._currentDate.asObservable();
+  readonly months$: Observable<Array<Month>> = this._months.asObservable();
+
+  /** Current month. */
+  get currentMonth(): Month {
+    return this._currentMonth.getValue();
+  }
+
+  set currentMonth(month: Month) {
+    this._currentMonth.next(month);
+  }
+
+  private readonly _currentMonth: BehaviorSubject<Month> =
+    new BehaviorSubject<Month>([]);
+
+  readonly currentMonth$ = this._currentMonth.asObservable();
+
+  /** Previous month. */
+  get previousMonth(): Month {
+    return this._previousMonth.getValue();
+  }
+
+  set previousMonth(month: Month) {
+    this._previousMonth.next(month);
+  }
+
+  private readonly _previousMonth: BehaviorSubject<Month> =
+    new BehaviorSubject<Month>([]);
+
+  readonly previousMonth$ = this._previousMonth.asObservable();
+
+  /** Next month. */
+  get nextMonth(): Month {
+    return this._nextMonth.getValue();
+  }
+
+  set nextMonth(month: Month) {
+    this._nextMonth.next(month);
+  }
+
+  private readonly _nextMonth: BehaviorSubject<Month> =
+    new BehaviorSubject<Month>([]);
+
+  readonly nextMonth$ = this._nextMonth.asObservable();
 
   /** Articles. */
   get articles(): Array<Article> {
@@ -58,18 +97,18 @@ export class Store {
   readonly selectedCategoryIds$: Observable<Array<string>> =
     this._selectedCategoryIds.asObservable();
 
-  constructor(private _http: HttpClient) {
-    this.dates$.subscribe((dates) => (this.currentDate = dates[0]));
-    this.currentDate$
-      .pipe(filter((date) => Boolean(date)))
-      .subscribe((date) => {
-        this._http
-          .get<Array<Article>>(
-            `data/${date!.toLocaleDateString('fr-FR', {
-              year: 'numeric',
-            })}-${date!.toLocaleDateString('fr-FR', { month: '2-digit' })}.json`
-          )
-          .subscribe((articles) => (this.articles = articles));
-      });
+  constructor(private _api: ApiClient) {
+    this.currentMonth$.pipe(filter(isMonth)).subscribe((currentMonth) => {
+      const index = this.months.findIndex((month) =>
+        Boolean(compareMonths(month, currentMonth))
+      );
+      this.previousMonth = this.months[index + 1] ?? undefined;
+      this.nextMonth = this.months[index - 1] ?? undefined;
+    });
+    this.currentMonth$.pipe(filter(isMonth)).subscribe((currentMonth) => {
+      this._api
+        .getArticlesByMonth$(currentMonth)
+        .subscribe((articles) => (this.articles = articles));
+    });
   }
 }
