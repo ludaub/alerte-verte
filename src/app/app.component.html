@@ -56,12 +56,15 @@
   </mat-sidenav>
 
   <mat-sidenav-content class="sidenav-content">
-    <main class="articles">
+    <main
+      class="articles"
+      [@slideLeftToRight]="slideDirection"
+      [@slideRightToLeft]="slideDirection"
+    >
       <mat-card
         *ngFor="let article of articles$ | async; trackBy: trackArticleByUrl"
         class="article-card"
         [style.background]="categories[article.categoryId].color"
-        [@cardAnimation]
       >
         <article>
           <mat-card-title-group>
@@ -103,6 +106,7 @@
           mat-button
           [routerLink]="previousMonth$ | async"
           [disabled]="!(previousMonth$ | async)"
+          (click)="slideDirection = 'ltr'"
         >
           <ng-container *ngIf="previousMonth$ | async">
             <mat-icon>arrow_left</mat-icon
@@ -113,6 +117,7 @@
           mat-button
           [routerLink]="nextMonth$ | async"
           [disabled]="!(nextMonth$ | async)"
+          (click)="slideDirection = 'rtl'"
         >
           <ng-container *ngIf="nextMonth$ | async">
             {{ (nextMonth$ | async)?.toString() | date : "MMMM y"
