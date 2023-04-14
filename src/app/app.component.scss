@@ -203,6 +203,7 @@ footer nav li a {
   }
 
   &.active {
+    color: inherit;
     font-weight: bold;
   }
 }
