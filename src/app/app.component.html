@@ -96,12 +96,14 @@
                     {{ categories[article.categoryId].name }}
                   </span>
                 </div>
-                <span class="article-published-by">{{
-                  article.publishedBy
-                }}</span>
-                <time class="article-published-at">{{
-                  article.publishedAt | date : "fullDate"
-                }}</time>
+                <address class="article-published-by">
+                  {{ article.publishedBy }}
+                </address>
+                <time
+                  class="article-published-at"
+                  [attr.datetime]="article.publishedAt"
+                  >{{ article.publishedAt | date : "fullDate" }}</time
+                >
               </mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content class="article-quote">
