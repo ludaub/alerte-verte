@@ -16,19 +16,19 @@ export const categories: Record<string, Category> = {
     icon: 'device_thermostat',
     color: '#e57373',
   },
-  demography: {
-    name: 'Démographie',
-    icon: 'group',
-    color: '#ef5350',
-  },
-  economy: {
-    name: 'Économie',
-    icon: 'euro_symbol',
-    color: '#f44336',
-  },
   energy: {
     name: 'Énergie',
     icon: 'bolt',
+    color: '#ef5350',
+  },
+  environment: {
+    name: 'Environnement',
+    icon: 'public',
+    color: '#f44336',
+  },
+  resources: {
+    name: 'Resources',
+    icon: 'water_drop',
     color: '#e53935',
   },
 };
