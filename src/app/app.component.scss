@@ -143,15 +143,20 @@
 
 .article-published-by {
   display: inline;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .article-published-at {
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .article-published-at:before {
   content: '\0000a0\002022\0000a0';
+  font-weight: normal;
   margin-right: .25em;
+  opacity: 0.7;
 }
 
 .article-quote {
