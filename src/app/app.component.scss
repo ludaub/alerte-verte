@@ -89,8 +89,15 @@
 
 .article-card {
   border-radius: 0;
+  border: 2px solid transparent;
   font-family: sans-serif;
-  padding: 20px;
+  padding: 18px;
+
+  &:hover {
+    border: 2px solid #212121;
+    filter: brightness(115%);
+    padding: 18px;
+  }
 }
 
 .article-card h3 {
