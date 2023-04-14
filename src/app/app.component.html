@@ -73,6 +73,7 @@
         *ngFor="let article of articles$ | async; trackBy: trackArticleByUrl"
         class="article-link"
         [href]="article.url"
+        rel="author external"
         target="_blank"
       >
         <mat-card
@@ -123,6 +124,7 @@
               [routerLink]="previousMonth$ | async"
               [disabled]="!(previousMonth$ | async)"
               (click)="slideDirection = 'ltr'"
+              rel="prev"
             >
               <ng-container *ngIf="previousMonth$ | async">
                 <mat-icon>arrow_left</mat-icon
@@ -145,6 +147,7 @@
               [routerLink]="nextMonth$ | async"
               [disabled]="!(nextMonth$ | async)"
               (click)="slideDirection = 'rtl'"
+              rel="next"
             >
               <ng-container *ngIf="nextMonth$ | async">
                 {{
