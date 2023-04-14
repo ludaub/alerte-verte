@@ -10,12 +10,24 @@ body {
   margin: 0;
 }
 
-h2 {
-  margin: 0 0 16px;
+ul.reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .hidden {
   display: none !important;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .center-vertically {

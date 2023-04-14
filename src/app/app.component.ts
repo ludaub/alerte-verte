@@ -81,6 +81,8 @@ export class AppComponent implements OnInit {
 
   previousMonth$!: Observable<Month>;
 
+  currentMonth$!: Observable<Month>;
+
   nextMonth$!: Observable<Month>;
 
   isSmallScreen$!: Observable<boolean>;
@@ -105,6 +107,7 @@ export class AppComponent implements OnInit {
       takeUntil(this._destroyed$)
     );
     this.previousMonth$ = this._store.previousMonth$;
+    this.currentMonth$ = this._store.currentMonth$;
     this.nextMonth$ = this._store.nextMonth$;
     this.isSmallScreen$ = this._breakpointObserver
       .observe([Breakpoints.XSmall, Breakpoints.Small])

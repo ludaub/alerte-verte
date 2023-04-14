@@ -16,8 +16,11 @@
       *ngIf="(isSmallScreen$ | async) && !sidenav.opened"
       class="logo mobile-logo"
       matTooltip="Alerte Verte"
+      aria-label="Alerte Verte"
     >
-      <span class="logo-a">A</span><span class="logo-v">V</span>
+      <div role="img" aria-hidden="true">
+        <span class="logo-a">A</span><span class="logo-v">V</span>
+      </div>
     </h1>
   </mat-toolbar>
 </header>
@@ -32,8 +35,10 @@
     [opened]="!(isSmallScreen$ | async)"
   >
     <mat-toolbar class="toolbar">
-      <h1 class="logo" matTooltip="Alerte Verte">
-        <span class="logo-a">A</span><span class="logo-v">V</span>
+      <h1 class="logo" matTooltip="Alerte Verte" aria-label="Alerte Verte">
+        <div role="img" aria-hidden="true">
+          <span class="logo-a">A</span><span class="logo-v">V</span>
+        </div>
       </h1>
     </mat-toolbar>
 
@@ -61,6 +66,9 @@
       [@slideLeftToRight]="slideDirection"
       [@slideRightToLeft]="slideDirection"
     >
+      <h2 class="visually-hidden">
+        {{ (currentMonth$ | async)?.toString() | date : "MMMM y" }}
+      </h2>
       <mat-card
         *ngFor="let article of articles$ | async; trackBy: trackArticleByUrl"
         class="article-card"
@@ -69,11 +77,11 @@
         <article>
           <mat-card-title-group>
             <mat-card-title>
-              <h2>
+              <h3>
                 <a [href]="article.url" class="article-title" target="_blank">
                   {{ article.title }}
                 </a>
-              </h2>
+              </h3>
             </mat-card-title>
             <mat-card-subtitle class="article-info">
               <div>
@@ -102,28 +110,39 @@
 
     <footer>
       <nav>
-        <a
-          mat-button
-          [routerLink]="previousMonth$ | async"
-          [disabled]="!(previousMonth$ | async)"
-          (click)="slideDirection = 'ltr'"
-        >
-          <ng-container *ngIf="previousMonth$ | async">
-            <mat-icon>arrow_left</mat-icon
-            >{{ (previousMonth$ | async)?.toString() | date : "MMMM y" }}
-          </ng-container>
-        </a>
-        <a
-          mat-button
-          [routerLink]="nextMonth$ | async"
-          [disabled]="!(nextMonth$ | async)"
-          (click)="slideDirection = 'rtl'"
-        >
-          <ng-container *ngIf="nextMonth$ | async">
-            {{ (nextMonth$ | async)?.toString() | date : "MMMM y"
-            }}<mat-icon>arrow_right</mat-icon>
-          </ng-container>
-        </a>
+        <ul class="reset">
+          <li>
+            <a
+              mat-button
+              [routerLink]="previousMonth$ | async"
+              [disabled]="!(previousMonth$ | async)"
+              (click)="slideDirection = 'ltr'"
+            >
+              <ng-container *ngIf="previousMonth$ | async">
+                <mat-icon>arrow_left</mat-icon
+                >{{ (previousMonth$ | async)?.toString() | date : "MMMM y" }}
+              </ng-container>
+            </a>
+          </li>
+          <li>
+            <a mat-button class="active" aria-current="page">{{
+              (currentMonth$ | async)?.toString() | date : "MMMM y"
+            }}</a>
+          </li>
+          <li>
+            <a
+              mat-button
+              [routerLink]="nextMonth$ | async"
+              [disabled]="!(nextMonth$ | async)"
+              (click)="slideDirection = 'rtl'"
+            >
+              <ng-container *ngIf="nextMonth$ | async">
+                {{ (nextMonth$ | async)?.toString() | date : "MMMM y"
+                }}<mat-icon>arrow_right</mat-icon>
+              </ng-container>
+            </a>
+          </li>
+        </ul>
       </nav>
     </footer>
   </mat-sidenav-content>
