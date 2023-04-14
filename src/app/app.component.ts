@@ -9,7 +9,7 @@ import {
 } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MatIconModule } from '@angular/material/icon';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatLegacyButtonModule } from '@angular/material/legacy-button';
 import { MatLegacyCardModule } from '@angular/material/legacy-card';
 import { MatLegacyListModule } from '@angular/material/legacy-list';
@@ -35,6 +35,7 @@ import { Store } from './store.service';
     FormsModule,
     KeyValuePipe,
     MatIconModule,
+    //MatIconRegistry,
     MatLegacyButtonModule,
     MatLegacyCardModule,
     MatLegacyListModule,
@@ -93,8 +94,11 @@ export class AppComponent implements OnInit {
 
   constructor(
     private _breakpointObserver: BreakpointObserver,
+    private _iconRegistry: MatIconRegistry,
     private _store: Store
-  ) {}
+  ) {
+    this._iconRegistry.setDefaultFontSetClass('material-symbols-outlined');
+  }
 
   ngOnInit() {
     this.articles$ = combineLatest([

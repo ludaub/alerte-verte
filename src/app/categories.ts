@@ -3,12 +3,12 @@ import { Category } from './category';
 export const categories: Record<string, Category> = {
   agriculture: {
     name: 'Agriculture',
-    icon: 'agriculture',
+    icon: 'nutrition',
     color: '#ffcdd2',
   },
   biodiversity: {
     name: 'Biodiversité',
-    icon: 'emoji_nature',
+    icon: 'pets',
     color: '#ef9a9a',
   },
   climate: {
