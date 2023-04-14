@@ -77,6 +77,7 @@
   background: #212121;
   max-height: calc(100vh - 64px - 48px);
   min-height: calc(100vh - 64px - 48px);
+  overflow-x: hidden;
 }
 
 .articles {
