@@ -27,7 +27,7 @@ export const categories: Record<string, Category> = {
     color: '#f44336',
   },
   resources: {
-    name: 'Resources',
+    name: 'Ressources',
     icon: 'water_drop',
     color: '#e53935',
   },
