@@ -108,7 +108,9 @@
               </mat-card-subtitle>
             </mat-card-title-group>
             <mat-card-content class="article-quote">
-              {{ article.quote }}
+              <blockquote [attr.cite]="article.url">
+                {{ article.quote }}
+              </blockquote>
             </mat-card-content>
           </article>
         </mat-card>
