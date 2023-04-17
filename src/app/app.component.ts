@@ -18,10 +18,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
 
-import { Observable, Subject, combineLatest, map, takeUntil } from 'rxjs';
+import { Observable, map } from 'rxjs';
 
 import { Article } from './article';
-import { categories } from './categories';
 import { Category } from './category';
 import { Month } from './month';
 import { Store } from './store.service';
@@ -35,7 +34,6 @@ import { Store } from './store.service';
     FormsModule,
     KeyValuePipe,
     MatIconModule,
-    //MatIconRegistry,
     MatLegacyButtonModule,
     MatLegacyCardModule,
     MatLegacyListModule,
@@ -74,9 +72,9 @@ import { Store } from './store.service';
   ],
 })
 export class AppComponent implements OnInit {
-  categories: Record<string, Category> = categories;
+  categories$!: Observable<Record<string, Category>>;
 
-  selectedCategoryIds: Array<string> = [];
+  selectedCategoryIds$!: Observable<Array<string>>;
 
   articles$!: Observable<Array<Article>>;
 
@@ -90,8 +88,6 @@ export class AppComponent implements OnInit {
 
   slideDirection!: 'ltr' | 'rtl' | undefined;
 
-  private readonly _destroyed$: Subject<null> = new Subject<null>();
-
   constructor(
     private _breakpointObserver: BreakpointObserver,
     private _iconRegistry: MatIconRegistry,
@@ -101,28 +97,15 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.articles$ = combineLatest([
-      this._store.articles$,
-      this._store.selectedCategoryIds$,
-    ]).pipe(
-      map(([articles, categoryIds]) =>
-        articles.filter((article) => categoryIds.includes(article.categoryId))
-      ),
-      takeUntil(this._destroyed$)
-    );
+    this.categories$ = this._store.categories$;
+    this.selectedCategoryIds$ = this._store.selectedCategoryIds$;
+    this.articles$ = this._store.filteredArticles$;
     this.previousMonth$ = this._store.previousMonth$;
     this.currentMonth$ = this._store.currentMonth$;
     this.nextMonth$ = this._store.nextMonth$;
     this.isSmallScreen$ = this._breakpointObserver
       .observe([Breakpoints.XSmall, Breakpoints.Small])
-      .pipe(
-        map((result) => result.matches),
-        takeUntil(this._destroyed$)
-      );
-    this._store.selectedCategoryIds$
-      .pipe(takeUntil(this._destroyed$))
-      .subscribe((categoryIds) => (this.selectedCategoryIds = categoryIds));
-    this._store.selectedCategoryIds = Object.keys(this.categories);
+      .pipe(map((result) => result.matches));
   }
 
   changeSelectedCategoryIds(categoryIds: Array<string>) {
@@ -131,10 +114,5 @@ export class AppComponent implements OnInit {
 
   trackArticleByUrl(_index: number, article: Article) {
     return article.url;
-  }
-
-  ngOnDestroy() {
-    this._destroyed$.next(null);
-    this._destroyed$.complete();
   }
 }

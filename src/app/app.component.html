@@ -44,11 +44,11 @@
 
     <mat-selection-list
       #categoryList
-      [(ngModel)]="selectedCategoryIds"
+      [ngModel]="selectedCategoryIds$ | async"
       (ngModelChange)="changeSelectedCategoryIds($event)"
     >
       <mat-list-option
-        *ngFor="let category of categories | keyvalue"
+        *ngFor="let category of categories$ | async | keyvalue"
         [value]="category.key"
         [style.color]="category.value.color"
       >
@@ -78,7 +78,7 @@
       >
         <mat-card
           class="article-card"
-          [style.background]="categories[article.categoryId].color"
+          [style.background]="(categories$ | async)![article.categoryId].color"
         >
           <article>
             <mat-card-title-group>
@@ -89,12 +89,14 @@
                 <div>
                   <span
                     class="article-category"
-                    [style.color]="categories[article.categoryId].color"
+                    [style.color]="
+                      (categories$ | async)![article.categoryId].color
+                    "
                   >
                     <mat-icon>{{
-                      categories[article.categoryId].icon
+                      (categories$ | async)![article.categoryId].icon
                     }}</mat-icon>
-                    {{ categories[article.categoryId].name }}
+                    {{ (categories$ | async)![article.categoryId].name }}
                   </span>
                 </div>
                 <address class="article-published-by">
@@ -128,7 +130,7 @@
               (click)="slideDirection = 'ltr'"
               rel="prev"
             >
-              <ng-container *ngIf="previousMonth$ | async">
+              <ng-container *ngIf="(previousMonth$ | async)?.length">
                 <mat-icon>arrow_left</mat-icon
                 >{{
                   (previousMonth$ | async)?.toString()
@@ -151,7 +153,7 @@
               (click)="slideDirection = 'rtl'"
               rel="next"
             >
-              <ng-container *ngIf="nextMonth$ | async">
+              <ng-container *ngIf="(nextMonth$ | async)?.length">
                 {{
                   (nextMonth$ | async)?.toString()
                     | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
