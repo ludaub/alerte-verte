@@ -61,11 +61,12 @@
   </mat-sidenav>
 
   <mat-sidenav-content class="sidenav-content">
-    <main
+    <!-- <main
       class="articles"
       [@slideLeftToRight]="slideDirection"
       [@slideRightToLeft]="slideDirection"
-    >
+    > -->
+    <main class="articles">
       <h2 class="visually-hidden">
         {{ (currentMonth$ | async)?.toString() | date : "MMMM y" }}
       </h2>

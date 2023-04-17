@@ -46,30 +46,30 @@ import { Store } from './store.service';
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  animations: [
-    trigger('slideLeftToRight', [
-      transition('* => ltr', [
-        style({ transform: 'translateX(-100%)' }),
-        animate('100ms ease-in', style({ transform: 'translateX(0%)' })),
-      ]),
-    ]),
-    trigger('slideRightToLeft', [
-      transition('* => rtl', [
-        style({ transform: 'translateX(100%)' }),
-        animate('100ms ease-in', style({ transform: 'translateX(0%)' })),
-      ]),
-    ]),
-    trigger('cardAnimation', [
-      transition(':enter', [
-        style({ opacity: 0, width: 0, height: 0 }),
-        animate('100ms', style({ opacity: 1, width: '*', height: '*' })),
-      ]),
-      transition(':leave', [
-        style({ opacity: 1, width: '*', height: '*' }),
-        animate('100ms', style({ opacity: 0, width: 0, height: 0 })),
-      ]),
-    ]),
-  ],
+  // animations: [
+  //   trigger('slideLeftToRight', [
+  //     transition('* => ltr', [
+  //       style({ transform: 'translateX(-100%)' }),
+  //       animate('100ms ease-in', style({ transform: 'translateX(0%)' })),
+  //     ]),
+  //   ]),
+  //   trigger('slideRightToLeft', [
+  //     transition('* => rtl', [
+  //       style({ transform: 'translateX(100%)' }),
+  //       animate('100ms ease-in', style({ transform: 'translateX(0%)' })),
+  //     ]),
+  //   ]),
+  //   trigger('cardAnimation', [
+  //     transition(':enter', [
+  //       style({ opacity: 0, width: 0, height: 0 }),
+  //       animate('100ms', style({ opacity: 1, width: '*', height: '*' })),
+  //     ]),
+  //     transition(':leave', [
+  //       style({ opacity: 1, width: '*', height: '*' }),
+  //       animate('100ms', style({ opacity: 0, width: 0, height: 0 })),
+  //     ]),
+  //   ]),
+  // ],
 })
 export class AppComponent implements OnInit {
   categories$!: Observable<Record<string, Category>>;
