@@ -44,11 +44,11 @@
 
     <mat-selection-list
       #categoryList
-      [ngModel]="selectedCategoryIds$ | async"
+      [ngModel]="selectedCategoryIds()"
       (ngModelChange)="changeSelectedCategoryIds($event)"
     >
       <mat-list-option
-        *ngFor="let category of categories$ | async | keyvalue"
+        *ngFor="let category of categories() | keyvalue"
         [value]="category.key"
         [style.color]="category.value.color"
       >
@@ -63,10 +63,10 @@
   <mat-sidenav-content class="sidenav-content">
     <main class="articles">
       <h2 class="visually-hidden">
-        {{ (currentMonth$ | async)?.toString() | date : "MMMM y" }}
+        {{ currentMonth().toString() | date : "MMMM y" }}
       </h2>
       <a
-        *ngFor="let article of articles$ | async; trackBy: trackArticleByUrl"
+        *ngFor="let article of articles(); trackBy: trackArticleByUrl"
         class="article-link"
         [href]="article.url"
         rel="author external"
@@ -74,7 +74,7 @@
       >
         <mat-card
           class="article-card"
-          [style.background]="(categories$ | async)![article.categoryId].color"
+          [style.background]="categories()[article.categoryId].color"
         >
           <article>
             <mat-card-title-group>
@@ -85,14 +85,12 @@
                 <div>
                   <span
                     class="article-category"
-                    [style.color]="
-                      (categories$ | async)![article.categoryId].color
-                    "
+                    [style.color]="categories()[article.categoryId].color"
                   >
                     <mat-icon>{{
-                      (categories$ | async)![article.categoryId].icon
+                      categories()[article.categoryId].icon
                     }}</mat-icon>
-                    {{ (categories$ | async)![article.categoryId].name }}
+                    {{ categories()[article.categoryId].name }}
                   </span>
                 </div>
                 <address class="article-published-by">
@@ -121,14 +119,14 @@
           <li>
             <a
               mat-button
-              [routerLink]="previousMonth$ | async"
-              [disabled]="!(previousMonth$ | async)?.length"
+              [routerLink]="previousMonth()"
+              [disabled]="!previousMonth().length"
               rel="prev"
             >
-              <ng-container *ngIf="(previousMonth$ | async)?.length">
+              <ng-container *ngIf="previousMonth().length">
                 <mat-icon>arrow_left</mat-icon
                 >{{
-                  (previousMonth$ | async)?.toString()
+                  previousMonth().toString()
                     | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
                 }}
               </ng-container>
@@ -136,20 +134,20 @@
           </li>
           <li>
             <a mat-button class="active" aria-current="page" disabled>{{
-              (currentMonth$ | async)?.toString()
+              currentMonth().toString()
                 | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
             }}</a>
           </li>
           <li>
             <a
               mat-button
-              [routerLink]="nextMonth$ | async"
-              [disabled]="!(nextMonth$ | async)?.length"
+              [routerLink]="nextMonth()"
+              [disabled]="!nextMonth().length"
               rel="next"
             >
-              <ng-container *ngIf="(nextMonth$ | async)?.length">
+              <ng-container *ngIf="nextMonth().length">
                 {{
-                  (nextMonth$ | async)?.toString()
+                  nextMonth().toString()
                     | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
                 }}<mat-icon>arrow_right</mat-icon>
               </ng-container>

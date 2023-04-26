@@ -37,7 +37,7 @@ function initializeAppFactory(
     console.log('initializeAppFactory()');
     return apiClient
       .getMonths$()
-      .pipe(tap((months) => (store.months = months)));
+      .pipe(tap((months) => store.months.set(months)));
   };
 }
 

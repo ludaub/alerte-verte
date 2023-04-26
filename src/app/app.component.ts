@@ -20,8 +20,6 @@ import { RouterModule } from '@angular/router';
 import { Observable, map } from 'rxjs';
 
 import { Article } from './article';
-import { Category } from './category';
-import { Month } from './month';
 import { Store } from './store.service';
 
 @Component({
@@ -47,17 +45,17 @@ import { Store } from './store.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  categories$!: Observable<Record<string, Category>>;
+  categories = this._store.categories;
 
-  selectedCategoryIds$!: Observable<Array<string>>;
+  selectedCategoryIds = this._store.selectedCategoryIds;
 
-  articles$!: Observable<Array<Article>>;
+  articles = this._store.filteredArticles;
 
-  previousMonth$!: Observable<Month>;
+  previousMonth = this._store.previousMonth;
 
-  currentMonth$!: Observable<Month>;
+  currentMonth = this._store.currentMonth;
 
-  nextMonth$!: Observable<Month>;
+  nextMonth = this._store.nextMonth;
 
   isSmallScreen$!: Observable<boolean>;
 
@@ -70,19 +68,13 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.categories$ = this._store.categories$;
-    this.selectedCategoryIds$ = this._store.selectedCategoryIds$;
-    this.articles$ = this._store.filteredArticles$;
-    this.previousMonth$ = this._store.previousMonth$;
-    this.currentMonth$ = this._store.currentMonth$;
-    this.nextMonth$ = this._store.nextMonth$;
     this.isSmallScreen$ = this._breakpointObserver
       .observe([Breakpoints.XSmall, Breakpoints.Small])
       .pipe(map((result) => result.matches));
   }
 
   changeSelectedCategoryIds(categoryIds: Array<string>) {
-    this._store.selectedCategoryIds = categoryIds;
+    this._store.selectedCategoryIds.set(categoryIds);
   }
 
   trackArticleByUrl(_index: number, article: Article) {
