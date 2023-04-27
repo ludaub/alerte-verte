@@ -175,14 +175,13 @@
 footer {
   bottom: 0;
   height: 48px;
-  min-height: 48px;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 footer nav {
   height: 48px;
-  min-height: 48px;
   width: 100%;
 }
 
