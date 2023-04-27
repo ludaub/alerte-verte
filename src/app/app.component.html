@@ -131,20 +131,18 @@
     <footer>
       <nav>
         <ul class="reset">
-          <li>
+          <li [attr.aria-hidden]="!previousMonth().length">
             <a
+              *ngIf="previousMonth().length"
               mat-button
               [routerLink]="previousMonth()"
-              [disabled]="!previousMonth().length"
               rel="prev"
             >
-              <ng-container *ngIf="previousMonth().length">
-                <mat-icon>arrow_left</mat-icon
-                >{{
-                  previousMonth().toString()
-                    | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
-                }}
-              </ng-container>
+              <mat-icon>arrow_left</mat-icon
+              >{{
+                previousMonth().toString()
+                  | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
+              }}
             </a>
           </li>
           <li>
@@ -160,19 +158,17 @@
               }}</a
             >
           </li>
-          <li>
+          <li [attr.aria-hidden]="!nextMonth().length">
             <a
+              *ngIf="nextMonth().length"
               mat-button
               [routerLink]="nextMonth()"
-              [disabled]="!nextMonth().length"
               rel="next"
             >
-              <ng-container *ngIf="nextMonth().length">
-                {{
-                  nextMonth().toString()
-                    | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
-                }}<mat-icon>arrow_right</mat-icon>
-              </ng-container>
+              {{
+                nextMonth().toString()
+                  | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
+              }}<mat-icon>arrow_right</mat-icon>
             </a>
           </li>
         </ul>
