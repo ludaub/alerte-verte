@@ -155,7 +155,7 @@
 }
 
 .article-published-at:before {
-  content: '\0000a0\002022\0000a0';
+  content: '\0000a0\002022\0000a0' / "";
   font-weight: normal;
   margin-right: .25em;
   opacity: 0.7;

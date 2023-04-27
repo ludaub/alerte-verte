@@ -10,7 +10,7 @@
       (click)="sidenav.toggle()"
       aria-label="Afficher le menu"
     >
-      <mat-icon aria-label="Icône du menu">menu</mat-icon>
+      <mat-icon>menu</mat-icon>
     </button>
     <h1
       *ngIf="(isSmallScreen$ | async) && !sidenav.opened"
@@ -46,6 +46,8 @@
       #categoryList
       [ngModel]="selectedCategoryIds()"
       (ngModelChange)="changeSelectedCategoryIds($event)"
+      aria-label="Liste des catégories"
+      aria-description="Sélection des catégories d'article à afficher"
     >
       <mat-list-option
         *ngFor="let category of categories() | keyvalue"
@@ -81,7 +83,7 @@
               <mat-card-title>
                 <h3>{{ article.title }}</h3>
               </mat-card-title>
-              <mat-card-subtitle class="article-info">
+              <mat-card-subtitle class="article-info" aria-hidden="true">
                 <div>
                   <span
                     class="article-category"
@@ -99,9 +101,16 @@
                 <time
                   class="article-published-at"
                   [attr.datetime]="article.publishedAt"
-                  >{{ article.publishedAt | date : "fullDate" }}</time
                 >
+                  {{ article.publishedAt | date : "fullDate" }}
+                </time>
               </mat-card-subtitle>
+              <span class="visually-hidden">
+                Publié dans la catégorie
+                {{ categories()[article.categoryId].name }}
+                par {{ article.publishedBy }} le
+                {{ article.publishedAt | date : "fullDate" }}
+              </span>
             </mat-card-title-group>
             <mat-card-content class="article-quote">
               <blockquote [attr.cite]="article.url">
