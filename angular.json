@@ -31,7 +31,8 @@
               "src/data"
             ],
             "styles": ["src/av-theme.scss", "src/styles.scss"],
-            "scripts": []
+            "scripts": [],
+            "sourceMap": true
           },
           "configurations": {
             "production": {
@@ -60,7 +61,6 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
               "namedChunks": true
             }
           },
