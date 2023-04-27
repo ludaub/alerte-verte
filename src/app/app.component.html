@@ -129,7 +129,7 @@
           <mat-card-actions *ngIf="canShare" align="end">
             <button
               mat-icon-button
-              (click)="shareArticle(article)"
+              (click)="shareArticle(article); (false)"
               matTooltip="Partager"
               aria-label="Partager cet article"
             >
