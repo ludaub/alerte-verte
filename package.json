@@ -21,6 +21,7 @@
     "@angular/platform-browser": "^16.0.0-rc.3",
     "@angular/platform-browser-dynamic": "^16.0.0-rc.3",
     "@angular/router": "^16.0.0-rc.3",
+    "@angular/service-worker": "^16.0.0-rc.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
