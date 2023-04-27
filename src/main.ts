@@ -34,7 +34,6 @@ function initializeAppFactory(
   store: Store
 ): () => Observable<Array<Month>> {
   return () => {
-    console.log('initializeAppFactory()');
     return apiClient
       .getMonths$()
       .pipe(tap((months) => store.months.set(months)));
