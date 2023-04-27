@@ -57,6 +57,8 @@ export class AppComponent implements OnInit {
 
   nextMonth = this._store.nextMonth;
 
+  canShare = Boolean(navigator.share);
+
   isSmallScreen$!: Observable<boolean>;
 
   constructor(
@@ -75,6 +77,16 @@ export class AppComponent implements OnInit {
 
   changeSelectedCategoryIds(categoryIds: Array<string>) {
     this._store.selectedCategoryIds.set(categoryIds);
+  }
+
+  shareArticle(article: Article) {
+    if (this.canShare) {
+      navigator.share({
+        title: article.title,
+        text: article.quote,
+        url: article.url,
+      });
+    }
   }
 
   trackArticleByUrl(_index: number, article: Article) {

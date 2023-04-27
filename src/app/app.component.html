@@ -82,48 +82,60 @@
       >
         <mat-card
           class="article-card"
+          role="article"
           [style.background]="categories()[article.categoryId].color"
         >
-          <article>
-            <mat-card-title-group>
-              <mat-card-title>
-                <h3>{{ article.title }}</h3>
-              </mat-card-title>
-              <mat-card-subtitle class="article-info" aria-hidden="true">
-                <div>
-                  <span
-                    class="article-category"
-                    [style.color]="categories()[article.categoryId].color"
-                  >
-                    <mat-icon>{{
-                      categories()[article.categoryId].icon
-                    }}</mat-icon>
-                    {{ categories()[article.categoryId].name }}
-                  </span>
-                </div>
-                <address class="article-published-by">
-                  {{ article.publishedBy }}
-                </address>
-                <time
-                  class="article-published-at"
-                  [attr.datetime]="article.publishedAt"
+          <mat-card-title-group>
+            <mat-card-title>
+              <h3>{{ article.title }}</h3>
+            </mat-card-title>
+            <mat-card-subtitle class="article-info" aria-hidden="true">
+              <div>
+                <span
+                  class="article-category"
+                  [style.color]="categories()[article.categoryId].color"
                 >
-                  {{ article.publishedAt | date : "fullDate" }}
-                </time>
-              </mat-card-subtitle>
-              <span class="visually-hidden">
-                Publié dans la catégorie
-                {{ categories()[article.categoryId].name }}
-                par {{ article.publishedBy }} le
+                  <mat-icon>{{
+                    categories()[article.categoryId].icon
+                  }}</mat-icon>
+                  {{ categories()[article.categoryId].name }}
+                </span>
+              </div>
+              <address class="article-published-by">
+                {{ article.publishedBy }}
+              </address>
+              <time
+                class="article-published-at"
+                [attr.datetime]="article.publishedAt"
+              >
                 {{ article.publishedAt | date : "fullDate" }}
-              </span>
-            </mat-card-title-group>
-            <mat-card-content class="article-quote">
-              <blockquote [attr.cite]="article.url">
-                {{ article.quote }}
-              </blockquote>
-            </mat-card-content>
-          </article>
+              </time>
+            </mat-card-subtitle>
+            <span class="visually-hidden">
+              Publié dans la catégorie
+              {{ categories()[article.categoryId].name }}
+              par {{ article.publishedBy }} le
+              {{ article.publishedAt | date : "fullDate" }}
+            </span>
+          </mat-card-title-group>
+          <mat-card-content
+            class="article-quote"
+            [style.margin-bottom]="canShare ? '32px' : 0"
+          >
+            <blockquote [attr.cite]="article.url">
+              {{ article.quote }}
+            </blockquote>
+          </mat-card-content>
+          <mat-card-actions *ngIf="canShare" align="end">
+            <button
+              mat-icon-button
+              (click)="shareArticle(article)"
+              matTooltip="Partager"
+              aria-label="Partager cet article"
+            >
+              <mat-icon>share</mat-icon>
+            </button>
+          </mat-card-actions>
         </mat-card>
       </a>
     </main>
