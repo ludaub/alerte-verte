@@ -47,7 +47,7 @@
       [ngModel]="selectedCategoryIds()"
       (ngModelChange)="changeSelectedCategoryIds($event)"
       aria-label="Liste des catégories"
-      aria-description="Sélection des catégories d'article à afficher"
+      aria-describedby="category-list-description"
     >
       <mat-list-option
         *ngFor="let category of categories() | keyvalue"
@@ -60,6 +60,12 @@
         </div>
       </mat-list-option>
     </mat-selection-list>
+    <span
+      id="category-list-description"
+      class="visually-hidden"
+      aria-hidden="true"
+      >Sélection des catégories d'article à afficher.</span
+    >
   </mat-sidenav>
 
   <mat-sidenav-content class="sidenav-content">
