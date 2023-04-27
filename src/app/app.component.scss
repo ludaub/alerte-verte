@@ -79,8 +79,10 @@
 
 .sidenav-content {
   background: #212121;
-  max-height: calc(100vh - 64px - 48px);
-  min-height: calc(100vh - 64px - 48px);
+  max-height: calc(100vh - 64px - 48px); // Fallback.
+  max-height: calc(100dvh - 64px - 48px);
+  min-height: calc(100vh - 64px - 48px); // Fallback.
+  min-height: calc(100dvh - 64px - 48px);
   overflow-x: hidden;
 }
 
@@ -177,7 +179,6 @@ footer {
   height: 48px;
   position: fixed;
   width: 100%;
-  z-index: 2;
 }
 
 footer nav {
