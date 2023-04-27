@@ -142,10 +142,17 @@
             </a>
           </li>
           <li>
-            <a mat-button class="active" aria-current="page" disabled>{{
-              currentMonth().toString()
-                | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
-            }}</a>
+            <a
+              mat-button
+              [routerLink]="currentMonth()"
+              class="active"
+              aria-current="page"
+              disabled
+              >{{
+                currentMonth().toString()
+                  | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
+              }}</a
+            >
           </li>
           <li>
             <a
