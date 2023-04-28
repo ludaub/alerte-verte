@@ -1,5 +1,45 @@
 [
   {
+    "title": "Espagne : l’Andalousie sous une vague de chaleur inédite au mois d’avril",
+    "quote": "En Andalousie, le mois d'avril ressemble plutôt à un mois d'août très chaud. Il fait quasiment 40°C en ville, vendredi 28 avril, alors le quotidien devient vite irrespirable.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/espagne-l-andalousie-sous-une-vague-de-chaleur-inedite-au-mois-d-avril_5797001.html",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Chaleur record et persistante à la surface des océans de la planète",
+    "quote": "Les scientifiques cherchent à comprendre pourquoi la température de surface atteint un niveau record.",
+    "url": "https://www.lefigaro.fr/sciences/chaleur-record-et-persistante-a-la-surface-des-oceans-de-la-planete-20230428",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
+    "title": "La canicule au Portugal engendre des niveaux de températures jamais atteintes pour un mois d’avril",
+    "quote": "Le thermomètre est monté jusqu’à 36,9 degrés jeudi dans le centre du pays, un niveau inédit depuis le début des enregistrements.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/28/la-canicule-au-portugal-engendre-des-niveaux-de-temperatures-jamais-atteintes-pour-un-mois-d-avril_6171413_3244.html",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "En Espagne, la culture intensive de la fraise menace la zone humide de Doñana, patrimoine de l’humanité",
+    "quote": "Légalement, 8 000 hectares sont destinés à la production de fraises et de fruits rouges autour de l’écosystème qui se meurt. Le gouvernement andalou veut régulariser les puits illégaux qui surexploitent les aquifères.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/28/en-espagne-la-culture-intensive-de-la-fraise-menace-la-zone-humide-de-donana-patrimoine-de-l-humanite_6171409_3244.html",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "« Si la gestion de l’eau ne change pas en Espagne, le pays deviendra un désert »",
+    "quote": "Le chercheur Salvador Sanchez-Carillo met en garde contre la surexploitation des ressources hydriques, absorbées à 80 % par l’agriculture.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/28/si-la-gestion-de-l-eau-ne-change-pas-en-espagne-le-pays-deviendra-un-desert_6171407_3244.html",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
     "title": "Sécheresse dans les Pyrénées-Orientales : de nouvelles restrictions d’eau entreront en vigueur le 10 mai",
     "quote": "Le préfet a annoncé vendredi un arrêté qui émettra un « niveau d’alerte de crise » dans les territoires traversés par les fleuves côtiers, la Têt et l’Agly, touchés par une sécheresse exceptionnelle.",
     "url": "https://www.lemonde.fr/planete/article/2023/04/28/secheresse-dans-les-pyrenees-orientales-de-nouvelles-restrictions-d-eau-entreront-en-vigueur-le-10-mai_6171398_3244.html",
