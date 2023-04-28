@@ -1,11 +1,11 @@
 <header>
   <mat-toolbar
     class="small-screen-toolbar"
-    [class.small-screen-toolbar-fullscreen]="isSmallScreen$ | async"
+    [class.small-screen-toolbar-fullscreen]="isSmallScreen()"
     color="primary"
   >
     <button
-      *ngIf="isSmallScreen$ | async"
+      *ngIf="isSmallScreen()"
       mat-icon-button
       (click)="sidenav.toggle()"
       aria-label="Afficher le menu"
@@ -13,7 +13,7 @@
       <mat-icon>menu</mat-icon>
     </button>
     <h1
-      *ngIf="(isSmallScreen$ | async) && !sidenav.opened"
+      *ngIf="isSmallScreen() && !sidenav.opened"
       class="logo mobile-logo"
       matTooltip="Alerte Verte"
       aria-label="Alerte Verte"
@@ -30,9 +30,9 @@
     #sidenav
     class="sidenav"
     fixedInViewport="true"
-    [attr.role]="(isSmallScreen$ | async) ? 'dialog' : 'navigation'"
-    [mode]="(isSmallScreen$ | async) ? 'over' : 'side'"
-    [opened]="!(isSmallScreen$ | async)"
+    [attr.role]="isSmallScreen() ? 'dialog' : 'navigation'"
+    [mode]="isSmallScreen() ? 'over' : 'side'"
+    [opened]="!isSmallScreen()"
   >
     <mat-toolbar class="toolbar">
       <h1 class="logo" matTooltip="Alerte Verte" aria-label="Alerte Verte">
@@ -153,7 +153,7 @@
               <mat-icon>arrow_left</mat-icon
               >{{
                 previousMonth().toString()
-                  | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
+                  | date : (isSmallScreen() ? "MMM y" : "MMMM y")
               }}
             </a>
           </li>
@@ -166,7 +166,7 @@
               disabled
               >{{
                 currentMonth().toString()
-                  | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
+                  | date : (isSmallScreen() ? "MMM y" : "MMMM y")
               }}</a
             >
           </li>
@@ -179,7 +179,7 @@
             >
               {{
                 nextMonth().toString()
-                  | date : ((isSmallScreen$ | async) ? "MMM y" : "MMMM y")
+                  | date : (isSmallScreen() ? "MMM y" : "MMMM y")
               }}<mat-icon>arrow_right</mat-icon>
             </a>
           </li>

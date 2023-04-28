@@ -1,7 +1,8 @@
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Injectable, computed, signal } from '@angular/core';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
 
-import { filter, switchMap } from 'rxjs';
+import { filter, map, switchMap } from 'rxjs';
 
 import { ApiClient } from './api-client.service';
 import { Article } from './article';
@@ -56,5 +57,18 @@ export class Store {
     )
   );
 
-  constructor(private _api: ApiClient) {}
+  /** Whether the current screen size is small. */
+  readonly isSmallScreen = toSignal<boolean | undefined>(
+    this._breakpointObserver
+      .observe([Breakpoints.XSmall, Breakpoints.Small])
+      .pipe(map((result) => result.matches))
+  );
+
+  /** Whether the Web Share API is reachable. */
+  readonly canShare: boolean = 'share' in navigator;
+
+  constructor(
+    private _api: ApiClient,
+    private _breakpointObserver: BreakpointObserver
+  ) {}
 }

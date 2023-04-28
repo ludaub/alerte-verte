@@ -1,4 +1,3 @@
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import {
   AsyncPipe,
   DatePipe,
@@ -6,7 +5,7 @@ import {
   NgIf,
   NgFor,
 } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatLegacyButtonModule } from '@angular/material/legacy-button';
@@ -16,8 +15,6 @@ import { MatLegacyTooltipModule } from '@angular/material/legacy-tooltip';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
-
-import { Observable, map } from 'rxjs';
 
 import { Article } from './article';
 import { Store } from './store.service';
@@ -44,7 +41,7 @@ import { Store } from './store.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   categories = this._store.categories;
 
   selectedCategoryIds = this._store.selectedCategoryIds;
@@ -57,22 +54,12 @@ export class AppComponent implements OnInit {
 
   nextMonth = this._store.nextMonth;
 
-  canShare = Boolean(navigator.share);
+  isSmallScreen = this._store.isSmallScreen;
 
-  isSmallScreen$!: Observable<boolean>;
+  canShare = this._store.canShare;
 
-  constructor(
-    private _breakpointObserver: BreakpointObserver,
-    private _iconRegistry: MatIconRegistry,
-    private _store: Store
-  ) {
+  constructor(private _iconRegistry: MatIconRegistry, private _store: Store) {
     this._iconRegistry.setDefaultFontSetClass('material-symbols-outlined');
-  }
-
-  ngOnInit() {
-    this.isSmallScreen$ = this._breakpointObserver
-      .observe([Breakpoints.XSmall, Breakpoints.Small])
-      .pipe(map((result) => result.matches));
   }
 
   changeSelectedCategoryIds(categoryIds: Array<string>) {
