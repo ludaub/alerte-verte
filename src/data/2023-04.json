@@ -1,130 +1,330 @@
 [
   {
-    "title": "Polluants éternels: un rapport recommande à l'État d'agir «sans tarder»",
-    "quote": "L'inspection générale de l'environnement et du développement durable pointe de sérieuses lacunes dans la surveillance de ces substances toxiques.",
-    "url": "https://www.lefigaro.fr/sciences/polluants-eternels-un-rapport-recommande-a-l-etat-d-agir-sans-tarder-20230414",
-    "publishedAt": "2023-04-14",
-    "publishedBy": "Le Figaro",
-    "categoryId": "environment"
-  },
-  {
-    "title": "Déclin catastrophique des insectes : faut-il s’inquiéter ?",
-    "quote": "La Terre va-t-elle devenir “silencieuse” ? C’est l’alerte que donne le biologiste britannique Dave Goulson dans son livre sur la disparition des insectes qui vient de paraître en français. Explications avec la chronique “1 planète, des solutions” réalisée par NOWU en partenariat avec France Info.",
-    "url": "https://www.francetvinfo.fr/monde/environnement/biodiversite/video-declin-catastrophique-des-insectes-faut-il-s-inquieter_5770379.html",
-    "publishedAt": "2023-04-14",
-    "publishedBy": "France Info",
-    "categoryId": "biodiversity"
-  },
-  {
-    "title": "Au Brésil, Greenpeace accuse Hyundai d'être complice de l'orpaillage illégal en Amazonie",
-    "quote": "Le constructeur automobile sud-coréen fournit des pelleteuses aux orpailleurs illégaux, des machines qui facilitent considérablement le travail de ces chercheurs d'or au détriment de la forêt amazonienne.",
-    "url": "https://www.francetvinfo.fr/replay-radio/en-direct-du-monde/au-bresil-greenpeace-accuse-hyundai-d-etre-complice-de-l-orpaillage-illegal-en-amazonie_5742611.html",
-    "publishedAt": "2023-04-14",
-    "publishedBy": "France Info",
-    "categoryId": "environment"
-  },
-  {
-    "title": "Les nappes phréatiques dans une situation «inquiétante» alors que se termine la recharge",
-    "quote": "75 % des nappes souterraines restent sous les normales mensuelles, selon les scientifiques du Bureau de recherches géologiques et minières, qui anticipent un été à haut risque.",
-    "url": "https://www.lefigaro.fr/sciences/les-nappes-phreatiques-dans-une-situation-inquietante-alors-que-se-termine-la-recharge-20230413",
-    "publishedAt": "2023-04-13",
-    "publishedBy": "Le Figaro",
+    "title": "Confrontée à une canicule précoce et une sécheresse majeure, l’Espagne s’interroge sur sa gestion de l’eau",
+    "quote": "Selon des chiffres officiels, 74 % du territoire se trouve en danger de désertification, avec, pour 18 % du pays, un risque élevé ou très élevé. L’Andalousie et la Catalogne, en particulier, souffrent de « processus d’érosion de grande ampleur ».",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/28/confrontee-a-une-canicule-precoce-et-une-secheresse-majeure-l-espagne-s-interroge-sur-sa-gestion-de-l-eau_6171315_3244.html",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "Le Monde",
     "categoryId": "resources"
   },
   {
-    "title": "En Tunisie, une sécheresse inédite étouffe l’agriculture",
-    "quote": "\"Cette année ce sera zéro. On ne va rien produire, ni foin ni blé ni légumineux. Il n'y aura rien\". Alarmé, l'agriculteur tunisien Tahar Chaouachi est obligé de laisser ses champs en jachère à Medjez el Bab dans le nord-ouest de la Tunisie, en raison d'une sécheresse inédite.",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20230413-en-tunisie-une-s%C3%A9cheresse-in%C3%A9dite-%C3%A9touffe-l-agriculture",
-    "publishedAt": "2023-04-13",
+    "title": "Le risque de sécheresse se confirme en France, malgré des sols plus humides dans certaines régions",
+    "quote": "Fin avril, 47 départements sont en situation de vigilance, d’alerte ou de crise, davantage qu’en 2022 à la même date. « La situation est inquiétante », a insisté Christophe Béchu lors d’un comité d’anticipation et de suivi hydrologique.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/28/le-risque-de-secheresse-se-confirme-en-france-malgre-des-sols-plus-humides-dans-certaines-regions_6171302_3244.html",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Lutte contre le réchauffement climatique : qu’est-ce qu’on attend pour prendre le train ?",
+    "quote": "À l’heure où s’aggravent les préoccupations climatiques, le transport ferroviaire, très faible émetteur en gaz à effet de serre, lorsqu’il est électrique, apparaît comme une alternative incontournable à l’avion et aux véhicules thermiques. Cependant, selon un sondage, en France, le train n’est pas prêt de prendre son envol. Explications avec un expert du Réseau Action Climat (RAC), et co-auteur de l’étude.",
+    "url": "https://www.france24.com/fr/france/20230427-lutte-contre-le-r%C3%A9chauffement-climatique-qu-est-ce-qu-on-attend-pour-prendre-le-train",
+    "publishedAt": "2023-04-27",
     "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "La terrible sécheresse dans la Corne de l'Afrique attribuée au réchauffement climatique",
+    "quote": "Sans le changement climatique, la famine n’aurait pas sévi dans la région pendant plus de deux années consécutives.",
+    "url": "https://www.lefigaro.fr/sciences/la-terrible-secheresse-dans-la-corne-de-l-afrique-attribuee-au-rechauffement-climatique-20230427",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Depuis 1950, 70 % des haies ont disparu des bocages et le phénomène s’accélère",
+    "quote": "Ces haies sont des réserves de biodiversité et des remparts contre l’érosion des sols.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/27/depuis-1950-70-des-haies-ont-disparu-des-bocages-et-le-phenomene-s-accelere_6171272_3244.html",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "L’Espagne confrontée à une vague de chaleur précoce et un risque d’incendies « très élevé », voire « extrême »",
+    "quote": "Des records de chaleur pour cette période de l’année ont été enregistrés localement près de Séville et de Cordoue et des plans antichaleur ont été déclenchés plus tôt que prévu.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/27/l-espagne-confrontee-a-une-vague-de-chaleur-precoce-et-un-risque-d-incendies-tres-eleve-voire-extreme_6171252_3244.html",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Loi d'orientation agricole : une consultation citoyenne organisée \"en catimini\", dénoncent des associations écologistes",
+    "quote": "Du 14 au 30 avril, tous les citoyens peuvent donner leur avis sur l'avenir du modèle agricole français via un questionnaire en ligne. Une loi d'orientation agricole sera ensuite soumise aux députés à l'automne. Un délai bien trop court et des questions biaisées, estiment plusieurs associations.",
+    "url": "https://www.francetvinfo.fr/economie/emploi/metiers/agriculture/loi-d-orientation-agricole-une-consultation-citoyenne-organisee-en-catimini-denoncent-des-associations-ecologistes_5794268.html",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "France Info",
     "categoryId": "agriculture"
   },
   {
-    "title": "Un «risque avéré» de sécheresse cet été",
-    "quote": "Le mois de mars n'aura pas suffi à combler l'important déficit des nappes phréatiques françaises. Le Bureau de recherches géologiques et minières annonce que 75% d'entre elles «affichent des niveaux bas à très bas».",
-    "url": "https://www.lefigaro.fr/sciences/risque-avere-de-secheresse-cet-ete-pour-plusieurs-regions-en-france-20230413",
-    "publishedAt": "2023-04-13",
+    "title": "« Les victimes de pollution chimique méritent justice »",
+    "quote": "Les pollutions chimiques déterminent de plus en plus de recours en justice, mais les victimes se heurtent à de nombreux obstacles pour faire valoir leurs droits, alerte, dans une tribune au « Monde », un collectif européen de treize avocats, juristes et universitaires.",
+    "url": "https://www.lemonde.fr/idees/article/2023/04/27/les-victimes-de-pollution-chimique-meritent-justice_6171236_3232.html",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Pourquoi la présence du moustique-tigre pourrait encore augmenter cette année",
+    "quote": "La saison du moustique-tigre va s'ouvrir le 1er mai dans l'Hexagone. Les autorités sanitaires appellent à une vigilance renforcée face à cet insecte vecteur de maladies tropicales telles que la dengue et le chikungunya.",
+    "url": "https://www.lefigaro.fr/sciences/pourquoi-la-presence-du-moustique-tigre-pourrait-encore-augmenter-cette-annee-20230427",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Vague de chaleur en Espagne : des températures inattendues à cette époque de l'année",
+    "quote": "La vague de chaleur exceptionnellement précoce vécue par l'Espagne va connaître son pic jeudi et vendredi avec des records de températures pour un mois d'avril attendus en particulier dans le sud du pays.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230427-vague-de-chaleur-en-espagne-des-temp%C3%A9ratures-inattendues-%C3%A0-cette-%C3%A9poque-de-l-ann%C3%A9e",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Le réchauffement climatique accélère la sécheresse record dans la Corne de l’Afrique",
+    "quote": "Depuis la fin de 2020, l’Ethiopie, l’Erythrée, la Somalie, Djibouti, le Kenya et le Soudan subissent leur pire sécheresse depuis quarante ans.",
+    "url": "https://www.lemonde.fr/afrique/article/2023/04/27/le-rechauffement-climatique-accelere-la-secheresse-record-dans-la-corne-de-l-afrique_6171200_3212.html",
+    "publishedAt": "2023-04-27",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Corne de l'Afrique : la sécheresse record dans la région est attribuable au réchauffement climatique",
+    "quote": "Depuis fin 2020, les pays de la Grande Corne de l'Afrique subissent leur pire sécheresse depuis quarante ans. Selon un rapport publié jeudi par le World Weather Attribution, c'est le changement climatique qui a fortement influencé la hausse des températures dans la région et conduit à un assèchement record des sols et des plantes.",
+    "url": "https://www.france24.com/fr/afrique/20230427-corne-de-l-afrique-la-s%C3%A9cheresse-record-dans-la-r%C3%A9gion-est-attribuable-au-r%C3%A9chauffement-climatique",
+    "publishedAt": "2023-04-26",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Violent incendie, restrictions et manque d'eau : les Pyrénées-Orientales se dirigent-elles vers un été complexe ?",
+    "quote": "Déjà touché par un violent incendie à la mi-avril, le département fait aussi face à d'importantes difficultés liées au manque d'eau. Certaines communes en sont déjà privées.",
+    "url": "https://www.lefigaro.fr/sciences/violent-incendie-restrictions-et-manque-d-eau-les-pyrenees-orientales-se-dirigent-elles-vers-un-ete-complexe-20230427",
+    "publishedAt": "2023-04-26",
     "publishedBy": "Le Figaro",
     "categoryId": "resources"
   },
   {
-    "title": "L'Espagne frappée par un pic de chaleur particulièrement long et précoce",
-    "quote": "L'Espagne est confrontée à une sécheresse due à un manque de précipitations couplé à des pics de température à 34°C dans le sud du pays. Plusieurs incendies se sont déjà déclarés en mars.",
-    "url": "https://www.lefigaro.fr/sciences/des-ouragans-frapperont-plus-longtemps-les-cotes-americaines-20230411",
-    "publishedAt": "2023-04-12",
-    "publishedBy": "Le Figaro",
+    "title": "Espagne : le pays en proie à la canicule",
+    "quote": "Dans les prochains jours, les températures pourraient atteindre les 40°C en Espagne. Cette situation inquiète les habitants et les météorologues.",
+    "url": "https://www.francetvinfo.fr/meteo/canicule/espagne-le-pays-en-proie-a-la-canicule_5793134.html",
+    "publishedAt": "2023-04-26",
+    "publishedBy": "France Info",
     "categoryId": "climate"
   },
   {
-    "title": "Pourquoi les côtes américaines seront plus frappées par les ouragans",
-    "quote": "Avec le réchauffement, ces phénomènes météorologiques extrêmes devraient provoquer davantage de dommages.",
-    "url": "https://www.lefigaro.fr/sciences/des-ouragans-frapperont-plus-longtemps-les-cotes-americaines-20230411",
-    "publishedAt": "2023-04-11",
+    "title": "Comment la mise aux enchères de 2000 rhinocéros hypothèque l'avenir de cette espèce menacée",
+    "quote": "Un riche Sud-africain vend le ranch dans lequel il protégeait depuis des années des mammifères contre les braconniers.",
+    "url": "https://www.lefigaro.fr/sciences/comment-la-mise-aux-encheres-de-2000-rhinoceros-hypotheque-l-avenir-de-cette-espece-menacee-20230426",
+    "publishedAt": "2023-04-26",
     "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Canicule : l’Espagne affiche des températures inquiétantes",
+    "quote": "La France sera-t-elle touchée par la vague de chaleur historique qui sévit en Espagne ? Plus de 40 degrés sont attendus en Andalousie, fait inédit pour la saison. Le Portugal et le Maroc sont aussi concernés.",
+    "url": "https://www.francetvinfo.fr/meteo/canicule/canicule-l-espagne-affiche-des-temperatures-inquietantes_5792711.html",
+    "publishedAt": "2023-04-26",
+    "publishedBy": "France Info",
     "categoryId": "climate"
   },
   {
-    "title": "Sortie du charbon : un bilan 2022 encourageant… mais plombé par la Chine",
-    "quote": "Malgré la crise énergétique, le déclin du charbon se poursuit partout dans le monde en 2022, selon le nouveau rapport de l'ONG Global Energy Monitor. Partout, sauf en Chine, où les projets d'installation de nouvelles centrales sont en pleine croissance.",
-    "url": "https://www.france24.com/fr/plan%C3%A8te/20230408-sortie-du-charbon-un-bilan-2022-encourageant-mais-plomb%C3%A9-par-la-chine",
-    "publishedAt": "2023-04-08",
+    "title": "Canada : les routes de glace menacées par le réchauffement climatique ?",
+    "quote": "Dans le nord du Canada, les effets du réchauffement climatique sont de plus en plus visibles. Certains lacs, qui étaient gelés une grande partie de l'hiver, le sont de moins en moins longtemps. Ils forment pourtant une route glacée qui permet aux camions de venir ravitailler des villages isolés et les salariés des mines de diamants.",
+    "url": "https://www.france24.com/fr/%C3%A9missions/focus/20230426-canada-les-routes-de-glace-menac%C3%A9es-par-le-r%C3%A9chauffement-climatique",
+    "publishedAt": "2023-04-26",
     "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "L'Agence européenne pour l'environnement appelle à réduire l'usage des pesticides",
+    "quote": "Entre 2011 et 2020, les ventes de pesticides sont restées stables, avec \"environ 350 000 tonnes par an\".",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pesticides/l-agence-europeenne-de-l-environnement-appelle-a-reduire-l-usage-des-pesticides_5792252.html",
+    "publishedAt": "2023-04-26",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Urgence climatique : et si les médias favorisaient l’inaction du public ?",
+    "quote": "Face à l'urgence climatique, les médias jouent-ils pleinement leur rôle ? Une équipe de chercheurs de l’université de Lausanne a passé au crible les publications médiatiques traitant du réchauffement climatique en 2020. Conclusion : s’ils alertent sur les périls climatiques, les médias échouent à mobiliser le public en faveur de la planète. France 24 s’est entretenu avec Marie-Élodie Perga, l’une des cinq scientifiques à l’origine de l’étude.",
+    "url": "https://www.france24.com/fr/europe/20230426-urgence-climatique-et-si-les-m%C3%A9dias-favorisaient-l-inaction-du-public",
+    "publishedAt": "2023-04-26",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "L’agence environnementale de l’Union européenne déplore une consommation encore trop importante de pesticides",
+    "quote": "Ces produits polluants sont toujours autant vendus en Europe bien qu’ils sapent la biodiversité, et favorisent le développement de maladies chez l’homme.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/26/l-agence-environnementale-de-l-union-europeenne-deplore-une-consommation-encore-trop-importante-de-pesticides_6170995_3244.html",
+    "publishedAt": "2023-04-25",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "L’Espagne se prépare à une semaine de canicule exceptionnelle pour le mois d’avril",
+    "quote": "Les autorités envisagent d’ouvrir les piscines publiques plus tôt que prévu et d’adapter les horaires scolaires pour aider la population à faire face à la première vague de chaleur de l’année, avec des températures allant jusqu’à 40 degrés Celsius.",
+    "url": "https://www.lemonde.fr/climat/article/2023/04/25/l-espagne-se-prepare-a-une-semaine-de-canicule-exceptionnelle-pour-le-mois-d-avril_6170947_1652612.html",
+    "publishedAt": "2023-04-25",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "L'Espagne frappée par une vague de chaleur exceptionnelle",
+    "quote": "Le plein été au mois d'avril: déjà frappée par une sécheresse catastrophique, l'Espagne va connaître cette semaine une vague de chaleur exceptionnelle, avec des pointes prévues à 40°C, signes supplémentaires de l'accélération du réchauffement climatique.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230425-l-espagne-frapp%C3%A9e-par-une-vague-de-chaleur-exceptionnelle",
+    "publishedAt": "2023-04-25",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Gestion de l’eau : le gouvernement néglige l’impératif de sobriété de l’agriculture",
+    "quote": "Pour faire face à la raréfaction de la ressource en eau, le chef de l’Etat a appelé à la sobriété. Mais le secteur agricole reste dispensé d’efforts sérieux. Une distorsion qui retarde une inévitable adaptation des pratiques culturales.",
+    "url": "https://www.francetvinfo.fr/monde/afrique/kenya/pollution-nos-vetements-qui-impactent-le-kenya_5789645.html",
+    "publishedAt": "2023-04-24",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Comment nos vêtements usagés sont à l'origine d'une pollution textile au Kenya",
+    "quote": "Des vêtements que l'on donne, des invendus ou encore ceux que personne ne veut, tous se retrouvent au Kenya. Le pays est particulièrement touché par la pollution textile.",
+    "url": "https://www.francetvinfo.fr/monde/afrique/kenya/pollution-nos-vetements-qui-impactent-le-kenya_5789645.html",
+    "publishedAt": "2023-04-24",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Sécheresse : avec zéro têtard et vingt fois moins d’oiseaux migrateurs, des réserves naturelles durement touchées",
+    "quote": "La Ligue pour la protection des oiseaux a recensé les conséquences sur la biodiversité du manque d’eau observé en 2022 dans dix espaces protégés qu’elle gère en Charente-Maritime et en Vendée.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/24/secheresse-avec-zero-tetard-et-vingt-fois-moins-d-oiseaux-migrateurs-des-reserves-naturelles-durement-touchees_6170842_3244.html",
+    "publishedAt": "2023-04-24",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "La pollution de l'air en Thaïlande : un fléau pour la santé des habitants",
+    "quote": "Sur son lit d'hôpital à Bangkok, un patient âgé relié à un enchevêtrement de tubes a du mal à respirer. La Thaïlande fait face à une hausse des problèmes respiratoires, causée par un pic de pollution atmosphérique. Quelque 2,4 millions de personnes en Thaïlande ont eu besoin de traitements médicaux pour des problèmes liés à la pollution de l'air depuis le début de l'année, dont 200.000 personnes juste cette semaine, selon les autorités sanitaires.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230424-la-pollution-de-l-air-en-tha%C3%AFlande-un-fl%C3%A9au-pour-la-sant%C3%A9-des-habitants",
+    "publishedAt": "2023-04-24",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Crise climatique : \"Pour arrêter la plus grande destruction de l'histoire de l'humanité\", ces scientifiques passent à la désobéissance civile",
+    "quote": "\"Les scientifiques sont parfaitement placés pour mener une rébellion\" : c'est le mot d'ordre du collectif Scientist Rebellion, créé en 2020, qui regroupe 200 chercheurs et universitaires du monde entier. Tous ont décidé de passer à l'action face à l'urgence climatique.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-monde-est-a-nous/crise-climatique-pour-arreter-la-plus-grande-destruction-de-l-histoire-de-l-humanite-ces-scientifiques-passent-a-la-desobeissance-civile_5762693.html",
+    "publishedAt": "2023-04-24",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "La pollution de l'air tue encore 1 200 enfants et adolescents par an en Europe, selon un rapport",
+    "quote": "\"Malgré des progrès au cours des années passées, le niveau de plusieurs des principaux polluants de l'air persiste à rester au-dessus des recommandations de l'Organisation mondiale de la santé\", affirme l'Agence européenne de l'environnement.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/pollution-air/la-pollution-de-l-air-tue-encore-1-200-enfants-et-adolescents-par-an-en-europe-selon-un-rapport_5788703.html",
+    "publishedAt": "2023-04-24",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "En Afrique du Sud, le déploiement des éoliennes menace le fragile équilibre de réserves de vie sauvage",
+    "quote": "Déjà confrontées aux assauts des braconniers, les réserves privées de la province du Cap-Oriental font face à un autre problème : l’essor des projets de champs éoliens, qui risquent de nuire à l’écotourisme.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/24/en-afrique-du-sud-le-deploiement-des-eoliennes-inquiete-les-reserves-de-vie-sauvage-privees_6170744_3244.html",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "La pollution de l'air entraîne le décès prématuré de 1 200 mineurs par an en Europe",
+    "quote": "Chaque année, la pollution de l'air tue de manière prématurée au moins 1 200 enfants et adolescents sur le Vieux continent, alerte l'Agence européenne pour l'environnement, lundi. Même si la tendance est à l'amélioration, l'AEE recommande de chercher des solutions pour les abords des écoles et des crèches.",
+    "url": "https://www.france24.com/fr/plan%C3%A8te/20230424-la-pollution-de-l-air-entra%C3%AEne-le-d%C3%A9c%C3%A8s-pr%C3%A9matur%C3%A9-de-1-200-mineurs-par-an-en-europe",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "La pollution de l’air tue encore prématurément 1 200 enfants et adolescents par an en Europe",
+    "quote": "L’Agence européenne de l’environnement souligne que les effets néfastes commencent même avant la naissance en raison de l’exposition maternelle à la pollution atmosphérique.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/24/la-pollution-de-l-air-tue-encore-prematurement-1-200-enfants-et-adolescents-par-an-en-europe_6170731_3244.html",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Les infections fongiques, un nouveau risque largement sous-estimé",
+    "quote": "L’OMS estime que les infections fongiques, favorisées par le réchauffement climatique, sont l’une des menaces les plus sous-estimées au cours des dernières décennies.",
+    "url": "https://www.lefigaro.fr/sciences/les-infections-fongiques-un-nouveau-risque-largement-sous-estime-20230423",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "Le Figaro",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Les polluants perfluorés pourraient contribuer à l’épidémie mondiale d’obésité",
+    "quote": "Présents un peu partout, ces composés semblent favoriser la prise de poids, en perturbant le métabolisme.",
+    "url": "https://www.lefigaro.fr/sciences/les-polluants-perfluores-pourraient-contribuer-a-l-epidemie-mondiale-d-obesite-20230423",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "Le Figaro",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Quel est l’impact climatique du transport maritime ?",
+    "quote": "Le secteur maritime pèse près de 3 % des émissions et ne dispose pas aujourd’hui de trajectoire crédible pour réduire massivement sa contribution au réchauffement climatique.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/23/quel-est-l-impact-climatique-du-transport-maritime_6170679_3244.html",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "En Thaïlande, les habitants étouffent dans \"un nuage\" de pollution qui \"monte au cerveau\"",
+    "quote": "2,5 millions de Thaïlandais ont consulté pour des infections respiratoires depuis le début de l'année, dont 200 000 au cours de la dernière semaine.",
+    "url": "https://www.francetvinfo.fr/monde/asie/crise-en-thailande/reportage-en-thailande-les-habitants-etouffent-dans-un-nuage-de-pollution-qui-monte-au-cerveau_5786114.html",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Retards dans le versement de la prime énergie d'EDF : \"On avait le sentiment qu'ils faisaient tout pour qu'on laisse tomber\"",
+    "quote": "40 000 particuliers attendent toujours de recevoir leur prime énergie d'EDF, destinée à encourager les Français à la rénovation énergétique de leur logement. franceinfo a enquêté sur ces retards de versement qui mettent les clients à bout.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-choix-franceinfo/retards-dans-le-versement-de-la-prime-energie-d-edf-on-avait-le-sentiment-qu-ils-faisaient-tout-pour-qu-on-laisse-tomber_5784224.html",
+    "publishedAt": "2023-04-23",
+    "publishedBy": "France Info",
     "categoryId": "energy"
   },
   {
-    "title": "Biodiversité : près de 300 espèces d’araignées sont exposées à un risque d’extinction en France",
-    "quote": "Et c’est loin d'être anodin car ces petites bêtes, souvent mal aimées, nous rendent de grands services écologiques. Elles absorbent les nuisibles et nous renseignent sur la qualité d'un écosystème.",
-    "url": "https://www.francetvinfo.fr/replay-radio/le-billet-vert/biodiversite-pres-de-300-especes-d-araignees-sont-exposees-a-un-risque-d-extinction-en-france_5728643.html",
-    "publishedAt": "2023-04-07",
-    "publishedBy": "France Info",
-    "categoryId": "biodiversity"
+    "title": "Crise de l’eau en Guadeloupe, avec des coupures et des contaminations à répétition",
+    "quote": "L’eau du robinet est impropre à la consommation de manière récurrente pour des milliers d’habitants dans certains endroits du département, qui se trouve face à un immense chantier de modernisation des canalisations.",
+    "url": "https://www.lemonde.fr/politique/article/2023/04/23/crise-de-l-eau-en-guadeloupe-avec-des-coupures-et-des-contaminations-a-repetition_6170645_823448.html",
+    "publishedAt": "2023-04-22",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
   },
   {
-    "title": "France : 1/3 d’eau potable contaminée par un pesticide",
-    "quote": "Suite à un rapport de l’Anses publié ce jeudi, un tiers de l’eau potable en France est contaminée par des résidus de chlorothalonil, un pesticide interdit en Europe depuis 2019. Selon François Veillerette, directeur et porte-parole de l’association Générations Futures, invité de France 24, \"il faut tout de suite stopper, retirer du marché les molécules qui sont encore autorisées pour qu’on arrête la dégradation de la ressource en eau. Après il faut aider l’agriculture à aller vers des méthodes moins dépendantes de ses pesticides.\"",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20230406-france-1-3-d-eau-potable-contamin%C3%A9e-par-un-pesticide",
-    "publishedAt": "2023-04-06",
+    "title": "Sécheresse : une rupture d’accès à l’eau, le scénario qui inquiète les Pyrénées-Orientales",
+    "quote": "Le département est touché depuis un an par une pénurie d’eau si radicale que plusieurs communes doivent faire face à un tarissement de leur captage. A mesure que les nappes superficielles s’épuisent, on fore toujours plus profondément.",
+    "url": "https://www.lemonde.fr/planete/article/2023/04/22/secheresse-une-rupture-d-acces-a-l-eau-le-scenario-qui-inquiete-les-pyrenees-orientales_6170629_3244.html",
+    "publishedAt": "2023-04-22",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Multiplication des cas d'autisme : une étude met la pollution sur le banc des accusés",
+    "quote": "La multiplication du nombre de cas d'autisme dans les pays industrialisés suscite de vives inquiétudes sanitaires. La responsabilité de la pollution s’impose progressivement, mais n’a pas encore été formellement démontrée sur le plan neurobiologique. C’est ce qu’ambitionne de réaliser, en France, une étude inédite, qui suivra 1 700 couples sur dix ans. Pour ses artisans, prendre conscience du lien entre santé humaine et pollution pourrait transformer notre rapport à l’environnement.",
+    "url": "https://www.france24.com/fr/france/20230422-multiplication-des-cas-d-autisme-une-%C3%A9tude-met-la-pollution-sur-le-banc-des-accus%C3%A9s",
+    "publishedAt": "2023-04-22",
     "publishedBy": "France 24",
-    "categoryId": "resources"
+    "categoryId": "environment"
   },
   {
-    "title": "En France, l'eau potable largement contaminée par des résidus d'un fongicide interdit",
-    "quote": "Selon un rapport de l'Agence nationale de sécurité sanitaire, publié jeudi, l'eau potable distribuée en France serait largement contaminée par le métabolite du chlorothalonil R471811, un fongicide interdit en France depuis 2020. Il s'agit du métabolite le plus fréquemment retrouvé et conduit à des dépassements de la limite de qualité dans plus d’un prélèvement sur trois.",
-    "url": "https://www.france24.com/fr/france/20230406-en-france-l-eau-potable-largement-contamin%C3%A9e-par-des-r%C3%A9sidus-d-un-fongicide-interdit",
-    "publishedAt": "2023-04-06",
-    "publishedBy": "France 24",
-    "categoryId": "resources"
+    "title": "Matières premières : « Temps orageux sur les oléagineux »",
+    "quote": "Après une année 2022 record, le vent a tourné sur les marchés. Les agriculteurs européens comme australiens ont semé du colza à tout-va, observe, dans sa chronique, Laurence Girard, journaliste économique au « Monde ».",
+    "url": "https://www.lemonde.fr/economie/article/2023/04/22/matieres-premieres-temps-orageux-sur-les-oleagineux_6170587_3234.html",
+    "publishedAt": "2023-04-22",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
   },
   {
-    "title": "L'eau potable contaminée par un pesticide interdit depuis 2020",
-    "quote": "Dans un rapport, l'Anses constate qu'«un prélèvement sur deux» réalisés dans toute la France révèle la présence de résidus issus du chlorothalonil. «Pas de risque sanitaire», assure le gouvernement.",
-    "url": "https://www.lefigaro.fr/sciences/l-eau-potable-contaminee-par-un-pesticide-interdit-depuis-2020-20230406",
-    "publishedAt": "2023-04-06",
-    "publishedBy": "Le Figaro",
-    "categoryId": "resources"
-  },
-  {
-    "title": "Pêche : les chaluts devraient rester autorisés dans les aires marines protégées jusqu’en 2030",
-    "quote": "Les pêcheurs ont obtenu de la Commission européenne des garanties, lundi 3 avril. Il n’y aura pas de plan européen pour interdire à terme la pêche de fond dans les aires marines protégées.",
-    "url": "https://www.francetvinfo.fr/monde/environnement/biodiversite/peche-les-chaluts-devraient-rester-autorises-dans-les-aires-marines-protegees-jusqu-en-2030_5750267.html",
-    "publishedAt": "2023-04-03",
+    "title": "La Chine confrontée à une recrudescence des tempêtes de sable",
+    "quote": "C’est un phénomène très impressionnant : certaines grandes villes chinoises sont recouvertes par des nuages de sable qui durent parfois plusieurs jours. La capitale, Pékin, est particulièrement touchée par ces tempêtes de sable de plus en plus fréquentes.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-monde-est-a-nous/la-chine-confrontee-a-une-recrudescence-des-tempetes-de-sable_5758373.html",
+    "publishedAt": "2023-04-22",
     "publishedBy": "France Info",
-    "categoryId": "biodiversity"
-  },
-  {
-    "title": "Pêche : les chalutiers pourront continuer à se rendre dans les aires marines protégées",
-    "quote": "Les pêcheurs ont repris la mer, lundi 3 avril, après plusieurs jours de blocages. Bruxelles n'interdira finalement pas la pêche de fond dans les aires marines protégées.",
-    "url": "https://www.francetvinfo.fr/monde/environnement/biodiversite/peche-les-chalutiers-pourront-continuer-a-se-rendre-dans-les-aires-marines-protegees_5750234.html",
-    "publishedAt": "2023-04-03",
-    "publishedBy": "France Info",
-    "categoryId": "biodiversity"
-  },
-  {
-    "title": "Union européenne : il n'y aura pas d'interdiction de la pêche de fond dans les aires protégées",
-    "quote": "Alors qu'une recommandation européenne suscitait la colère des pêcheurs français, la Commission européenne a assuré, dimanche 2 avril, que la pêche de fond dans les aires marines protégées ne serait pas interdite.",
-    "url": "https://www.francetvinfo.fr/monde/europe/union-europeenne/union-europeenne-il-n-y-aura-pas-d-interdiction-de-la-peche-de-fond-dans-les-aires-protegees_5749610.html",
-    "publishedAt": "2023-04-03",
-    "publishedBy": "France Info",
-    "categoryId": "biodiversity"
+    "categoryId": "environment"
   }
 ]
