@@ -5,7 +5,7 @@ import {
   NgIf,
   NgFor,
 } from '@angular/common';
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatLegacyButtonModule } from '@angular/material/legacy-button';
@@ -22,6 +22,7 @@ import { Store } from './store.service';
 @Component({
   standalone: true,
   selector: 'av-root',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     AsyncPipe,
     DatePipe,
