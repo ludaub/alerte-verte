@@ -64,6 +64,10 @@
 
   &:hover {
     filter: brightness(115%);
+
+    .mat-icon {
+      transform: scale(105%);
+    }
   }
 }
 
