@@ -1,5 +1,21 @@
 [
   {
+    "title": "« Les juges ont-ils les outils pour répondre aux ambitions de la société civile sur les sujets environnementaux ? »",
+    "quote": "Alors que les juges sont poussés par la société civile à jouer de plus en plus un rôle de justicier du climat, l’avocate Hortense de Roux souligne, dans une tribune au « Monde », leur relative impuissance face aux enjeux environnementaux.",
+    "url": "https://www.lemonde.fr/idees/article/2023/04/29/les-juges-ont-ils-les-outils-pour-repondre-aux-ambitions-de-la-societe-civile-sur-les-sujets-environnementaux_6171488_3232.html",
+    "publishedAt": "2023-04-29",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Espagne : en plein mois d’avril, le pays suffoque sous la canicule",
+    "quote": "En Espagne, le thermomètre approche des 40°C dans de nombreuses villes, comme Cordoue ou Séville. Des prières et des processions sont même organisées pour faire venir la pluie.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/espagne-en-plein-mois-d-avril-le-pays-suffoque-sous-la-canicule_5797037.html",
+    "publishedAt": "2023-04-28",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
     "title": "Espagne : l’Andalousie sous une vague de chaleur inédite au mois d’avril",
     "quote": "En Andalousie, le mois d'avril ressemble plutôt à un mois d'août très chaud. Il fait quasiment 40°C en ville, vendredi 28 avril, alors le quotidien devient vite irrespirable.",
     "url": "https://www.francetvinfo.fr/meteo/secheresse/espagne-l-andalousie-sous-une-vague-de-chaleur-inedite-au-mois-d-avril_5797001.html",
