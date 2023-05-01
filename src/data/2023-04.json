@@ -1,5 +1,61 @@
 [
   {
+    "title": "Quel est le rapport entre climat et biodiversité ?",
+    "quote": "Il y a désormais un consensus scientifique pour lier les deux crises, le réchauffement climatique et l’effondrement de la biodiversité, qui s’auto-alimentent",
+    "url": "https://www.lemonde.fr/climat/article/2023/05/01/quel-est-le-rapport-entre-climat-et-biodiversite_6171652_1652612.html",
+    "publishedAt": "2023-04-30",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "« La cigarette électronique jetable “puff”, un fléau environnemental et sanitaire qu’il faut interdire d’urgence »",
+    "quote": "Un collectif de plus de vingt de personnalités – médecins, tabacologues et défenseurs de l’environnement – appelle, dans une tribune au « Monde », à l’interdiction de la cigarette électronique jetable, comme c’est déjà le cas en Allemagne, en Belgique et en Irlande, et à soutenir la proposition de loi déposée en ce sens par une trentaine de députés.",
+    "url": "https://www.lemonde.fr/idees/article/2023/04/30/la-cigarette-electronique-jetable-puff-un-fleau-environnemental-et-sanitaire-qu-il-faut-interdire-d-urgence_6171614_3232.html",
+    "publishedAt": "2023-04-30",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "« Les marques de “fast fashion” sont responsables de la pollution causée par leurs vêtements »",
+    "quote": "La surproduction textile génère une quantité de déchets que les pays occidentaux sont incapables de traiter et dont ne sont pas responsables les opérateurs de collecte, souligne, dans une tribune au « Monde », Julia Faure, présidente de l’association En mode climat. Elle suggère un affichage environnemental pénalisant les pratiques de la « fast fashion ».",
+    "url": "https://www.lemonde.fr/idees/article/2023/04/30/les-marques-de-fast-fashion-sont-responsables-de-la-pollution-causee-par-leurs-vetements_6171592_3232.html",
+    "publishedAt": "2023-04-30",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Climat : on vous explique pourquoi le retour du phénomène météo El Niño est redouté",
+    "quote": "Il pourrait \"alimenter un nouveau pic des températures mondiales\", a prévenu Petteri Taalas, secrétaire général de l'Organisation météorologique mondiale de l'ONU.",
+    "url": "https://www.francetvinfo.fr/meteo/climat/climat-on-vous-explique-pourquoi-le-retour-du-phenomene-meteo-el-nino-est-redoute_5789168.html",
+    "publishedAt": "2023-04-30",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Transports : dans les coulisses du gaspillage du kérosène des avions",
+    "quote": "Alors qu’on cherche à réaliser des économies partout, le secteur aérien est un véritable paradoxe en matière de gaspillage, notamment quand les avions sont au sol.",
+    "url": "https://www.francetvinfo.fr/economie/aeronautique/transports-dans-les-coulisses-du-gaspillage-du-kerosene-des-avions_5798654.html",
+    "publishedAt": "2023-04-29",
+    "publishedBy": "France Info",
+    "categoryId": "energy"
+  },
+  {
+    "title": "Gironde : les scolytes, plus nombreux, menacent la forêt",
+    "quote": "En Gironde, la traque aux scolytes a commencé. Ce parasite qui s’attaque aux arbres, notamment aux pins, est très nuisible.",
+    "url": "https://www.francetvinfo.fr/france/nouvelle-aquitaine/gironde/gironde-les-scolytes-plus-nombreux-menacent-la-foret_5798477.html",
+    "publishedAt": "2023-04-29",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Sécheresse : des restrictions drastiques",
+    "quote": "Les restrictions d’eau se multiplient dans le pays, de plus en plus tôt dans l’année. Depuis la fin du mois de mars, certains secteurs dans le sud-est du pays ont été placés en crise sécheresse. Cette année, la sécheresse devrait être encore pire qu’en 2022.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-des-restrictions-drastiques_5798297.html",
+    "publishedAt": "2023-04-29",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
     "title": "« Les juges ont-ils les outils pour répondre aux ambitions de la société civile sur les sujets environnementaux ? »",
     "quote": "Alors que les juges sont poussés par la société civile à jouer de plus en plus un rôle de justicier du climat, l’avocate Hortense de Roux souligne, dans une tribune au « Monde », leur relative impuissance face aux enjeux environnementaux.",
     "url": "https://www.lemonde.fr/idees/article/2023/04/29/les-juges-ont-ils-les-outils-pour-repondre-aux-ambitions-de-la-societe-civile-sur-les-sujets-environnementaux_6171488_3232.html",

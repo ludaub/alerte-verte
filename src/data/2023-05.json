@@ -1,0 +1,50 @@
+[
+  {
+    "title": "« Algues vertes, mégabassines : deux symptômes de l’urgence écologique qui appellent à inventer ensemble la transition agricole »",
+    "quote": "Luc Aquilina, Patrick Durand et Olivier Ragueneau, chercheurs au sein du Groupe scientifique algues vertes, regrettent dans une tribune au « Monde » que dans ce dossier, tout comme dans celui des mégabassines, la parole des scientifiques reste ignorée.",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/01/algues-vertes-megabassines-deux-symptomes-de-l-urgence-ecologique-qui-appellent-a-inventer-ensemble-la-transition-agricole_6171692_3232.html",
+    "publishedAt": "2023-05-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Réchauffement climatique : la face obscure de l’intelligence artificielle",
+    "quote": "Plus les technologies d’IA se développent, plus elles sont gourmandes en énergie. Mais leur empreinte carbone est difficilement quantifiable, car nombre d’éléments ne sont pas pris en compte dans le calcul de leur impact sur l’environnement.",
+    "url": "https://www.lemonde.fr/sciences/article/2023/05/01/rechauffement-climatique-la-face-obscure-de-l-intelligence-artificielle_6171688_1650684.html",
+    "publishedAt": "2023-05-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "energy"
+  },
+  {
+    "title": "Au Mexique, au cœur de la bataille pour l’eau",
+    "quote": "Ces dernières années, les conflits se sont multipliés entre les populations locales et les industriels comme Danone, Nestlé ou Coca-Cola. En cause : la diminution de la disponibilité en eau, voire l’assèchement des ressources hydriques. Le président veut réformer la législation en vue de modifier le régime de concession.",
+    "url": "https://www.lemonde.fr/economie/article/2023/05/01/au-mexique-au-c-ur-de-la-bataille-pour-l-eau_6171685_3234.html",
+    "publishedAt": "2023-05-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "La recherche au défi de la sobriété énergétique du numérique",
+    "quote": "La quantité de gaz à effet de serre émise par le secteur du numérique augmente de 6 % par an. Une évolution inquiétante du bilan carbone de ce secteur qui fait débat au sein des laboratoires d’informatique, où les tenants de la recherche d’efficacité des systèmes s’opposent aux partisans d’une plus grande sobriété, donc d’une réduction des usages.",
+    "url": "https://www.lemonde.fr/sciences/article/2023/05/01/la-recherche-au-defi-de-la-sobriete-energetique-du-numerique_6171677_1650684.html",
+    "publishedAt": "2023-05-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "energy"
+  },
+  {
+    "title": "Dans les Cévennes, l’encombrant héritage souterrain de l’industrie minière",
+    "quote": "Au nord d’Alès, dans le Gard, des kilomètres de ruisseaux souterrains menacent la stabilité des sols. L’Etat s’est engagé à accompagner les petites communes concernées pour sécuriser ces ouvrages, vestiges du passé minier de la région.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/01/dans-les-cevennes-l-encombrant-heritage-souterrain-de-l-industrie-miniere_6171664_3244.html",
+    "publishedAt": "2023-05-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Cinq grains de riz pour 80 euros : un magasin en ligne (fictif) alerte sur les conséquences d'un monde sans eau",
+    "quote": "Le site The Drop Store propose un magasin fictif propose des aliments du quotidien devenus inabordables en raison des sécheresses et du changement climatique. L'objectif est de montrer l'impact majeur du manque d'eau sur nos modes de consommation.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-monde-est-a-nous/cinq-grains-de-riz-pour-80-euros-un-magasin-en-ligne-fictif-alerte-sur-les-consequences-d-un-monde-sans-eau_5774789.html",
+    "publishedAt": "2023-05-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  }
+]
