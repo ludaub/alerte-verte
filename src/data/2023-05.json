@@ -1,5 +1,93 @@
 [
   {
+    "title": "L’ONU alerte sur la gravité record des crises alimentaires dans le monde",
+    "quote": "Selon un rapport conjoint de plusieurs agences internationales, le nombre de personnes en situation d’insécurité alimentaire aiguë a triplé en six ans.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/03/l-onu-alerte-sur-la-gravite-record-des-crises-alimentaires-dans-le-monde_6171885_3244.html",
+    "publishedAt": "2023-05-03",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Changement climatique : dans le lac Léman, le brassage des eaux s'est enrayé",
+    "quote": "Le phénomène de brassage des eaux dans les grands lacs comme le Léman, le plus grand lac alpin d'Europe, est perturbé. Ce qui compromet l'oxygénation et la survie des animaux.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-billet-vert/changement-climatique-dans-le-lac-leman-le-brassage-des-eaux-s-est-enraye_5778593.html",
+    "publishedAt": "2023-05-03",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Sécheresse : le manque d'eau peut-il mettre la France en panne électrique ?",
+    "quote": "En France, où l'énergie dépend largement du nucléaire, et dans une moindre mesure de l'hydraulique, la perspective de sécheresses à répétition pose la question de la résilience du réseau électrique.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-le-manque-d-eau-peut-il-mettre-la-france-en-panne-electrique_5790950.html",
+    "publishedAt": "2023-05-03",
+    "publishedBy": "France Info",
+    "categoryId": "energy"
+  },
+  {
+    "title": "France : les digues françaises de plus en plus fragiles",
+    "quote": "Les digues françaises, longtemps remparts face à la mer, sont de plus en plus abîmées. Face aux coûts conséquents et aux travaux importants, certaines communes les laissent dépérir.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/montee-des-eaux/france-les-digues-francaises-de-plus-en-plus-fragiles_5803667.html",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Politique : des militants écologistes victimes de violences",
+    "quote": "De la Bretagne aux Alpes, des défenseurs de l'environnement sont frappés et intimidés. L'association France Nature Environnement dénombre 52 menaces et actes de violences en sept ans.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/politique-des-militants-ecologistes-victimes-de-violences_5803649.html",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Changement climatique : la sécheresse pourrait déstabiliser les puits de carbone terrestres",
+    "quote": "Un écologue américain alerte sur la capacité des micro-organismes à s’adapter au manque d’eau contrairement aux végétaux, ce qui pourrait affaiblir le stockage de carbone par le sol et aggraver le réchauffement de la planète.",
+    "url": "https://www.lemonde.fr/sciences/article/2023/05/02/changement-climatique-la-secheresse-pourrait-destabiliser-les-puits-de-carbone-terrestres_6171803_1650684.html",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Pays basque : un homme condamné à huit mois de prison avec sursis pour un trafic d'oiseaux protégés",
+    "quote": "Lors d'une perquisition en 2020, les services de l'État avaient découvert une cinquantaine d'oiseaux dans un hangar.",
+    "url": "https://www.francetvinfo.fr/animaux/pays-basque-un-homme-condamne-a-huit-mois-de-prison-avec-sursis-pour-un-trafic-d-oiseaux-proteges_5803361.html",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Lutte contre les feux de forêts : «Nous savons en permanence où aller chercher l'eau»",
+    "quote": "Selon Éric Brocardi, porte-parole de la Fédération nationale des sapeurs-pompiers, le manque d'eau ralentit la lutte contre les incendies.",
+    "url": "https://www.lefigaro.fr/sciences/lutte-contre-les-feux-de-forets-nous-savons-en-permanence-ou-aller-chercher-l-eau-20230502",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "Le Figaro",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse en Espagne : une procession pour le retour de la pluie organisée pour la première fois depuis 1949",
+    "quote": "L’Espagne vient de traverser une vague de chaleur exceptionnellement précoce, avec des températures supérieures à trente-sept degrés par endroits.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/02/secheresse-en-espagne-une-procession-pour-le-retour-de-la-pluie-organisee-pour-la-premiere-fois-depuis-1949_6171785_3244.html",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Les tourbières, des écosystèmes-clés pour atteindre les objectifs climatiques",
+    "quote": "La restauration des tourbières est un enjeu majeur pour l’Europe, qui est aujourd’hui la deuxième plus grande émettrice de gaz à effet de serre issu des tourbières dégradées.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/02/les-tourbieres-des-ecosystemes-cles-pour-atteindre-les-objectifs-climatiques_6171778_3244.html",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "« Les entreprises ne semblent pas assez préoccupées par leurs émissions de gaz à effet de serre »",
+    "quote": "Le non-respect de la réglementation sur les audits énergétiques auxquels sont pourtant astreintes les entreprises françaises est plutôt élevé, constate l’expert de la logistique Reuben Fisher, dans une tribune au « Monde ».",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/02/les-entreprises-ne-semblent-pas-assez-preoccupees-par-leurs-emissions-de-gaz-a-effet-de-serre_6171734_3232.html",
+    "publishedAt": "2023-05-02",
+    "publishedBy": "Le Monde",
+    "categoryId": "energy"
+  },
+  {
     "title": "« Algues vertes, mégabassines : deux symptômes de l’urgence écologique qui appellent à inventer ensemble la transition agricole »",
     "quote": "Luc Aquilina, Patrick Durand et Olivier Ragueneau, chercheurs au sein du Groupe scientifique algues vertes, regrettent dans une tribune au « Monde » que dans ce dossier, tout comme dans celui des mégabassines, la parole des scientifiques reste ignorée.",
     "url": "https://www.lemonde.fr/idees/article/2023/05/01/algues-vertes-megabassines-deux-symptomes-de-l-urgence-ecologique-qui-appellent-a-inventer-ensemble-la-transition-agricole_6171692_3232.html",
