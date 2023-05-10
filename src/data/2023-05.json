@@ -1,5 +1,149 @@
 [
   {
+    "title": "Recycler les vieux bateaux : un défi technologique",
+    "quote": "De vieux bateaux hors d’usage abandonnés sur le littoral. L'image pourrait sembler poétique mais ces épaves, souvent constituées de matériaux peu recyclables, s'accumulent le long des côtes françaises et posent de sérieux problèmes de pollution. Plusieurs entreprises développent des techniques de recyclage innovantes mais incomplètes. Certaines s’attaquent à la fabrication de matériaux plus facilement recyclables à l’avenir.",
+    "url": "https://www.france24.com/fr/%C3%A9missions/%C3%A9l%C3%A9ment-terre/20230505-recycler-les-vieux-bateaux-un-d%C3%A9fi-technologique",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Climat : la vague de « chaleur extrême » en Méditerranée « aurait été quasi impossible sans le changement climatique »",
+    "quote": "Au cours du mois d’avril, des records absolus de températures ont été battus au Portugal et en Espagne avec respectivement 36,9 et 38,8 degrés.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/05/climat-la-vague-de-chaleur-extreme-en-mediterranee-aurait-ete-quasi-impossible-sans-le-changement-climatique_6172221_3244.html",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Biodiversité : les faiblesses des études d’impact, étape-clé avant un projet d’aménagement",
+    "quote": "Conçues pour limiter les incidences sur la faune et la flore de constructions à venir, telles les mégabassines dans les Deux-Sèvres ou le futur téléphérique de La Grave dans les Alpes, les études d’impact sont critiquées pour leurs insuffisances.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/05/biodiversite-les-faiblesses-des-etudes-d-impact-etape-cle-avant-un-projet-d-amenagement_6172206_3244.html",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Réchauffement climatique : la France doit se préparer à +4°C d'ici à 2100, selon le Conseil national de la transition écologique",
+    "quote": "Cette instance, composée d'élus et de membres de la société civile, a rendu son avis sur la trajectoire de référence pour élaborer les politiques climatiques de la France.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-la-france-doit-se-preparer-a-4-c-d-ici-a-2100-selon-le-conseil-national-de-la-transition-ecologique_5808737.html",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Italie : les plages de Rosignano Solvay, un paradis toxique",
+    "quote": "À Rosignano, sur le littoral toscan, cinq kilomètres de plage se distinguent par une eau turquoise et un sable blanc étincelant. Ici, la côte doit ses airs de carte postale à l'activité d'une usine de production de bicarbonate de soude. Le groupe de chimie belge Solvay gère ce site depuis plus d'un siècle et est autorisé à décharger chaque année jusqu'à 250 000 tonnes de rejets sur la plage. Une activité encadrée qui impacte pourtant l'environnement et pose des questions de santé publique. Certains se sont lancés dans une bataille contre l'entreprise. Nos reporters les ont rencontrés.",
+    "url": "https://www.france24.com/fr/%C3%A9missions/reporters/20230505-italie-les-plages-de-rosignano-solvay-un-paradis-toxique",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Sécheresse : la vente de piscines hors sol va être interdite dans les Pyrénées-Orientales, annonce Christophe Béchu",
+    "quote": "Le ministre de la Transition écologique a fait cette annonce vendredi sur RTL. Les Pyrénées-Orientales connaissent en effet une grave pénurie d'eau.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-la-vente-de-piscines-hors-sol-va-etre-interdite-dans-les-pyrenees-orientales-annonce-christophe-bechu_5808605.html",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Pesticides dangereux pour les abeilles : les inspecteurs de l’environnement priés de ne pas contrôler les arboriculteurs",
+    "quote": "Une note de la direction de l’Office français de la biodiversité, que « Le Monde » s’est procurée, suscite l’incompréhension d’inspecteurs et de procureurs chargés d’affaires environnementales.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/05/pesticides-dangereux-pour-les-abeilles-les-inspecteurs-de-l-environnement-pries-de-ne-pas-controler-les-arboriculteurs_6172166_3244.html",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Climat : les gestionnaires de fonds assoiffés de pétrole malgré leurs promesses, dénonce une ONG",
+    "quote": "Selon un rapport de Carbon Tracker, les gestionnaires d'actifs continuent d'investir massivement dans le secteur des hydrocarbures, malgré l'impact de ces énergies sur le climat.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/climat-les-gestionnaires-de-fonds-assoiffes-de-petrole-malgre-leurs-promesses-denonce-une-ong_5808446.html",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "France Info",
+    "categoryId": "energy"
+  },
+  {
+    "title": "Environnement : de plus en plus de pneus jetés dans la nature, le phénomène inquiète",
+    "quote": "Depuis un certain temps, de nombreux départements en France voient des pneus joncher le bord des routes et parfois même le bitume des villes, un désastre pour l’environnement. Enquête dans le Nord, ce jeudi 4 mai.",
+    "url": "https://www.francetvinfo.fr/societe/environnement-la-multiplication-des-pneus-jetes-dans-la-nature-inquiete_5807309.html",
+    "publishedAt": "2023-05-04",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Climat : la France doit se préparer à un réchauffement jusqu’à + 4 °C, enjoignent élus et société civile",
+    "quote": "Le Conseil national de la transition écologique appelle à « affronter la réalité [du] changement climatique, de manière lucide », le pays étant plus touché que la moyenne mondiale.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/04/climat-la-france-doit-se-preparer-a-un-rechauffement-jusqu-a-4-c-appellent-elus-et-societe-civile_6172128_3244.html",
+    "publishedAt": "2023-05-04",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Les cancers transmissibles du diable de Tasmanie, «une nouvelle forme de vie» qui menace l’espèce",
+    "quote": "Une étude permet de mieux comprendre les deux formes très rares de cancers contagieux qui menacent l’existence de ces marsupiaux.",
+    "url": "https://www.lefigaro.fr/sciences/les-cancers-transmissibles-du-diable-de-tasmanie-une-nouvelle-forme-de-vie-qui-menace-l-espece-20230504",
+    "publishedAt": "2023-05-04",
+    "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "\"Le pays devient un désert\" : l'Espagne confrontée à ses limites en eau",
+    "quote": "Confrontée à une sécheresse persistante et à une vague de chaleur précoce, l'Espagne manque d'eau. Alors que 80 % de l'eau disponible est utilisée pour alimenter ce \"potager de l'Europe\", plusieurs voix s'élèvent pour appeler à repenser la gestion de l'or bleu.",
+    "url": "https://www.france24.com/fr/europe/20230504-le-pays-devient-un-d%C3%A9sert-l-espagne-confront%C3%A9e-%C3%A0-ses-limites-en-eau",
+    "publishedAt": "2023-05-04",
+    "publishedBy": "France 24",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : un arrêté municipal à Caussols interdit toute nouvelle installation de maraîchers",
+    "quote": "La sécheresse continue de gagner du terrain alors que 20 départements sont déjà contraints dans leur utilisation de l’eau. A Caussols, dans les Alpes-Maritimes, le maire a pris un arrêté contre l’installation de nouveaux maraîchers, pour éviter les pénuries.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-un-arrete-municipal-a-caussols-interdit-toute-nouvelle-installation-de-maraichers_5806988.html",
+    "publishedAt": "2023-05-04",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Réchauffement climatique : le coup de chaud à la surface des océans est une \"bombe à retardement\"",
+    "quote": "La température à la surface des mers a battu en avril un record et se maintient depuis à des niveaux élevés.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-le-coup-de-chaud-a-la-surface-des-oceans-est-une-bombe-a-retardement_5806499.html",
+    "publishedAt": "2023-05-04",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Finistère : l'ONG Sea Shepherd annonce porter plainte après la découverte d'un cadavre de dauphin dans une poubelle",
+    "quote": "L'état de la dépouille indique que l'animal a été tué afin de consommer sa chair.",
+    "url": "https://www.francetvinfo.fr/animaux/especes-menacees/finistere-l-ong-sea-shepherd-annonce-porter-plainte-apres-la-decouverte-d-un-cadavre-de-dauphin-dans-une-poubelle_5806439.html",
+    "publishedAt": "2023-05-04",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Sécheresse : l’été 2023 risque d’être plus critique que le précédent",
+    "quote": "En raison de la sécheresse, les lavage auto des Pyrénées-Orientales pourraient bientôt fermer leurs portes pour tenter de préserver de l’eau au maximum et c’est déjà le cas dans certaines zones de l’Ain.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-l-ete-2023-risque-d-etre-plus-critique-que-le-precedent_5805533.html",
+    "publishedAt": "2023-05-03",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : les stations de lavage de voitures bientôt fermées ?",
+    "quote": "En raison de la sécheresse, les lavage auto des Pyrénées-Orientales pourraient bientôt fermer leurs portes pour tenter de préserver de l’eau au maximum et c’est déjà le cas dans certaines zones de l’Ain.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-les-stations-de-lavage-de-voitures-bientot-fermees_5805476.html",
+    "publishedAt": "2023-05-03",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Le Sénat épingle le lobby des pesticides, accusé de chantage à l’emploi mensonger",
+    "quote": "Phyteis est accusée d’avoir brandi des chiffres sans fondement d’emplois menacés pour combattre l’interdiction de la production de certains pesticides toxiques sur le sol français.",
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2023/05/03/le-senat-epingle-le-lobby-des-pesticides-accuse-de-chantage-a-l-emploi-mensonger_6171926_4355770.html",
+    "publishedAt": "2023-05-03",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
     "title": "L’ONU alerte sur la gravité record des crises alimentaires dans le monde",
     "quote": "Selon un rapport conjoint de plusieurs agences internationales, le nombre de personnes en situation d’insécurité alimentaire aiguë a triplé en six ans.",
     "url": "https://www.lemonde.fr/planete/article/2023/05/03/l-onu-alerte-sur-la-gravite-record-des-crises-alimentaires-dans-le-monde_6171885_3244.html",
