@@ -1,5 +1,45 @@
 [
   {
+    "title": "Sécheresse : le ministre de l'Agriculture Marc Fesneau annonce un plan d'aide aux agriculteurs",
+    "quote": "En déplacement dans les Pyrénées-Orientales, où il a rencontré des agriculteurs lourdement touchés par la sécheresse, le ministre de l'Agriculture a annoncé, samedi 6 mai, que l'État couvrirait les pertes de récoltes et assurerait un débit minimum pour permettre l'irrigation.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-le-ministre-de-l-agriculture-marc-fesneau-annonce-un-plan-d-aide-aux-agriculteurs_5811101.html",
+    "publishedAt": "2023-05-06",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Sécheresse : des aides pour les agriculteurs des Pyrénées-Orientales",
+    "quote": "Un collectif rassemblant les principales associations de défense de la biodiversité estime, dans une tribune au « Monde », qu’il est temps d’abandonner le piégeage des renards roux, pies bavardes, geais des chênes, martres des pins, fouines, belettes, étourneaux sansonnets, corneilles noires et corbeaux freux. Une élimination qui porte préjudice aux écosystèmes, voire à l’agriculture.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-des-aides-pour-les-agriculteurs-des-pyrenees-orientales_5810972.html",
+    "publishedAt": "2023-05-06",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "« Comment se fait-il qu’on encourage encore le piégeage de ces oiseaux et mammifères dits “nuisibles”, au mépris des données scientifiques ? »",
+    "quote": "Un collectif rassemblant les principales associations de défense de la biodiversité estime, dans une tribune au « Monde », qu’il est temps d’abandonner le piégeage des renards roux, pies bavardes, geais des chênes, martres des pins, fouines, belettes, étourneaux sansonnets, corneilles noires et corbeaux freux. Une élimination qui porte préjudice aux écosystèmes, voire à l’agriculture.",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/06/comment-se-fait-il-qu-on-encourage-encore-le-piegeage-de-ces-oiseaux-et-mammiferes-dits-nuisibles-au-mepris-des-donnees-scientifiques_6172349_3232.html",
+    "publishedAt": "2023-05-06",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "L'Australie donne son feu vert à la fracturation hydraulique dans le bassin de Beetaloo : \"Cela va détruire nos sites sacrés et nos ressources en eau\"",
+    "quote": "Les autorités du territoire du Nord ont autorisé des opérations de fracturation hydraulique dans l'immense réserve gazière du bassin de Beetaloo, suscitant l'ire des scientifiques et des communautés aborigènes locales.",
+    "url": "https://www.francetvinfo.fr/monde/pacifique/l-australie-donne-son-feu-vert-a-la-fracturation-hydraulique-dans-le-bassin-de-beetaloo-cela-va-detruire-nos-sites-sacres-et-nos-ressources-en-eau_5808659.html",
+    "publishedAt": "2023-05-06",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "La vente des piscines hors-sol interdite dans les Pyrénées-Orientales",
+    "quote": "L’annonce intervient au moment où des mesures « de crise », dont de nouvelles restrictions d’eau, devraient entrer en vigueur le 10 mai dans ce département touché par une sécheresse exceptionnelle.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/05/la-vente-des-piscines-hors-sol-interdite-dans-les-pyrenees-orientales_6172249_3244.html",
+    "publishedAt": "2023-05-05",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
     "title": "Recycler les vieux bateaux : un défi technologique",
     "quote": "De vieux bateaux hors d’usage abandonnés sur le littoral. L'image pourrait sembler poétique mais ces épaves, souvent constituées de matériaux peu recyclables, s'accumulent le long des côtes françaises et posent de sérieux problèmes de pollution. Plusieurs entreprises développent des techniques de recyclage innovantes mais incomplètes. Certaines s’attaquent à la fabrication de matériaux plus facilement recyclables à l’avenir.",
     "url": "https://www.france24.com/fr/%C3%A9missions/%C3%A9l%C3%A9ment-terre/20230505-recycler-les-vieux-bateaux-un-d%C3%A9fi-technologique",
