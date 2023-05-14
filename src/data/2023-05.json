@@ -1,5 +1,109 @@
 [
   {
+    "title": "Sécheresse : une partie des Pyrénées-Orientales passe en situation de \"crise\"",
+    "quote": "À compter du 10 mai, plusieurs zones des Pyrénées-Orientales vont basculer en \"crise sécheresse\", le niveau d'alerte maximale. Depuis un an, le département est celui qui connaît le plus gros déficit en eau.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-une-partie-des-pyrenees-orientales-passe-en-situation-de-crise_5816894.html",
+    "publishedAt": "2023-05-10",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "En Andalousie, 26 personnes arrêtées pour vol d’eau afin d’irriguer avocatiers et manguiers",
+    "quote": "Près de 26 millions de mètres cubes d’eau auraient été volés dans quelque 250 puits illégaux dans l’Axarquia, région agricole du sud de l’Espagne où le niveau des réserves est déjà préoccupant à la veille de l’été.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/09/en-andalousie-26-personnes-arretees-pour-vol-d-eau-afin-d-irriguer-avocatiers-et-manguiers_6172679_3244.html",
+    "publishedAt": "2023-05-09",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : la majorité des Pyrénées-Orientales passe en situation de « crise »",
+    "quote": "Le préfet a renforcé les restrictions d’irrigation agricole et interdit la remise à niveau des piscines ou l’utilisation des spas.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/09/secheresse-la-majorite-des-pyrenees-orientales-passe-en-situation-de-crise_6172671_3244.html",
+    "publishedAt": "2023-05-09",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Pourquoi a-t-on autant de mal à adopter des comportements écolos ?",
+    "quote": "Sécheresse, canicules, inondations, pollution... La planète souffre, et nous sommes (presque) tous conscients de l'effet néfaste de certains de nos comportements sur notre environnement. Pourquoi avons-nous tant de mal à les changer ?",
+    "url": "https://www.lefigaro.fr/sciences/pourquoi-a-t-on-autant-de-mal-a-adopter-des-comportements-ecolos-20230509",
+    "publishedAt": "2023-05-09",
+    "publishedBy": "Le Figaro",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Développement des aéroports, nombre de passagers, émissions de CO2 : visualisez la croissance du trafic en France",
+    "quote": "Le trafic aérien est en hausse depuis des décennies, malgré l'impact de ce mode de transport sur le réchauffement climatique.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/infographies-developpement-des-aeroports-nombre-de-passagers-emissions-de-co2-visualisez-la-croissance-du-trafic-en-france_5810888.html",
+    "publishedAt": "2023-05-09",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Monténégro : les bouches de Kotor submergées par les touristes",
+    "quote": "Les bouches de Kotor sont les joyaux du Monténégro. Seulement, ce patrimoine unique est menacé par le tourisme de masse. Dans la baie, les bateaux de croisière polluent et détruisent la faune sous-marine. Cette situation inquiète les pêcheurs locaux.",
+    "url": "https://www.francetvinfo.fr/economie/tourisme/montenegro-les-bouches-de-kotor-submergees-par-les-touristes_5814041.html",
+    "publishedAt": "2023-05-08",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Un incendie de forêt parcourt 30 hectares à Argelès-sur-mer, dans les Pyrénées-Orientales",
+    "quote": "Le feu a été fixé dans la soirée, a signalé le service départemental d’incendie et de secours (SDIS). Le département est touché par une sécheresse exceptionnelle.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/08/un-incendie-de-foret-parcourt-30-hectares-a-argeles-sur-mer-dans-les-pyrenees-orientales_6172546_3244.html",
+    "publishedAt": "2023-05-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "A Annecy, l’inquiétante raréfaction de l’omble chevalier alerte sur le réchauffement du lac",
+    "quote": "La variation de la température en eau profonde compromet la reproduction du poisson emblématique des lacs alpins. La société de pêche refroidit l’eau pour élever les alevins. Un signal qui pousse la région à interroger son modèle de développement.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/08/a-annecy-l-inquietante-rarefaction-de-l-omble-chevalier-alerte-sur-le-rechauffement-du-lac_6172523_3244.html",
+    "publishedAt": "2023-05-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Des scientifiques et experts demandent à TotalEnergies l'abandon de son projet d'oléoduc en Afrique de l'Est",
+    "quote": "Dans une tribune au \"Monde\", le collectif appelle les actionnaires de l'entreprise française \"à voter contre la stratégie climat de la firme\".",
+    "url": "https://www.francetvinfo.fr/monde/afrique/ouganda/des-scientifiques-et-experts-demandent-a-totalenergies-l-abandon-de-son-projet-d-oleoduc-en-afrique-de-l-est_5813690.html",
+    "publishedAt": "2023-05-08",
+    "publishedBy": "France Info",
+    "categoryId": "energy"
+  },
+  {
+    "title": "\"On risque de passer des mois difficiles\" : dans les Pyrénées-Orientales, touchées par une sécheresse historique, une saison touristique sous haute tension",
+    "quote": "Les Pyrénées-Orientales s'apprêtent à vivre une saison touristique compliquée par le manque d'eau, alors qu'une partie du département va passer en situation de crise sécheresse.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-choix-franceinfo/on-risque-de-passer-des-mois-difficiles-dans-les-pyrenees-orientales-touchees-par-une-secheresse-historique-une-saison-touristique-sous-haute-tension_5787746.html",
+    "publishedAt": "2023-05-08",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Nitrites dans les charcuteries : « En dépit de la certitude de leur effet délétère, le gouvernement se refuse à agir avec fermeté »",
+    "quote": "L’absence de volonté des pouvoirs publics sur le dossier n’incline guère à l’optimisme sur leur capacité à prendre à bras-le-corps les questions environnementales, s’inquiète dans sa chronique Stéphane Foucart, journaliste au « Monde ».",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/08/nitrites-dans-les-charcuteries-en-depit-de-la-certitude-de-leur-effet-deletere-le-gouvernement-se-refuse-a-agir-avec-fermete_6172473_3232.html",
+    "publishedAt": "2023-05-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "« Nous, scientifiques et experts, appelons les actionnaires de TotalEnergies à voter contre la stratégie climat de la firme »",
+    "quote": "Dans une tribune au « Monde », un collectif de 188 scientifiques et experts, parmi lesquels Valérie Masson-Delmotte, Philippe Descola ou Jean Jouzel, dénonce la « bombe carbone » que représente le projet d’oléoduc en Ouganda de la multinationale française.",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/07/nous-scientifiques-et-experts-appelons-les-actionnaires-de-totalenergies-a-voter-contre-la-strategie-climat-de-la-firme_6172438_3232.html",
+    "publishedAt": "2023-05-07",
+    "publishedBy": "Le Monde",
+    "categoryId": "energy"
+  },
+  {
+    "title": "Chaleur, moustiques: de nouveaux risques à appréhender",
+    "quote": "Les températures moyennes vont continuer d’augmenter et les vagues de chaleur devraient survenir de plus en plus tôt et durer plus longtemps.",
+    "url": "https://www.lefigaro.fr/sciences/chaleur-moustiques-de-nouveaux-risques-a-apprehender-20230507",
+    "publishedAt": "2023-05-07",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
     "title": "Sécheresse : le ministre de l'Agriculture Marc Fesneau annonce un plan d'aide aux agriculteurs",
     "quote": "En déplacement dans les Pyrénées-Orientales, où il a rencontré des agriculteurs lourdement touchés par la sécheresse, le ministre de l'Agriculture a annoncé, samedi 6 mai, que l'État couvrirait les pertes de récoltes et assurerait un débit minimum pour permettre l'irrigation.",
     "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-le-ministre-de-l-agriculture-marc-fesneau-annonce-un-plan-d-aide-aux-agriculteurs_5811101.html",
