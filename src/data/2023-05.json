@@ -1,5 +1,53 @@
 [
   {
+    "title": "Nutri-score : 320 scientifiques pressent la Commission européenne de ne pas renier ses engagements sur l’étiquetage nutritionnel",
+    "quote": "Attendue à la fin de 2022, la proposition de Bruxelles pour un étiquetage harmonisé tarde à être présentée, et risque d’être repoussée à la prochaine législature.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/11/nutri-score-320-scientifiques-pressent-la-commission-europeenne-de-ne-pas-renier-ses-engagements-sur-l-etiquetage-nutritionnel_6172896_3244.html",
+    "publishedAt": "2023-05-11",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Pyrénées-Orientales : plus de 130 vacanciers évacués à cause d’un incendie",
+    "quote": "Un second feu a brûlé 5 hectares dans ce département passé depuis mardi du niveau d’« alerte renforcée » à celui de « crise » du fait de la sécheresse.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/10/pyrenees-orientales-plus-de-130-vacanciers-evacues-a-cause-d-un-incendie_6172857_3244.html",
+    "publishedAt": "2023-05-10",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Grippe aviaire : nouveaux cas dans le Sud-Ouest",
+    "quote": "Des foyers ont été détectés dans des élevages du Gers et des Landes, alors que la France avait rétrogradé fin avril le niveau de risque d’« élevé » à « modéré ».",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/10/grippe-aviaire-nouveaux-cas-dans-le-sud-ouest_6172853_3244.html",
+    "publishedAt": "2023-05-10",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Au chevet de la santé des eaux du Léman",
+    "quote": "Le lac frontalier entre la France et la Suisse est confronté à une hausse de la température en surface qui modifie l’équilibre de son écosystème.",
+    "url": "https://www.lefigaro.fr/sciences/au-chevet-de-la-sante-des-eaux-du-leman-20230510",
+    "publishedAt": "2023-05-10",
+    "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Maltraitance animale dans un abattoir aveyronnais : L214 fait condamner l’Etat pour contrôles « insuffisants »",
+    "quote": "La justice a condamné l’Etat à verser la somme de 4 500 euros à l’association antispéciste, dont 3 000 euros pour son « préjudice moral lié à la faute de l’Etat dans l’insuffisance de ses contrôles de la réglementation relative à la protection animale par l’abattoir d’Arsac ».",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/10/maltraitance-animale-dans-un-abattoir-aveyronnais-l214-fait-condamner-l-etat-pour-controles-insuffisants_6172783_3244.html",
+    "publishedAt": "2023-05-10",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "« Ryanair, plus que ses concurrents, a balayé les illusions d’un “monde d’après” pandémie plus sobre »",
+    "quote": "La compagne aérienne à bas coût Ryanair a annoncé, mardi 9 mai, la plus grosse commande d’avions Boeing de son histoire. Une politique de développement forcenée, en dépit de l’urgence climatique, constate dans sa chronique, Jean-Michel Bezat, journaliste au « Monde ».",
+    "url": "https://www.lemonde.fr/economie/article/2023/05/10/ryanair-plus-que-ses-concurrents-a-balaye-les-illusions-d-un-monde-d-apres-pandemie-plus-sobre_6172760_3234.html",
+    "publishedAt": "2023-05-10",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
     "title": "Sécheresse : une partie des Pyrénées-Orientales passe en situation de \"crise\"",
     "quote": "À compter du 10 mai, plusieurs zones des Pyrénées-Orientales vont basculer en \"crise sécheresse\", le niveau d'alerte maximale. Depuis un an, le département est celui qui connaît le plus gros déficit en eau.",
     "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-une-partie-des-pyrenees-orientales-passe-en-situation-de-crise_5816894.html",
