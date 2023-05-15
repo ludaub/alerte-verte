@@ -1,5 +1,61 @@
 [
   {
+    "title": "« Notre Nutella du matin et nos lapins en chocolat sont à l’origine de violations de droits humains, d’accaparement de terres et de destruction du monde vivant »",
+    "quote": "Noam Chomsky, Cyril Dion, Adèle Haenel, Annie Ernaux et plusieurs personnalités du monde intellectuel et culturel affirment, dans une tribune, leur solidarité avec le Mouvement des sans-terre brésilien et des ONG Rainforest Alliance et Global Witness pour dénoncer l’exploitation de la forêt amazonienne au profit des multinationales.",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/13/notre-nutella-du-matin-et-nos-lapins-en-chocolat-sont-a-l-origine-de-violations-de-droits-humains-d-accaparement-de-terres-et-de-destruction-du-monde-vivant_6173213_3232.html",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Sécheresse : la quasi-totalité de l’Hérault en alerte ou en alerte renforcée",
+    "quote": "Le déficit hydrique est comparable à celui habituellement constaté à la fin du mois de juin, selon le préfet.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/12/secheresse-la-quasi-totalite-de-l-herault-en-alerte-ou-en-alerte-renforcee_6173172_3244.html",
+    "publishedAt": "2023-05-12",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Comment expliquer la violence des incendies qui ont déjà ravagé 400.000 hectares au Canada ?",
+    "quote": "Près d'une centaine de feux exceptionnels pour la saison grignote la forêt de la province de l'Alberta. L'état d'urgence a été déclaré.",
+    "url": "https://www.lefigaro.fr/sciences/comment-expliquer-la-violence-des-incendies-qui-ont-deja-ravage-400-000-hectares-au-canada-20230512",
+    "publishedAt": "2023-05-12",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Dans les villages de RDC ravagés par des glissements de terrain : « Nous sommes foutus, abandonnés, sans aucune assistance »",
+    "quote": "Une semaine après des inondations dévastatrices, le nombre de victimes est officiellement de 400, mais les disparus restent très nombreux. Le déboisement est en cause dans cette catastrophe.",
+    "url": "https://www.lemonde.fr/afrique/article/2023/05/12/dans-les-villages-de-rdc-ravages-par-des-glissements-de-terrain-nous-sommes-foutus-abandonnes-sans-aucune-assistance_6173073_3212.html",
+    "publishedAt": "2023-05-12",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Biodiversité : des espèces exotiques, animales ou végétales, envahissent le sud de la France, favorisées par le réchauffement climatique",
+    "quote": "À cause du réchauffement climatique, des centaines d'espèces invasives exotiques colonisent la faune et la flore françaises. Les scientifiques surveillent le phénomène pour éviter que l'une d'elles prennent le dessus sur toutes les autres. Reportage sur l’Etang de l’Or près de Montpellier, un étang de bord de mer d’une dizaine de km de long.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/biodiversite/biodiversite-des-especes-exotiques-animales-ou-vegetales-envahissent-le-sud-de-la-france-favorisees-par-le-rechauffement-climatique_5819798.html",
+    "publishedAt": "2023-05-12",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "France : alerte sécheresse maximale dans les Pyrénées-Orientales",
+    "quote": "Des restrictions drastiques d'utilisation de l'eau entrent en vigueur mercredi dans les Pyrénées-Orientales, où le niveau des rivières, des barrages et nappes phréatiques a déjà atteint un niveau estival, alors que la saison touristique va débuter.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230511-france-alerte-s%C3%A9cheresse-maximale-dans-les-pyr%C3%A9n%C3%A9es-orientales",
+    "publishedAt": "2023-05-11",
+    "publishedBy": "France 24",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : niveau d'alerte maximal dans les Pyrénées-Orientales",
+    "quote": "Une sécheresse précoce et inédite touche les Pyrénées-Orientales. Mercredi 10 mai, le département a vu son niveau d'alerte relevé au maximum. L'usage de l'eau est strictement encadré.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-niveau-d-alerte-maximal-dans-les-pyrenees-orientales_5819234.html",
+    "publishedAt": "2023-05-11",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
     "title": "Nutri-score : 320 scientifiques pressent la Commission européenne de ne pas renier ses engagements sur l’étiquetage nutritionnel",
     "quote": "Attendue à la fin de 2022, la proposition de Bruxelles pour un étiquetage harmonisé tarde à être présentée, et risque d’être repoussée à la prochaine législature.",
     "url": "https://www.lemonde.fr/planete/article/2023/05/11/nutri-score-320-scientifiques-pressent-la-commission-europeenne-de-ne-pas-renier-ses-engagements-sur-l-etiquetage-nutritionnel_6172896_3244.html",
@@ -221,7 +277,7 @@
     "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-la-france-doit-se-preparer-a-4-c-d-ici-a-2100-selon-le-conseil-national-de-la-transition-ecologique_5808737.html",
     "publishedAt": "2023-05-05",
     "publishedBy": "France Info",
-    "categoryId": "environment"
+    "categoryId": "climate"
   },
   {
     "title": "Italie : les plages de Rosignano Solvay, un paradis toxique",
