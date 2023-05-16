@@ -1,5 +1,69 @@
 [
   {
+    "title": "A Kyoto, la floraison précoce des cerisiers témoigne du réchauffement du climat",
+    "quote": "L’influence humaine augmente la probabilité d’une floraison extrêmement précoce des cerisiers dans l’ancienne capitale impériale du pays, selon les scientifiques.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/14/a-kyoto-la-floraison-precoce-des-cerisiers-temoigne-du-rechauffement-du-climat_6173288_3244.html",
+    "publishedAt": "2023-05-14",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Érosion : de plus en plus d’habitants vivent sous la menace d’un effondrement",
+    "quote": "Le village de Brienz, dans les Alpes suisses, est sous la menace, en surplomb, de 2 millions de m3 de roche, qui pourraient s’effondrer dans les prochains jours. Une menace liée au dérèglement climatique, qui existe aussi, de plus en plus souvent, pour de nombreuses maisons situées le long du littoral, en France.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/erosion-de-plus-en-plus-d-habitants-vivent-sous-la-menace-d-un-effondrement_5823425.html",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Dérèglement climatique : le risque d’une pénurie mondiale de jus d’orange",
+    "quote": "Alors que 90% des Français achètent des jus de fruits, manquera-t-on bientôt de concentré d’orange ? La production est en ce moment en chute libre en raison des aléas climatiques.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/dereglement-climatique-le-risque-d-une-penurie-mondiale-de-jus-d-orange_5823386.html",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Consommation : le dérèglement climatique devrait entraîner une pénurie mondiale de jus d’orange",
+    "quote": "Les industriels s'inquiètent d'une pénurie mondiale de concentré de jus d’orange En cause, une chute de la production d'orange, notamment en Floride, touchée par l'ouragan Ian en septembre 2022. Le manque risque de s'installer progressivement dans les prochains mois.",
+    "url": "https://www.francetvinfo.fr/economie/consommation-le-dereglement-climatique-devrait-entrainer-une-penurie-mondiale-de-jus-d-orange_5823218.html",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Crise climatique : vers une pénurie mondiale de jus d'orange ?",
+    "quote": "Après la moutarde qui a fait un temps défaut dans les rayons des supermarchés, cela pourrait être au tour du concentré de jus d'orange. Une pénurie mondiale guette.. Pour quelles raisons ?",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/crise-climatique-vers-une-penurie-mondiale-de-jus-d-orange_5823200.html",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "\"Le sol n'a jamais été aussi sec\" : à Alcoy, en Espagne, l'attente sans fin de la pluie",
+    "quote": "À Alcoy, petit village de la province espagnole d'Alicante, il ne pleut plus depuis des semaines. Sans eau, Ricardo Ferri, à la tête d'une petite exploitation familiale de céréales, a progressivement vu toute sa production annuelle disparaître. Angoissé, il envisage aujourd'hui de transformer totalement son activité. Dernière solution avant de se résoudre à vendre son domaine.",
+    "url": "https://www.france24.com/fr/europe/20230513-le-sol-n-a-jamais-%C3%A9t%C3%A9-aussi-sec-%C3%A0-alcoy-en-espagne-l-attente-sans-fin-de-la-pluie",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "France 24",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Climat : les Caraïbes appellent à s'organiser face à l'urgence climatique",
+    "quote": "Selon l'Association des Etats de la Caraïbe, en raison du réchauffement climatique, \"plus de 50 millions de personnes pourraient migrer des régions insulaires vers les régions continentales\", d'ici 2050.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/climat-les-caraibes-appellent-a-s-organiser-face-a-l-urgence-climatique_5822867.html",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "\"Sans eau, nous ne sommes rien\" : en Espagne, la sécheresse ravive le conflit autour du Tage",
+    "quote": "Depuis le début des années 1980, une partie des eaux du Tage, le plus long fleuve de la péninsule ibérique, est détournée pour alimenter le sud de l’Espagne. Un transfert qui a permis à cette région aride de devenir le \"potager de l'Europe\". Mais alors que l'or bleu devient de plus en plus rare sous l'effet des sécheresses à répétition et du dérèglement climatique, la colère gronde en amont du fleuve.",
+    "url": "https://www.france24.com/fr/europe/20230513-sans-eau-nous-ne-sommes-rien-en-espagne-la-s%C3%A9cheresse-ravive-le-conflit-autour-du-tage",
+    "publishedAt": "2023-05-13",
+    "publishedBy": "France 24",
+    "categoryId": "resources"
+  },
+  {
     "title": "« Notre Nutella du matin et nos lapins en chocolat sont à l’origine de violations de droits humains, d’accaparement de terres et de destruction du monde vivant »",
     "quote": "Noam Chomsky, Cyril Dion, Adèle Haenel, Annie Ernaux et plusieurs personnalités du monde intellectuel et culturel affirment, dans une tribune, leur solidarité avec le Mouvement des sans-terre brésilien et des ONG Rainforest Alliance et Global Witness pour dénoncer l’exploitation de la forêt amazonienne au profit des multinationales.",
     "url": "https://www.lemonde.fr/idees/article/2023/05/13/notre-nutella-du-matin-et-nos-lapins-en-chocolat-sont-a-l-origine-de-violations-de-droits-humains-d-accaparement-de-terres-et-de-destruction-du-monde-vivant_6173213_3232.html",
