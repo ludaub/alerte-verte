@@ -1,5 +1,85 @@
 [
   {
+    "title": "Pourquoi la France est toujours menacée de sécheresse",
+    "quote": "Malgré de fortes pluies pendant le printemps, plus des deux tiers des nappes phréatiques sont à des niveaux très bas.",
+    "url": "https://www.lefigaro.fr/sciences/pourquoi-la-france-est-toujours-menacee-de-secheresse-20230517",
+    "publishedAt": "2023-05-17",
+    "publishedBy": "Le Figaro",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : une majorité de nappes sous les normales mensuelles, le Sud-Est continue de s’assécher",
+    "quote": "La situation hydrogéologique du pays s’est globalement améliorée, mais de nombreuses nappes continuent d’afficher un niveau plus faible que d’habitude, notamment dans le Sud-Est, où les sols sont extrêmement secs.",
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2023/05/17/secheresse-une-majorite-de-nappes-sous-les-normales-mensuelles-le-sud-est-continue-de-s-assecher_6173786_4355770.html",
+    "publishedAt": "2023-05-17",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Climat : la période 2023-2027 sera probablement la plus chaude jamais enregistrée, affirme l'ONU",
+    "quote": "Les températures mondiales devraient aussi bientôt dépasser l'objectif le plus ambitieux de l'accord de Paris sur le climat, met en garde l'Organisation météorologique mondiale.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/climat-la-periode-2023-2027-sera-probablement-la-plus-chaude-jamais-enregistree-affirme-l-onu_5829431.html",
+    "publishedAt": "2023-05-17",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Risque de sécheresse : malgré les pluies du printemps, l'état des nappes phréatiques reste inquiétant avant l'été",
+    "quote": "La carte de la situation des nappes montre des niveaux en dessous des normales mensuelles. Et celle du risque sécheresse montre qu'aucun département n’affiche de niveau satisfaisant.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/cartes-risque-de-secheresse-malgre-les-pluies-du-printemps-l-etat-des-nappes-phreatiques-reste-inquietant-avant-l-ete_5829026.html",
+    "publishedAt": "2023-05-17",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Climat : la sécheresse menace toujours la France, malgré les pluies printanières",
+    "quote": "La pluie a permis de réduire le déficit hydrique français, mais pas dans toutes les régions.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/climat-la-secheresse-menace-toujours-la-france-malgre-les-pluies-printannieres_5829224.html",
+    "publishedAt": "2023-05-17",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Climat : les cinq prochaines années devraient être les plus chaudes",
+    "quote": "Les effets conjugués du réchauffement global et du phénomène El Niño dans le Pacifique devraient provoquer des températures records à l'échelle de la planète sur la période 2023-2027, prévient l'Organisation météorologique mondiale.",
+    "url": "https://www.lefigaro.fr/sciences/climat-les-5-prochaines-annees-devraient-etre-les-plus-chaudes-20230517",
+    "publishedAt": "2023-05-17",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Pesticides : le Sénat donne au gouvernement le pouvoir de suspendre une décision de l’Anses",
+    "quote": "Cet article controversé, qui n’était pas soutenu par l’exécutif, s’inscrit dans le cadre d’une proposition de loi visant à « créer un choc de compétitivité » dans l’agriculture. Ses détracteurs dénoncent une « régression environnementale ».",
+    "url": "https://www.lemonde.fr/politique/article/2023/05/17/pesticides-le-senat-donne-au-gouvernement-le-pouvoir-de-suspendre-une-decision-de-l-anses_6173644_823448.html",
+    "publishedAt": "2023-05-17",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Environnement : les pesticides en partie responsables du déclin des populations d’oiseaux",
+    "quote": "20 millions d’oiseaux meurent chaque année en Europe, selon une étude du CNRS. Elle confirme que l’agriculture intensive et le recours massif aux pesticides sont responsables de leur déclin.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/biodiversite/environnement-les-pesticides-en-partie-responsables-du-declin-des-populations-d-oiseaux_5828237.html",
+    "publishedAt": "2023-05-16",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "L’agriculture intensive est la première cause du déclin des oiseaux",
+    "quote": "Le nombre de volatiles a décliné de 25 % en quarante ans en Europe, voire de près de 60 % pour les espèces des milieux agricoles.",
+    "url": "https://www.lefigaro.fr/sciences/l-agriculture-intensive-est-la-premiere-cause-du-declin-des-oiseaux-20230516",
+    "publishedAt": "2023-05-16",
+    "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Le Colorado, grand fleuve de l’ouest des Etats-Unis, perd de son débit et le partage de son eau devient une question politique",
+    "quote": "Si les Etats riverains ne parviennent pas à se mettre d’accord pour revoir la répartition, décidée au début du XXe siècle, le gouvernement fédéral devra trancher dans le vif.",
+    "url": "https://www.lemonde.fr/international/article/2023/05/16/aux-etats-unis-le-faible-debit-du-colorado-rebat-les-cartes-du-partage-des-eaux_6173595_3210.html",
+    "publishedAt": "2023-05-16",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
     "title": "Biodiversité : l’inquiétante disparition des oiseaux européens",
     "quote": "Un quart des oiseaux européens a disparu en 40 ans, indique une nouvelle étude des chercheurs du CNRS et de l'université de Montpellier. Décryptage avec le journaliste Jean-Christophe Batteria, présent, mardi 16 mai, sur le plateau du 12/13.",
     "url": "https://www.francetvinfo.fr/monde/environnement/biodiversite/biodiversite-l-inquietante-disparition-des-oiseaux-europeens_5827787.html",
