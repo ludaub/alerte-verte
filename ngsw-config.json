@@ -29,13 +29,17 @@
           "https://fonts.gstatic.com/**"
         ]
       }
-    },
+    }
+  ],
+  "dataGroups": [
     {
       "name": "data",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "resources": {
-        "files": ["/data/*.json"]
+      "urls": ["/data/**"],
+      "cacheConfig": {
+        "maxSize": 0,
+        "maxAge": "1d",
+        "timeout": "0u",
+        "strategy": "freshness"
       }
     }
   ]
