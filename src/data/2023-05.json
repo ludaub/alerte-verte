@@ -1,5 +1,77 @@
 [
   {
+    "title": "Comment les monts de l’Hérault se préparent à leur plus grande sécheresse",
+    "quote": "L’inquiétude grandit alors que le niveau des nappes est déjà inférieur à l’été dernier dans la Haute Vallée de l’Orb, pourtant humide.",
+    "url": "https://www.lefigaro.fr/sciences/comment-les-monts-de-l-herault-se-preparent-a-leur-plus-grande-secheresse-20230519",
+    "publishedAt": "2023-05-19",
+    "publishedBy": "Le Figaro",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Incendies : comment les sapeurs-pompiers se préparent à des saisons de feux de forêt de plus en plus longues",
+    "quote": "\"Face au dérèglement climatique, nous sommes confrontés à des événements d'ampleur\", confirme le président de la Fédération nationale des sapeurs-pompiers. Or, dans le même temps, certaines casernes se trouvent aux prises avec des baisses d'effectifs.",
+    "url": "https://www.francetvinfo.fr/faits-divers/incendie/incendies-comment-les-sapeurs-pompiers-se-preparent-a-des-saisons-de-feux-de-foret-de-plus-en-plus-longues_5780144.html",
+    "publishedAt": "2023-05-19",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Sécheresse : pourquoi les pluies récentes ne suffisent pas ?",
+    "quote": "Les pluies ne suffisent pas à contrer la sécheresse en France, à cause notamment du réchauffement climatique important. Comment l’expliquer ?",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-pourquoi-les-pluies-recentes-ne-suffisent-pas_5831261.html",
+    "publishedAt": "2023-05-18",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Réchauffement climatique : la moitié des lacs et réservoirs du monde perdent de l'eau, même dans les régions humides",
+    "quote": "L'étude conclut que les lacs étudiés sur une période de 30 ans se sont vidés de l'équivalent de toute la consommation en eau des Etats-Unis en 2015.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/rechauffement-climatique-la-moitie-des-lacs-et-reservoirs-du-monde-perdent-de-l-eau-meme-dans-les-regions-humides_5831069.html",
+    "publishedAt": "2023-05-18",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : la crainte d'un été encore plus chaud",
+    "quote": "La sécheresse inquiète de plus en plus sur le territoire français. 28 départements français seront très probablement durement touchés, cet été, par le manque d'eau selon une étude.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-la-crainte-d-un-ete-encore-plus-chaud_5831036.html",
+    "publishedAt": "2023-05-18",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "La quantité d'eau diminue dans plus de la moitié des lacs et réservoirs du monde, selon une étude",
+    "quote": "La moitié des lacs et réservoirs du monde perdent de l'eau, dévoile une nouvelle étude publié dans le magazine Science, sous l'effet conjugué de la hausse des températures, de l'activité humaine et de la baisse des précipitations. Ils jouent pourtant un rôle primordial, dans le stockage du carbone notamment.",
+    "url": "https://www.france24.com/fr/plan%C3%A8te/20230518-la-quantit%C3%A9-d-eau-diminue-dans-plus-de-la-moiti%C3%A9-des-lacs-et-r%C3%A9servoirs-du-monde-selon-une-%C3%A9tude",
+    "publishedAt": "2023-05-18",
+    "publishedBy": "France 24",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : la France manque-t-elle toujours d’eau malgré la pluie ?",
+    "quote": "Les précipitations qui s’abattent sur l'ensemble du pays depuis plusieurs semaines ne suffiront pas à remplir les nappes phréatiques, car la plupart du temps, l’eau est absorbée par la végétation en plein essor.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-la-france-manque-t-elle-toujours-d-eau-malgre-la-pluie_5830835.html",
+    "publishedAt": "2023-05-18",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : les casse-tête des propriétaires de piscines pour économiser l’eau",
+    "quote": "En raison de cette forte sécheresse, il est interdit d'arroser son jardin ou de remplir sa piscine dans de nombreux départements, ce qui inquiète les fabricants qui redoutent une baisse de leur activité. Certains s’organisent donc pour en perdre le moins possible.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-les-casse-tete-des-proprietaires-de-piscines-pour-economiser-l-eau_5830742.html",
+    "publishedAt": "2023-05-18",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Climat : les cinq prochaines années seront les plus chaudes jamais enregistrées",
+    "quote": "L’Organisation météorologique mondiale anticipe de nouveaux records de chaleur dans les cinq ans à venir et le retour d'El Niño.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-billet-vert/climat-les-5-prochaines-annees-seront-les-plus-chaudes-jamais-enregistrees_5806319.html",
+    "publishedAt": "2023-05-18",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
     "title": "Pourquoi la France est toujours menacée de sécheresse",
     "quote": "Malgré de fortes pluies pendant le printemps, plus des deux tiers des nappes phréatiques sont à des niveaux très bas.",
     "url": "https://www.lefigaro.fr/sciences/pourquoi-la-france-est-toujours-menacee-de-secheresse-20230517",
