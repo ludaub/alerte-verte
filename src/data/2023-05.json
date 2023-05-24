@@ -1,5 +1,109 @@
 [
   {
+    "title": "Réchauffement climatique : le scénario catastrophe du gouvernement",
+    "quote": "Un réchauffement à plus de 4° en 2100, tel est le scénario retenu par le gouvernement pour son futur plan d’adaptation climatique. Avec des canicules plus longues et plus fortes, des inondations ou la fonte des glaciers, la France se doit d’anticiper ce dérèglement.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-le-scenario-catastrophe-du-gouvernement_5839412.html",
+    "publishedAt": "2023-05-21",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Réchauffement climatique : plus 4° en France en 2100 ?",
+    "quote": "Un réchauffement à plus de 4° en 2100, c'est le scénario retenu par le gouvernement pour son futur plan d'adaptation climatique. Une grande consultation publique sur le sujet sera lancée mardi 23 mai.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-plus-4-en-france-en-2100_5839133.html",
+    "publishedAt": "2023-05-21",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Réchauffement climatique : la France vivra sous plus 4° en 2100",
+    "quote": "L'avenir semble se diriger vers un scénario de +4° en 2100, mais quel serait l'impact du réchauffement climatique en France ? Le gouvernement lance mardi 23 mai une consultation sur ce point.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-la-france-vivra-sous-plus-4-en-2100_5839115.html",
+    "publishedAt": "2023-05-21",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Climat : le gouvernement va lancer une consultation pour définir à quel scénario la France doit se préparer avec l'hypothèse d'un réchauffement de +4°C",
+    "quote": "Avec un tel scénario, les sécheresses seront multipliées par cinq dans le pays.",
+    "url": "https://www.francetvinfo.fr/meteo/climat/climat-le-gouvernement-va-lancer-une-consultation-pour-definir-a-quel-scenario-la-france-doit-se-preparer-avec-l-hypothese-d-un-rechauffement-de-4-c_5838692.html",
+    "publishedAt": "2023-05-21",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "La France lance une consultation pour s'adapter à un réchauffement climatique à 4°C d'ici 2100",
+    "quote": "L'année 2022, la plus chaude jamais enregistrée en France depuis 1900, a marqué les esprits. Qu'en sera-t-il en 2100 ? Le gouvernement lance, mardi, une consultation publique jusqu'à la fin de l'été pour faire face à un réchauffement qui pourrait atteindre les 4°C à la fin du siècle. Dans ce scénario, les canicules pourraient durer jusqu'à deux mois.",
+    "url": "https://www.france24.com/fr/france/20230521-climat-l-ex%C3%A9cutif-fran%C3%A7ais-va-lancer-une-consultation-bas%C3%A9e-sur-4%C2%B0c-de-r%C3%A9chauffement-en-2100",
+    "publishedAt": "2023-05-21",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Environnement : le gouvernement va lancer une consultation sur le réchauffement climatique avec un scénario à 4°C en 2100",
+    "quote": "Le gouvernement donne mardi le coup d'envoi de sa nouvelle stratégie pour faire face à un réchauffement qui pourrait atteindre les 4°C en France. Avec un tel scénario, les sécheresses seront notamment multipliées par quatre.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/climat-le-gouvernement-va-lancer-une-consultation-pour-definir-a-quel-scenario-la-france-doit-se-preparer-avec-l-hypothese-d-un-rechauffement-de-4-c_5838095.html",
+    "publishedAt": "2023-05-21",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Réchauffement climatique : une consultation lancée pour préparer la France à une hausse de 4 °C",
+    "quote": "Par cette consultation qui doit s’achever à la fin de l’été, le gouvernement veut sensibiliser au scenario le plus « pessimiste », qui aura des impacts pour la population, l’économie et les collectivités.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/21/rechauffement-climatique-une-consultation-lancee-pour-preparer-la-france-a-une-hausse-de-4-c_6174193_3244.html",
+    "publishedAt": "2023-05-21",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Le Ghana, poubelle de la « fast fashion » mondiale",
+    "quote": "Le pays d’Afrique de l’Ouest est submergé par le débarquement massif de textiles usagés en provenance des pays occidentaux et d’Asie, dont la qualité de plus en plus médiocre empêche la commercialisation. Des activistes dénoncent un « colonialisme des déchets ».",
+    "url": "https://www.lemonde.fr/afrique/article/2023/05/20/le-ghana-poubelle-de-la-fast-fashion-mondiale_6174083_3212.html",
+    "publishedAt": "2023-05-20",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Les grands lacs ont perdu la moitié de leurs réserves d’eau en trente ans",
+    "quote": "Des relevés par satellite permettent d’évaluer les pertes des principaux réservoirs d’eau douce entre 1992 et 2020.",
+    "url": "https://www.lefigaro.fr/sciences/les-grands-lacs-ont-perdu-la-moitie-de-leurs-reserves-d-eau-en-trente-ans-20230519",
+    "publishedAt": "2023-05-19",
+    "publishedBy": "Le Figaro",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Assèchement de la moitié des lacs et réservoirs du monde : \"Ça a un effet accélérateur sur le réchauffement climatique\", explique l'un des auteurs de l'étude",
+    "quote": "Selon une étude publiée dans la revue Science, la quantité d'eau diminue dans plus de la moitié des lacs et réservoirs du monde. Conséquence de l'utilisation excessive de cette ressource par les humains et du dérèglement climatique.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/assechement-de-la-moitie-des-lacs-et-reservoirs-du-monde-ca-a-un-effet-accelerateur-sur-le-rechauffement-climatique-explique-l-un-des-auteurs-de-l-etude_5836841.html",
+    "publishedAt": "2023-05-19",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Climat : les lacs du monde entier s’assèchent selon un rapport alarmant",
+    "quote": "Selon une étude publiée dans la revue Sciences, plus de la moitié des lacs du monde se vident à cause du dérèglement climatique et de l’activité humaine. Un constat alarmant alors qu’ils contiennent 87 % de nos réserves en eau douce.",
+    "url": "https://www.francetvinfo.fr/meteo/climat/climat-les-lacs-du-monde-entier-s-assechent-selon-un-rapport-alarmant_5836781.html",
+    "publishedAt": "2023-05-19",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Sécheresse : malgré la pluie, le niveau des nappes phréatiques demeure très bas",
+    "quote": "Le niveau des nappes phréatiques est toujours très bas, notamment dans le sud-est de la France, malgré les pluies tombées ces dernières semaines. Ce manque d'eau, qui ne sera probablement pas comblé d'ici l'été, laisse présager d'une sécheresse très intense ces prochains mois.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-malgre-la-pluie-le-niveau-des-nappes-phreatiques-demeure-tres-bas_5836466.html",
+    "publishedAt": "2023-05-19",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Crise climatique : « Les programmes de sciences économiques et sociales au lycée portent la marque d’une vision dépassée »",
+    "quote": "L’inquiétude grandit alors que le niveau des nappes est déjà inférieur à l’été dernier dans la Haute Vallée de l’Orb, pourtant humide.",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/19/crise-climatique-les-programmes-de-sciences-economiques-et-sociales-au-lycee-portent-la-marque-d-une-vision-depassee_6173953_3232.html",
+    "publishedAt": "2023-05-19",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
     "title": "Comment les monts de l’Hérault se préparent à leur plus grande sécheresse",
     "quote": "L’inquiétude grandit alors que le niveau des nappes est déjà inférieur à l’été dernier dans la Haute Vallée de l’Orb, pourtant humide.",
     "url": "https://www.lefigaro.fr/sciences/comment-les-monts-de-l-herault-se-preparent-a-leur-plus-grande-secheresse-20230519",
