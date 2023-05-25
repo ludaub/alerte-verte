@@ -1,5 +1,85 @@
 [
   {
+    "title": "Pollution dans le métro : Les \"nouveaux matériels génèrent plus de particules fines\", affirme un syndicaliste de la RATP",
+    "quote": "D'après une étude publiée ce lundi, la concentration de particules fines dans le métro parisien atteint des records. Le syndicat FO-RATP appelle ce mardi la régie des transports parisiens à \"protéger les salariés\".",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/pollution-air/pollution-dans-le-metro-les-nouveaux-materiels-generent-plus-de-particules-fines-affirme-un-syndicaliste-de-la-ratp_5842775.html",
+    "publishedAt": "2023-05-23",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Pollution de l’air dans le métro : une étude alerte sur le niveau de particules fines",
+    "quote": "Selon les données collectées par des volontaires pour le compte de l’émission de France Télévisions, « Vert de rage », le niveau de pollution aux particules fines est cinq fois supérieur aux standards recommandés par l’OMS.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/23/pollution-de-l-air-dans-le-metro-une-etude-alerte-sur-le-niveau-de-particules-fines_6174442_3244.html",
+    "publishedAt": "2023-05-23",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Maine-et-Loire : une entreprise agricole condamnée pour l'intoxication d'une soixantaine de personnes après l'épandage d'un pesticide en 2018",
+    "quote": "En 2018, une soixantaine de personnes avaient été intoxiqués au métam-sodium à Brain-sur-l'Authion.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pesticides/maine-et-loire-une-entreprise-agricole-condamnee-pour-l-intoxication-d-une-soixantaine-de-personnes-apres-l-epandage-d-un-pesticide-en-2018_5841362.html",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Biodiversité : les agriculteurs pressés de préserver les haies",
+    "quote": "Alors qu'Elisabeth Borne a annoncé, lundi 22 mai, vouloir réduire d’un tiers les émissions de gaz à effet de serre d’ici 2030, la moitié des efforts semble revenir aux entreprises et agriculteurs. Mais nombreux sont les agriculteurs qui ne jouent pas le jeu, notamment dans l’entretien des haies, alors que 70% d’entre elles ont disparu en France à cause de leur activité.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/biodiversite/biodiversite-les-agriculteurs-presses-de-preserver-les-haies_5841212.html",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Climat : deux milliards de personnes pourraient être exposées à une chaleur dangereuse d'ici à 2100",
+    "quote": "L'Inde, le Nigeria ou l'Indonésie sont les pays comptant le plus grand nombre de personnes qui pourraient être confrontées à une chaleur mortelle, selon une étude publiée lundi.",
+    "url": "https://www.francetvinfo.fr/meteo/climat/climat-deux-milliards-de-personnes-pourraient-etre-exposees-a-une-chaleur-dangereuse-d-ici-a-2100_5841026.html",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Journée mondiale de la biodiversité biologique : \"1 million d’espèces sont menacées d’extinction\"",
+    "quote": "Après la journée des abeilles célébrée le samedi 20 mai, voici ce lundi 22 mai, la journée mondiale de la biodiversité biologique. Selon Juliette Landry, chercheuse à l’IDDRI, spécialiste des questions de gouvernance internationale, invitée de France 24, \"on ne pourra pas sauver la terre, sauver nos écosystèmes, lutter contre le changement climatique si on ne met pas en place un changement transformateur de nos sociétés.\"",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230522-journ%C3%A9e-mondiale-de-la-biodiversit%C3%A9-biologique-1-million-d-esp%C3%A8ces-sont-menac%C3%A9es-d-extinction",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "France 24",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Union européenne : « L’avenir de notre agriculture dépend de la bonne santé des écosystèmes »",
+    "quote": "Seule une politique ambitieuse de restauration de la nature peut assurer la sécurité alimentaire de l’Union européenne, expliquent, dans une tribune au « Monde », les responsables de vingt-sept organisations de défense de la nature, parmi lesquels Véronique Andrieux, directrice générale de WWF France, et Arnaud Schwartz, président de France Nature Environnement.",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/22/union-europeenne-l-avenir-de-notre-agriculture-depend-de-la-bonne-sante-des-ecosystemes_6174349_3232.html",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Climat : décarboner l'économie va ralentir la croissance et alourdir la dette publique, selon France Stratégie",
+    "quote": "\"Il va nous falloir faire en dix ans ce que nous avons eu de la peine à faire en 30 ans\", estime un rapport remis à la Première ministre.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/climat-decarboner-l-economie-va-ralentir-la-croissance-et-alourdir-la-dette-publique-selon-france-strategie_5840474.html",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Le mouflon méditerranéen sous haute surveillance",
+    "quote": "Dans l’Hérault, l’espèce est menacé par la sécheresse qui prive les animaux de leur nourriture.",
+    "url": "https://www.lefigaro.fr/sciences/le-mouflon-mediterraneen-sous-haute-surveillance-20230522",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Métam-sodium : une entreprise agricole jugée à Angers après l'intoxication de 70 personnes avec le pesticide",
+    "quote": "Ce produit dangereux pour la santé, et retiré du marché en 2018, a été utilisé durant de nombreuses années par les maraîchers français. Les associations environnementales regrettent qu'il ait fallu attendre un procès pour que les autorités sanitaires réagissent.",
+    "url": "https://www.francetvinfo.fr/faits-divers/justice-proces/metam-sodium-une-entreprise-agricole-jugee-a-angers-apres-l-intoxication-de-70-personnes-avec-le-pesticide_5840207.html",
+    "publishedAt": "2023-05-22",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
     "title": "Réchauffement climatique : le scénario catastrophe du gouvernement",
     "quote": "Un réchauffement à plus de 4° en 2100, tel est le scénario retenu par le gouvernement pour son futur plan d’adaptation climatique. Avec des canicules plus longues et plus fortes, des inondations ou la fonte des glaciers, la France se doit d’anticiper ce dérèglement.",
     "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-le-scenario-catastrophe-du-gouvernement_5839412.html",
