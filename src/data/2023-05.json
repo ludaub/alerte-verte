@@ -1,5 +1,109 @@
 [
   {
+    "title": "Le plastique : un problème colossal et persistant",
+    "quote": "Les quantités de plastique qui polluent notre planète sont énormes. Et au rythme actuel de la demande, leur utilisation mondiale devrait tripler d’ici à 2060.",
+    "url": "https://www.lefigaro.fr/sciences/le-plastique-un-probleme-colossal-et-persistant-20230526",
+    "publishedAt": "2023-05-26",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Une étude révèle une persistance inattendue des résidus de pesticides dans les sols en France",
+    "quote": "Les scientifiques ont recherché 111 substances sur 47 sites, de 2019 à 2021. Résultat, \"98% des sites étudiés présentent au moins une substance\", selon ces travaux.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pesticides/une-etude-revele-une-persistance-inattendue-des-residus-de-pesticides-dans-les-sols-en-france_5849348.html",
+    "publishedAt": "2023-05-26",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Crise climatique : sous la pression des conservateurs américains, l'alliance des assureurs pour le climat vole en éclats",
+    "quote": "Trois membres fondateurs de l'alliance mondiale des assureurs pour l'objectif zéro carbone (NZIA) ont annoncé leur départ jeudi.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/crise-climatique-sous-la-pression-des-conservateurs-americains-l-alliance-des-assureurs-pour-le-climat-vole-en-eclats_5847803.html",
+    "publishedAt": "2023-05-25",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Une présence généralisée des pesticides dans les sols agricoles de France, selon une étude-pilote",
+    "quote": "Une centaine de molécules ont été recherchées sur 47 sites répartis sur le territoire français. Au moins une substance a été retrouvée sur 46 des 47 sites examinés, y compris sur des terrains n’ayant jamais été traités.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/25/une-presence-generalisee-des-pesticides-dans-les-sols-agricoles-de-france-selon-une-etude-pilote_6174866_3244.html",
+    "publishedAt": "2023-05-25",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Trois banques françaises sommées d’arrêter de financer l’industrie du charbon",
+    "quote": "Le Crédit Agricole, la BNP et BPCE accordent des prêts et sont actionnaires de Glencore, le géant minier suisse décrié pour son impact environnemental. Une ONG colombienne vient de lancer une procédure contre les trois banques françaises pour qu’elles cessent ces financements.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/enquete-trois-banques-francaises-sommees-d-arreter-de-financer-l-industrie-du-charbon_5845241.html",
+    "publishedAt": "2023-05-25",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Greenwashing : sur 1 100 entreprises contrôlées en deux ans, un quart étaient \"en anomalie\", selon une enquête de la DGCCRF",
+    "quote": "Cette enquête dédiée au contrôle des allégations environnementales utilisées pour les produits non-alimentaires et les services a été menée en 2021 et 2022 par les services du ministère de l'Économie.",
+    "url": "https://www.francetvinfo.fr/societe/greenwashing-sur-1-100-entreprises-controlees-en-deux-ans-un-quart-etaient-en-anomalie-selon-une-enquete-de-la-dgccrf_5846561.html",
+    "publishedAt": "2023-05-25",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Fraude : le trafic florissant du glyphosate sur internet",
+    "quote": "Les particuliers n’ont plus l’autorisation d’utiliser du glyphosate depuis le mois de janvier 2019. Mais en ligne, le trafic s’organise.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pesticides/glyphosate/fraude-le-trafic-florissant-du-glyphosate-sur-internet_5845454.html",
+    "publishedAt": "2023-05-24",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "L’interdiction des vols intérieurs courts en France, une mesure vidée de sa substance",
+    "quote": "Avec trois liaisons concernées, la mesure aura un effet homéopathique sur les émissions de gaz à effet de serre de la France.",
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2023/05/24/l-interdiction-des-vols-interieurs-courts-en-france-une-mesure-videe-de-sa-substance_6174641_4355770.html",
+    "publishedAt": "2023-05-24",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Plus de la moitié des lacs, des réservoirs et des mers intérieures dans le monde perdent de l’eau",
+    "quote": "La diminution de la ressource en eau douce est à la fois due au changement climatique et aux activités humaines, selon une étude parue dans « Science ».",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/24/plus-de-la-moitie-des-lacs-et-reservoirs-du-monde-perdent-de-l-eau_6174588_3244.html",
+    "publishedAt": "2023-05-24",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Face aux insultes et menaces, de plus en plus de spécialistes du climat fuient Twitter",
+    "quote": "Des scientifiques confrontés à une déferlante d'insultes voire de menaces sur Twitter quittent désormais le célèbre réseau social. Depuis la prise de contrôle par Elon Musk, le négationnisme climatique a bondi sur le réseau social.",
+    "url": "https://www.france24.com/fr/info-en-continu/20230524-climat-insult%C3%A9s-ou-menac%C3%A9s-des-scientifiques-fuient-twitter",
+    "publishedAt": "2023-05-24",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Environnement : la filière bovine responsable de près de 12 % des émissions de CO2 en France",
+    "quote": "La filière est très remontée face au dernier rapport de la Cour des comptes, qui préconise de diminuer considérablement le nombre de vaches en France. 17 000 bêtes sont responsables de 11,8 % d’émissions de CO2 en France.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/environnement-la-filiere-bovine-responsable-de-pres-de-12-des-emissions-de-co2-en-france_5843516.html",
+    "publishedAt": "2023-05-23",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Sécheresse : entre la plaine de la Crau et l’étang de Berre, agriculteurs et particuliers redoutent un été aride",
+    "quote": "Les Bouches-du-Rhône sont confrontées à un fort déficit pluviométrique. Saint-Chamas et Istres ont été ciblées une grande partie de l’année 2022 par des restrictions d’eau. En cette mi-mai, la zone restait en vigilance sécheresse, le plus bas niveau du dispositif préfectoral.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/23/secheresse-entre-la-plaine-de-la-crau-et-l-etang-de-berre-agriculteurs-et-particuliers-redoutent-un-ete-aride_6174535_3244.html",
+    "publishedAt": "2023-05-23",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Pollution : le niveau de l’air très mauvais dans le métro parisien",
+    "quote": "Une campagne de mesure inédite, réalisée pour la série “Vert de rage” diffusée sur France 5, montre que le niveau de particules fines est jusqu’à 19 fois plus élevé que le seuil recommandé dans le métro parisien.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/pollution-air/pollution-le-niveau-de-l-air-tres-mauvais-dans-le-metro-parisien_5843030.html",
+    "publishedAt": "2023-05-23",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
     "title": "Pollution dans le métro : Les \"nouveaux matériels génèrent plus de particules fines\", affirme un syndicaliste de la RATP",
     "quote": "D'après une étude publiée ce lundi, la concentration de particules fines dans le métro parisien atteint des records. Le syndicat FO-RATP appelle ce mardi la régie des transports parisiens à \"protéger les salariés\".",
     "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/pollution-air/pollution-dans-le-metro-les-nouveaux-materiels-generent-plus-de-particules-fines-affirme-un-syndicaliste-de-la-ratp_5842775.html",
