@@ -1,5 +1,197 @@
 [
   {
+    "title": "Pollution : « Nous sommes en train de créer un monstrueux réservoir de particules de plastique »",
+    "quote": "Nathalie Gontard, chercheuse à l’Inrae, décrit l’impact majeur de la pollution générée par les objets en plastique tout au long de leur cycle de vie, et met en garde contre « l’illusion » du recyclage.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/31/pollution-nous-sommes-en-train-de-creer-un-monstrueux-reservoir-de-particules-de-plastique_6175601_3244.html",
+    "publishedAt": "2023-05-31",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "L’intense lobbying des industriels pour maintenir les quotas de CO₂ gratuits",
+    "quote": "Des responsables et anciens salariés d’ONG témoignent de la pression exercée par les industriels émetteurs de CO₂ auprès des députés européens pour reconduire le dispositif des « droits à polluer »",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/31/l-intense-lobbying-des-industriels-pour-maintenir-les-quotas-de-co-gratuits_6175521_3244.html",
+    "publishedAt": "2023-05-31",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Quotas gratuits de CO₂ pour inciter les industriels à réduire leurs émissions : le fiasco du dispositif européen",
+    "quote": "Ce second volet de notre enquête sur le système européen des quotas gratuits, né en 2005 et appelé à disparaître en 2034, révèle que le dispositif s’est révélé globalement inefficace pour inciter les industries du ciment et de l’acier à diminuer leurs émissions de gaz à effet de serre.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/31/quotas-gratuits-de-co-pour-inciter-les-industriels-a-reduire-leurs-emissions-le-fiasco-du-dispositif-europeen_6175502_3244.html",
+    "publishedAt": "2023-05-31",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Au Brésil, malgré les promesses de Lula, les menaces sur l’environnement se multiplient",
+    "quote": "La Chambre des députés, dominée par une droite ultraconservatrice et favorable à l’agronégoce, a adopté mardi un texte limitant les droits des peuples autochtones sur leurs terres. Une loi qui vient après d’autres mesures préoccupantes.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/31/au-bresil-malgre-les-promesses-de-lula-les-menaces-sur-l-environnement-se-multiplient_6175498_3244.html",
+    "publishedAt": "2023-05-31",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Les premiers réfugiés climatiques fuient le delta du Gange, entre l’Inde et le Bangladesh",
+    "quote": "Dans le delta du Gange, le plus vaste du monde, l’eau afflue et le sol se dérobe sous les pieds. Sur ces terres, qui devraient être englouties d’ici à la fin du siècle, quand à la nuit tombée, la peur de submersion est à son comble, le photographe indien Arko Datto documente la catastrophe en cours.",
+    "url": "https://www.lemonde.fr/m-le-mag/article/2023/05/31/dans-le-delta-du-gange-les-premiers-refugies-climatiques_6175495_4500055.html",
+    "publishedAt": "2023-05-31",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Au Royaume-Uni, une agriculture post-Brexit en pleine crise",
+    "quote": "Exploitants agricoles qui mettent la clé sous la porte, éleveurs qui vendent leurs troupeaux, pénuries de produits dans les magasins… L’abandon des bénéfices de la PAC et la hausse des coûts de l’énergie fragilisent le modèle agricole britannique.",
+    "url": "https://www.lemonde.fr/economie/article/2023/05/31/au-royaume-uni-une-agriculture-post-brexit-en-pleine-crise_6175494_3234.html",
+    "publishedAt": "2023-05-31",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Environnement : la neige rouge de plus en plus présente sur les glaciers du monde",
+    "quote": "La neige peut se teinter de rouge à l’approche de l’été. Le phénomène s’explique par des micro-algues qui prolifèrent. Les scientifiques s’inquiètent, car cela accélère la fonte des glaces.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/environnement-la-neige-rouge-de-plus-en-plus-presente-sur-les-glaciers-du-monde_5857430.html",
+    "publishedAt": "2023-05-30",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Voitures électriques : les nouvelles batteries LFP font baisser les prix, mais sèment le doute",
+    "quote": "La chimie lithium-fer-phosphate séduit de plus en plus de constructeurs, mais elle est difficile à recycler et renforce la dépendance aux usines chinoises.",
+    "url": "https://www.lemonde.fr/economie/article/2023/05/30/voitures-electriques-les-nouvelles-batteries-lfp-font-baisser-les-prix-mais-sement-le-doute_6175410_3234.html",
+    "publishedAt": "2023-05-30",
+    "publishedBy": "Le Monde",
+    "categoryId": "energy"
+  },
+  {
+    "title": "Pollution : l'impact nocif des pots de yaourt sur l'environnement",
+    "quote": "Les pots de yaourt sont une source de pollution préoccupante et sont difficilement recyclables. D'autres matériaux peuvent être utilisés, mais ils coûtent plus cher.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/pollution-l-impact-nocif-des-pots-de-yaourt-sur-l-environnement_5856428.html",
+    "publishedAt": "2023-05-30",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Pollution : le plastique, enjeu environnemental de plus en plus fort",
+    "quote": "Souvent impossible à recycler, le plastique est pourtant de plus en plus utilisé ces dernières années, dans différentes industries. Les pays riches, davantage consommateurs, renvoient des tonnes de déchets vers d'autres continents.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/pollution-le-plastique-enjeu-environnemental-de-plus-en-plus-fort_5856419.html",
+    "publishedAt": "2023-05-30",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Comment les entreprises polluantes ont transformé les quotas gratuits de CO₂ en un marché de plusieurs milliards d’euros",
+    "quote": "Alors que l’Union européenne renforce ses objectifs de décarbonation pour 2030, les cimentiers et les sidérurgistes ont utilisé le système d’aide communautaire pour gonfler leurs profits.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/30/comment-les-entreprises-polluantes-ont-transforme-les-quotas-gratuits-de-co-en-un-marche-de-plusieurs-milliards-d-euros_6175369_3244.html",
+    "publishedAt": "2023-05-30",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Pollution plastique : les pots de yaourt, un fléau pour l'environnement",
+    "quote": "Actuellement, 15 milliards de pots de yaourt sont achetés par an en France. La plupart du temps, ils sont incinérés ou jetés dans la nature.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pollution-plastique-les-pots-de-yaourt-un-fleau-pour-l-environnement_5855420.html",
+    "publishedAt": "2023-05-29",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Pollution du plastique : la Seine, un fleuve particulièrement touché",
+    "quote": "Une session de cinq jours de discussions serrées s'ouvre lundi à Paris afin de tenter d'avancer vers un traité pour mettre fin à la pollution du plastique. En France, la Seine n'est pas épargnée par cette pollution qui inquiète les scientifiques.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230529-pollution-du-plastique-la-seine-un-fleuve-particuli%C3%A8rement-touch%C3%A9",
+    "publishedAt": "2023-05-29",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Pollution plastique : comment transformer les 15 milliards de pots de yaourt achetés et jetés chaque année en France ?",
+    "quote": "Les négociateurs de 175 États sont réunis au siège de l'Unesco à Paris pour trouver un accord contraignant visant à lutter contre la pollution plastique. Les pots de yaourt, difficilement recyclables, y contribue fortement en France.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-choix-franceinfo/pollution-plastique-comment-transformer-les-15-milliards-de-pots-de-yaourt-achetes-et-jetes-chaque-annee-en-france_5824424.html",
+    "publishedAt": "2023-05-29",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "L’Inde, empoisonnée par le plastique, tente d’en venir à bout : « Dans la nature, c’est un tueur »",
+    "quote": "Malgré des tentatives pour mettre un terme à cette pollution, le pays génère chaque année près de 4 millions de tonnes de déchets plastiques, dont la majorité provient de produits à usage unique.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/29/l-inde-empoisonnee-par-le-plastique-tente-d-en-venir-a-bout-dans-la-nature-c-est-un-tueur_6175268_3244.html",
+    "publishedAt": "2023-05-29",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Le climatoscepticisme, anatomie d’une mauvaise foiLe plastique, une menace protéiforme",
+    "quote": "Alors que les événements climatiques extrêmes se multiplient, les discours niant le consensus scientifique sur le dérèglement du climat progressent. Derrière une façade pseudo-experte, leurs incohérences trahissent une profonde malhonnêteté intellectuelle.",
+    "url": "https://www.lemonde.fr/idees/article/2023/05/29/le-climatoscepticisme-anatomie-d-une-mauvaise-foi_6175264_3232.html",
+    "publishedAt": "2023-05-29",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Le plastique, une menace protéiforme",
+    "quote": "Plus de 350 millions de tonnes de déchets de plastique sont générées chaque année à l’échelle de la planète, une quantité qui devrait tripler d’ici à 2060 si rien n’est fait.",
+    "url": "https://www.lemonde.fr/planete/article/2023/05/29/le-plastique-une-menace-proteiforme_6175263_3244.html",
+    "publishedAt": "2023-05-29",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Des pénuries d’eau même en Cornouailles, avec le surtourisme et le gaspillage",
+    "quote": "Cette région du sud-ouest de l’Angleterre, normalement humide, peine à faire face à une sécheresse bénigne, à cause du sous-investissement dans ses infrastructures et de l’excès de tourisme.",
+    "url": "https://www.lemonde.fr/economie/article/2023/05/28/des-penuries-d-eau-meme-en-cornouailles-avec-le-surtourisme-et-le-gaspillage_6175206_3234.html",
+    "publishedAt": "2023-05-28",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Pollution : le fléau mondial du plastique au centre de discussions",
+    "quote": "Alors que sa production pourrait atteindre 1 milliard de tonnes par an en 2060, le plastique continue de polluer la planète et de détruire la biodiversité. Un traité mondial est à l'étude pour lutter contre ce problème.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/pollution-le-fleau-mondial-du-plastique-au-centre-de-discussions_5851862.html",
+    "publishedAt": "2023-05-27",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Les courants océaniques profonds ralentissent des décennies plus tôt que prévu sous l’effet de la fonte des glaces antarctiques",
+    "quote": "Selon une étude parue dans « Nature Climate Change », le ralentissement des courants océaniques profonds se produit « en avance sur le calendrier », menaçant la vie marine et risquant d’accélérer le réchauffement climatique.",
+    "url": "https://www.lemonde.fr/climat/article/2023/05/27/antarctique-les-courants-oceaniques-profonds-ralentissent-plus-tot-que-prevu-selon-une-etude_6175121_1652612.html",
+    "publishedAt": "2023-05-27",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Réchauffement climatique : \"Retarder l'action, cela veut dire peut-être perdre le lac Tchad\", alerte la militante écologiste nigériane Adenike Oladosu",
+    "quote": "L'activiste est présente lors du sommet ChangeNow qui vise à réunir les solutions les plus innovantes et les acteurs engagés dans la lutte climatique, à Paris, du 25 au 27 mai.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-retarder-l-action-cela-veut-dire-peut-etre-perdre-le-lac-tchad-alerte-la-militante-ecologiste-nigeriane-adenike-oladosu_5840801.html",
+    "publishedAt": "2023-05-27",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Environnement : le plastique toujours omniprésent",
+    "quote": "A-t-on réellement progressé dans la lutte contre la pollution plastique ? Des négociations délicates vont s’ouvrir à Paris, avec l’ambition d’un traité international avec des pays qui ont des horizons divergents.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/environnement-le-plastique-toujours-omnipresent_5849969.html",
+    "publishedAt": "2023-05-26",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Réchauffement climatique : les courants océaniques profonds en Antarctique ralentissent plus tôt que prévu, selon une étude",
+    "quote": "Ce ralentissement menace la biodiversité marine et risque d'accélérer le réchauffement climatique.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-les-courants-oceaniques-profonds-en-antarctique-ralentissent-plus-tot-que-prevu-selon-une-etude_5849942.html",
+    "publishedAt": "2023-05-26",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "L’inquiétant triple record climatique du 23 mai 2023 : températures de l’air et des océans au plus haut, surface de la banquise au plus bas",
+    "quote": "Trois pics simultanés ont été enregistrés mardi. Un événement rare probablement dû au hasard mais qui n’aurait pas été possible sans le réchauffement climatique.",
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2023/05/26/temperatures-de-l-air-et-des-oceans-au-plus-haut-surface-de-banquise-au-plus-bas-l-inquietant-triple-record-du-23-mai_6175023_4355770.html",
+    "publishedAt": "2023-05-26",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
     "title": "Le plastique : un problème colossal et persistant",
     "quote": "Les quantités de plastique qui polluent notre planète sont énormes. Et au rythme actuel de la demande, leur utilisation mondiale devrait tripler d’ici à 2060.",
     "url": "https://www.lefigaro.fr/sciences/le-plastique-un-probleme-colossal-et-persistant-20230526",

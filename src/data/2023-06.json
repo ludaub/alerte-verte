@@ -1,0 +1,58 @@
+[
+  {
+    "title": "« Justice pour le vivant » : la rapporteuse publique reconnaît des « fautes » de l’Etat dans la protection de la biodiversité",
+    "quote": "Cinq organisations accusent le gouvernement d’être responsable de défaillances dans le processus d’autorisation et de mise sur le marché des pesticides.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/01/justice-pour-le-vivant-la-rapporteuse-publique-reconnait-des-fautes-de-l-etat-dans-la-protection-de-la-biodiversite_6175797_3244.html",
+    "publishedAt": "2023-06-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Un Français consomme deux fois plus de viande que la moyenne mondiale",
+    "quote": "Avec 84,9 kilogrammes équivalent carcasse consommés par habitant en 2022, la consommation française se situe dans la moyenne européenne.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/01/un-francais-consomme-deux-fois-plus-de-viande-que-la-moyenne-mondiale_6175784_3244.html",
+    "publishedAt": "2023-06-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Pesticides : plusieurs fabricants, dont Bayer et Syngenta, n'ont pas transmis à l'UE des études sur la toxicité de leurs produits",
+    "quote": "Les entreprises pointées du doigt assurent, elles, avoir respecté leurs obligations réglementaires.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pesticides/pesticides-des-fabricants-n-ont-pas-transmis-a-l-union-europeenne-des-etudes-sur-leur-toxicite_5861483.html",
+    "publishedAt": "2023-06-01",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Pollution : où en est l'interdiction des emballages plastiques pour les fruits et légumes ?",
+    "quote": "Alors que les négociations pour un traité international contre la pollution plastique se terminent vendredi, l'interdiction de la plupart des emballages de fruits et légumes prise en janvier 2022 par le gouvernement français est toujours bloquée.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pollution-ou-en-est-l-interdiction-des-emballages-plastiques-pour-les-fruits-et-legumes_5861243.html",
+    "publishedAt": "2023-06-01",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Les monumentales tortues luths de Guyane, un trésor en sursis",
+    "quote": "Dans les années 1990, les plages guyanaises étaient de loin le premier site mondial de ponte de cette reine des mers. Des dizaines de milliers d’individus venaient déposer leurs œufs entre avril et juillet. Elles ne sont plus que quelques centaines.",
+    "url": "https://www.lefigaro.fr/sciences/les-monumentales-tortues-luths-de-guyane-un-tresor-en-sursis-20230601",
+    "publishedAt": "2023-06-01",
+    "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Pourquoi la consommation de viande ne baisse plus en France depuis dix ans",
+    "quote": "Depuis 2013, la consommation individuelle de viande a augmenté de 3 %, avec une hausse notable pour la volaille. La France s’est pourtant engagée, par l’objectif de neutralité carbone, à la réduire fortement.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/01/pourquoi-la-consommation-de-viande-ne-baisse-plus-en-france-depuis-dix-ans_6175735_3244.html",
+    "publishedAt": "2023-06-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Des géants des pesticides accusés d’avoir dissimulé la toxicité de leurs produits pour le cerveau en développement",
+    "quote": "Selon une étude publiée jeudi, plusieurs fabricants ont soustrait aux autorités européennes des résultats de tests qui mettaient notamment en évidence les effets délétères de leurs substances sur des animaux de laboratoire exposés in utero.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/01/des-geants-des-pesticides-accuses-d-avoir-dissimule-la-toxicite-de-leurs-produits-pour-le-cerveau-en-developpement_6175659_3244.html",
+    "publishedAt": "2023-06-01",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  }
+]
