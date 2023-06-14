@@ -1,5 +1,77 @@
 [
   {
+    "title": "En Chine, les bactéries et les virus libérés par la fonte des glaciers inquiètent les scientifiques",
+    "quote": "Dans les montagnes de l’Himalaya, des scientifiques chinois s’intéressent de très près à la fonte des glaciers provoquée par le réchauffement climatique.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-monde-est-a-nous/en-chine-les-bacteries-et-les-virus-liberes-par-la-fonte-des-glaciers-inquietent-les-scientifiques_5838446.html",
+    "publishedAt": "2023-06-04",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Environnement : comment les pesticides menacent la biodiversité",
+    "quote": "En France, un tiers des oiseaux ont disparu en campagne. Dans les Deux-Sèvres, des scientifiques comparent depuis 30 ans les conséquences des différentes pratiques agricoles.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pesticides/environnement-comment-les-pesticides-menacent-la-biodiversite_5866130.html",
+    "publishedAt": "2023-06-03",
+    "publishedBy": "France Info",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Alimentation : les Français aiment toujours autant la viande",
+    "quote": "La question de l'impact de la viande sur les objectifs de neutralité carbone est un sujet sensible. Où en est la consommation des Français ? Décryptage.",
+    "url": "https://www.francetvinfo.fr/sante/alimentation/alimentation-les-francais-aiment-toujours-autant-la-viande_5866091.html",
+    "publishedAt": "2023-06-03",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "« La dette, une simple convention sociale, est perçue comme plus dangereuse que la détérioration irréversible des conditions de vie sur Terre »",
+    "quote": "Rendu le 22 mai, le rapport de Jean Pisani-Ferry et Selma Mahfouz suggère de recourir à l’impôt et à l’endettement public pour engager l’action climatique. Des recommandations rejetées par le gouvernement au nom d’une orthodoxie économique datée, estime Stéphane Foucart, journaliste au « Monde », dans sa chronique.",
+    "url": "https://www.lemonde.fr/idees/article/2023/06/03/la-dette-une-simple-convention-sociale-est-percue-comme-plus-dangereuse-que-la-deterioration-irreversible-des-conditions-de-vie-sur-terre_6176045_3232.html",
+    "publishedAt": "2023-06-03",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Au Brésil, des terres de l’Amazonie à vendre sur Facebook",
+    "quote": "En poursuivant le travail du journaliste britannique Dom Phillips, assassiné en juin 2022, le consortium Forbidden Stories et ses médias partenaires dévoilent un système organisé d’accaparement des terres. A sa tête : un puissant propriétaire déjà mis en cause dans de gigantesques incendies qui ont ravagé l’Amazonie en 2019.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/03/au-bresil-des-terres-de-l-amazonie-a-vendre-sur-facebook_6176034_3244.html",
+    "publishedAt": "2023-06-03",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "De l’Amazonie à l’Europe, la filière brésilienne du bœuf continue d’exporter de la viande liée à la déforestation",
+    "quote": "Le consortium de journalistes Forbidden Stories a poursuivi l’enquête du reporter Dom Phillips, assassiné en Amazonie brésilienne il y a un an, sur le rôle des multinationales de la viande dans la déforestation.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/02/de-l-amazonie-a-l-europe-la-filiere-du-b-uf-continue-d-exporter-de-la-viande-liee-a-la-deforestation_6175899_3244.html",
+    "publishedAt": "2023-06-02",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "S-métolachlore : l'autorisation de mise sur le marché de l'herbicide prolongée par la Commission européenne",
+    "quote": "L'herbicide est utilisé principalement pour la culture du tournesol, du soja ou de la betterave. Selon l'Anses, des dérivés de ce pesticide ont été détectés au-delà des limites autorisées dans des eaux souterraines.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/pesticides/s-metolachlore-l-autorisation-de-mise-sur-le-marche-de-l-herbicide-prolongee-par-la-commission-europeenne_5863343.html",
+    "publishedAt": "2023-06-02",
+    "publishedBy": "France Info",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Lutte contre la pollution plastique : \"Nous ne nous en sortirons pas par le recyclage\"",
+    "quote": "La deuxième session de discussions visant à aboutir à un traité international sur la pollution plastique s'est ouverte cette semaine à Paris. Le recyclage est souvent présenté comme une solution pour réduire ces déchets, mais des études récentes montrent que le processus présente ses propres risques et qu'il ne peut compenser l'explosion de la production plastique.",
+    "url": "https://www.france24.com/fr/plan%C3%A8te/20230601-lutte-contre-la-pollution-plastique-nous-ne-nous-en-sortirons-pas-par-le-recyclage",
+    "publishedAt": "2023-06-02",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Les monumentales tortues luths de Guyane, un trésor en sursis",
+    "quote": "Dans les années 1990, les plages guyanaises étaient de loin le premier site mondial de ponte de cette reine des mers. Des dizaines de milliers d’individus venaient déposer leurs œufs entre avril et juillet. Elles ne sont plus que quelques centaines.",
+    "url": "https://www.lefigaro.fr/sciences/les-monumentales-tortues-luths-de-guyane-un-tresor-en-sursis-20230601",
+    "publishedAt": "2023-06-02",
+    "publishedBy": "Le Figaro",
+    "categoryId": "biodiversity"
+  },
+  {
     "title": "« Justice pour le vivant » : la rapporteuse publique reconnaît des « fautes » de l’Etat dans la protection de la biodiversité",
     "quote": "Cinq organisations accusent le gouvernement d’être responsable de défaillances dans le processus d’autorisation et de mise sur le marché des pesticides.",
     "url": "https://www.lemonde.fr/planete/article/2023/06/01/justice-pour-le-vivant-la-rapporteuse-publique-reconnait-des-fautes-de-l-etat-dans-la-protection-de-la-biodiversite_6175797_3244.html",
@@ -30,14 +102,6 @@
     "publishedAt": "2023-06-01",
     "publishedBy": "France Info",
     "categoryId": "environment"
-  },
-  {
-    "title": "Les monumentales tortues luths de Guyane, un trésor en sursis",
-    "quote": "Dans les années 1990, les plages guyanaises étaient de loin le premier site mondial de ponte de cette reine des mers. Des dizaines de milliers d’individus venaient déposer leurs œufs entre avril et juillet. Elles ne sont plus que quelques centaines.",
-    "url": "https://www.lefigaro.fr/sciences/les-monumentales-tortues-luths-de-guyane-un-tresor-en-sursis-20230601",
-    "publishedAt": "2023-06-01",
-    "publishedBy": "Le Figaro",
-    "categoryId": "biodiversity"
   },
   {
     "title": "Pourquoi la consommation de viande ne baisse plus en France depuis dix ans",
