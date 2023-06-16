@@ -1,5 +1,61 @@
 [
   {
+    "title": "À l’approche de l’été, le réchauffement climatique inquiète les Français",
+    "quote": "Plus de 90% des personnes interrogées pour une étude Ifop témoignent d’une intensification des événements extrêmes dans leur région.",
+    "url": "https://www.lefigaro.fr/sciences/a-l-approche-de-l-ete-le-rechauffement-climatique-inquiete-les-francais-20230606",
+    "publishedAt": "2023-06-06",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Costa rica : l'exceptionnelle \"forêt de nuages\" se dissipe",
+    "quote": "La \"forêt de nuages\" de Monteverde, au centre du Costa Rica, ne sera bientôt plus digne de ce nom : le changement climatique menace cet écosystème unique, et sa faune et sa flore sont confrontées à un avenir incertain sous un ciel d'un bleu éclatant.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230605-costa-rica-l-exceptionnelle-for%C3%AAt-de-nuages-se-dissipe",
+    "publishedAt": "2023-06-05",
+    "publishedBy": "France 24",
+    "categoryId": "biodiversity"
+  },
+  {
+    "title": "Pérou : une possible réouverture de la fonderie de La Oroya fait craindre pour la santé publique",
+    "quote": "Au Pérou, la réactivation d'une fonderie alimente un vif débat à La Oroya. Cette ville de 33 000 habitants est l’ancienne capitale de la métallurgie d’Amérique du Sud. C'était aussi l’une des villes les plus polluées au monde. Fermé en 2009, le complexe métallurgique a trouvé des repreneurs l’an dernier : 1 270 anciens travailleurs devenus actionnaires. Ils comptent relancer l’activité. Entre rêve de prospérité et craintes d’un retour de la pollution, les habitants de La Oroya se déchirent.",
+    "url": "https://www.france24.com/fr/%C3%A9missions/focus/20230605-p%C3%A9rou-une-possible-r%C3%A9ouverture-de-la-fonderie-de-la-oroya-fait-craindre-pour-la-sant%C3%A9-publique",
+    "publishedAt": "2023-06-05",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Pollution métallurgique au Pérou : la fonderie de la Oroya suscite des inquiétudes",
+    "quote": "Au Pérou, dans Altiplano, la plus haute région habitée au monde après le plateau tibétain se tient Oroya, 3 750 mètres d'altitude. C'est l'ancienne capitale de la métallurgie d’Amérique du Sud, longtemps l'un des endroits les plus pollués de la planète. Aujourd'hui, Oroya espère relancer son passé industriel à l'arrêt depuis 2009 mais pas au prix de la santé de ses habitants.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230605-pollution-m%C3%A9tallurgique-au-p%C3%A9rou-la-fonderie-de-la-oroya-suscite-des-inqui%C3%A9tudes",
+    "publishedAt": "2023-06-05",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "L'addiction mondiale au plastique et ses conséquences, en dix chiffres",
+    "quote": "Alors qu'une deuxième session de négociations s'est conclue vendredi à Paris pour avancer vers un traité international contre la pollution plastique, la Journée mondiale de l'environnement, lundi, est largement consacrée à ce fléau omniprésent dans notre quotidien. France 24 revient en dix chiffres sur l'ampleur de ce phénomène et ses conséquences.",
+    "url": "https://www.france24.com/fr/plan%C3%A8te/20230605-l-addiction-mondiale-au-plastique-et-ses-cons%C3%A9quences-en-dix-chiffres",
+    "publishedAt": "2023-06-05",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Climat : la France a-t-elle vraiment interdit des vols intérieurs ?",
+    "quote": "L’impact sur le réchauffement climatique de l’interdiction de trois vols intérieurs par le gouvernement est jugé minime par les associations et experts du climat.",
+    "url": "https://www.lemonde.fr/chaleur-humaine/article/2023/06/04/climat-la-france-a-t-elle-vraiment-interdit-des-vols-interieurs_6176130_6125299.html",
+    "publishedAt": "2023-06-04",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Construction bas carbone : « des réglementations en contradiction avec la transition écologique »",
+    "quote": "Alors qu’un projet d’arrêté sur la réglementation incendie dans le secteur du bâtiment met en péril la construction bas carbone, plus de 600 élus, architectes, promoteurs et bailleurs pointent les contradictions de l’Etat dans l’atteinte de ses objectifs en matière de transition écologique.",
+    "url": "https://www.lemonde.fr/idees/article/2023/06/04/construction-bas-carbone-des-reglementations-en-contradiction-avec-la-transition-ecologique_6176110_3232.html",
+    "publishedAt": "2023-06-04",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
     "title": "En Chine, les bactéries et les virus libérés par la fonte des glaciers inquiètent les scientifiques",
     "quote": "Dans les montagnes de l’Himalaya, des scientifiques chinois s’intéressent de très près à la fonte des glaciers provoquée par le réchauffement climatique.",
     "url": "https://www.francetvinfo.fr/replay-radio/le-monde-est-a-nous/en-chine-les-bacteries-et-les-virus-liberes-par-la-fonte-des-glaciers-inquietent-les-scientifiques_5838446.html",
