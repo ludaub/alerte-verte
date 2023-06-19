@@ -1,5 +1,317 @@
 [
   {
+    "title": "Immobilier : « Actuellement, en Angleterre, une propriété sur six est exposée au risque d’inondation »",
+    "quote": "Les deux chercheurs spécialisés en finances Nicole Lux et Alexandros Skouralis expliquent, dans une tribune au « Monde » que pour les acquéreurs de propriété au Royaume-Uni, les risques d’inondation seront le souci numéro un, en 2050, un scénario qui pourrait aussi concerner la France. Avec des conséquences sur les prix.",
+    "url": "https://www.lemonde.fr/idees/article/2023/06/10/immobilier-actuellement-en-angleterre-une-propriete-sur-six-est-exposee-au-risque-d-inondation_6177017_3232.html",
+    "publishedAt": "2023-06-10",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "En France, la grande mansuétude des autorités envers les entreprises émettrices de CO₂",
+    "quote": "Les autorités françaises n’ont imposé aucune pénalité financière aux sites industriels qui ont dépassé leurs quotas d’émissions de gaz à effet de serre, en contravention avec les règles européennes.",
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2023/06/09/en-france-la-grande-mansuetude-des-autorites-envers-les-entreprises-emettrices-de-co_6176921_4355770.html",
+    "publishedAt": "2023-06-09",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "L’utilisation pas si durable des subventions européennes à la pêche",
+    "quote": "Moins de 20 % des subventions à la pêche versées en France au cours des dernières années ont financé des activités à caractère durable.",
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2023/06/09/l-utilisation-pas-si-durable-des-subventions-europeennes-a-la-peche_6176914_4355770.html",
+    "publishedAt": "2023-06-09",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Pesticides : dans la Vienne, l’eau du robinet contaminée par le chlorothalonil",
+    "quote": "Des taux élevés d’un métabolite de ce pesticide, interdit en 2020, ont été mesurés dans deux secteurs du département de l’Ouest, touchant brièvement 15 000 personnes. Une situation qui pourrait se reproduire dans de nombreuses régions où cette substance n’est pas encore recherchée.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/09/pesticides-dans-la-vienne-l-eau-du-robinet-frole-la-crise_6176857_3244.html",
+    "publishedAt": "2023-06-09",
+    "publishedBy": "Le Monde",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Environnement : la France mauvaise élève du recyclage",
+    "quote": "Alors que Paris accueillait la semaine dernière les négociations internationales pour mettre fin à la pollution plastique, on apprend que notre pays a encore du pain sur la planche s'il veut atteindre les objectifs fixés par l'Union européenne.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-billet-vert/environnement-la-france-mauvaise-eleve-du-recyclage_5847866.html",
+    "publishedAt": "2023-06-09",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Le plastique, une menace à l’échelle planétaire",
+    "quote": "Largement utilisé depuis cinquante ans, le plastique est un danger pour les écosystèmes, la santé humaine ou le climat. Si bien que des négociations ont récemment eu lieu pour parvenir à un traité international sur le sujet. Stéphane Mandard, journaliste au service Planète du « Monde », nous explique pourquoi il est crucial d’enrayer cette pollution massive.",
+    "url": "https://www.lemonde.fr/podcasts/article/2023/06/09/le-plastique-une-menace-a-l-echelle-planetaire_6176821_5463015.html",
+    "publishedAt": "2023-06-09",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "États-Unis : New York recouverte d’une épaisse fumée orange due aux incendies au Canada",
+    "quote": "Des feux de forêt ravagent le Canada depuis plusieurs jours avec quelque 400 brasiers. Le pays attend avec impatience des renforts. Alors que le Canada brûle, aux États-Unis, New York suffoque. Les habitants vivent sous une fumée orange.",
+    "url": "https://www.francetvinfo.fr/monde/usa/etats-unis-new-york-recouvert-d-une-epaisse-fumee-orange-due-aux-incendies-au-canada_5876018.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Sécheresse : les stations de désalinisation de l'eau de mer, une solution qui fait débat",
+    "quote": "Les stations de désalinisation de l'eau de mer font débat. Si elles constituent une solution intéressante à la sécheresse, elles restent cependant très chères et consomment beaucoup d'énergie. Elles rejettent également de l'eau très salée en mer, ce qui a des conséquences pour les fonds marins.",
+    "url": "https://www.francetvinfo.fr/meteo/secheresse/secheresse-les-stations-de-desalinisation-de-l-eau-de-mer-une-solution-qui-fait-debat_5875907.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "France Info",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Le réchauffement climatique causé par l'humanité atteint un rythme inédit, selon des chercheurs",
+    "quote": "Le réchauffement dû aux activités humaines s'accroît désormais à un rythme de plus de 0,2°C par décennie, avec des émissions de gaz à effet de serre à un niveau inédit, selon une vaste étude internationale publiée jeudi. Ces nouvelles estimations interviennent au mitan d'une année déterminante pour la politique climatique, avec la publication attendue en septembre du premier \"bilan mondial\" des engagements des différents États pour mettre en œuvre l'accord de Paris.",
+    "url": "https://www.france24.com/fr/plan%C3%A8te/20230608-le-r%C3%A9chauffement-climatique-caus%C3%A9-par-l-humanit%C3%A9-atteint-un-rythme-in%C3%A9dit-selon-des-chercheurs",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Climat : deux milliards de personnes pourraient être exposées à une chaleur extrême d’ici à 2100",
+    "quote": "400 millions de personnes seraient à risque en cas de respect de l’accord de Paris, soit cinq fois moins qu’avec un réchauffement climatique de 2,7 degrés à la fin du siècle, vers lequel nous mènent les politiques actuelles.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/08/climat-deux-milliards-de-personnes-pourraient-etre-exposees-a-une-chaleur-extreme-d-ici-a-2100_6176735_3244.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "La France est très en retard sur ses objectifs de recyclage, alerte la Commission européenne",
+    "quote": "Alors que l’objectif européen est de recycler 50 % des emballages en plastique d’ici à 2025, la France stagne sous les 27 %, et se montre incapable de réduire ses déchets ménagers.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/08/la-france-est-tres-en-retard-sur-ses-objectifs-de-recyclage-alerte-la-commission-europeenne_6176718_3244.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Canada : des feux de forêt historiques",
+    "quote": "Des centaines de feux de forêt faisaient rage mercredi au Canada, menaçant des infrastructures essentielles, entraînant des évacuations et dégageant d'épaisses fumées qui se sont répandues sur de nombreuses villes américaines.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230608-canada-des-feux-de-for%C3%AAt-historiques",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Incendies : le Canada brûle, New York sous une chape de fumée",
+    "quote": "Les régions canadiennes du Québec et de la Nouvelle-Écosse sont ravagées par le feu. Si les zones touchées sont peu habitées, le vent pousse la fumée jusqu'aux États-Unis. À New York, la pollution est telle qu'il est déconseillé de sortir de chez soi.",
+    "url": "https://www.francetvinfo.fr/monde/usa/incendies-le-canada-brule-new-york-sous-une-chape-de-fumee_5875427.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Le réchauffement planétaire s’accroît à un rythme sans précédent",
+    "quote": "Selon une étude publiée jeudi, la quantité de gaz à effet de serre à ne pas dépasser pour limiter le réchauffement de la planète à 1,5 °C a été divisée par deux par rapport à la précédente estimation.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/08/le-rechauffement-planetaire-resultant-des-activites-humaines-atteint-un-nouveau-record_6176706_3244.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Climat : les océans n'ont jamais été aussi chauds",
+    "quote": "La température des océans est très élevée, avec des conséquences importantes pour le reste de l'environnement.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/climat-les-oceans-n-ont-jamais-ete-aussi-chauds_5875403.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Crise climatique : les océans n’ont jamais été aussi chauds",
+    "quote": "L’Arctique pourrait être privée de glace de mer en été dès 2030.",
+    "url": "https://www.francetvinfo.fr/replay-radio/le-billet-vert/crise-climatique-les-oceans-n-ont-jamais-ete-aussi-chauds_5845577.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Après la destruction du barrage de Kakhovka, la crainte d’un désastre environnemental",
+    "quote": "L’événement est qualifié de « pire catastrophe environnementale en Europe depuis Tchernobyl » par le vice-ministre ukrainien des affaires étrangères, Andri Melnyk. Ses conséquences, en cours d’évaluation, s’annoncent considérables pour les écosystèmes.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/08/apres-la-destruction-du-barrage-de-kakhovka-la-crainte-d-un-desastre-environnemental_6176667_3244.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Chaleur et sécheresse sont de retour sur une partie de la France",
+    "quote": "Ce printemps a connu une météo atypique et une pluviométrie contrastée selon les régions. Dans la moitié nord, le soleil et le vent ont effacé le bénéfice des pluies d’avril.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/08/chaleur-et-secheresse-sont-de-retour-sur-une-partie-de-la-france_6176663_3244.html",
+    "publishedAt": "2023-06-08",
+    "publishedBy": "Le Monde",
+    "categoryId": "resources"
+  },
+  {
+    "title": "Incendies au Canada : plus de 100 millions d'habitants des Etats-Unis concernés par des alertes à la qualité de l'air",
+    "quote": "Ces alertes concernent la majeure partie du nord-est des Etats-Unis, de Chicago au nord, jusqu'à Atlanta au sud.",
+    "url": "https://www.francetvinfo.fr/faits-divers/incendie/incendies-au-canada-plus-de-100-millions-d-habitants-des-etats-unis-concernes-par-des-alertes-a-la-qualite-de-l-air_5874494.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "États-Unis : New York voilée par les fumées d’incendies au Canada",
+    "quote": "Ce mercredi 7 juin, la totalité de la mégalopole américaine est plongée sous une épaisse couche de fumée venue du Canada voisin où des incendies font rage. Le maire a recommandé à ses habitants de sortir le moins possible.",
+    "url": "https://www.francetvinfo.fr/monde/usa/etats-unis-new-york-voilee-par-les-fumees-d-incendies-au-canada_5874368.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Guerre en Ukraine : la destruction du barrage a des conséquences écologiques et sécuritaires dramatiques",
+    "quote": "La destruction du barrage a provoqué une catastrophe écologique. 150 tonnes d’huile de machines se sont déversées dans le Dniepr. La catastrophe est aussi sécuritaire, alors que les mines des belligérants peuvent exploser à tout moment.",
+    "url": "https://www.francetvinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-la-destruction-du-barrage-a-des-consequences-ecologiques-et-securitaires-dramatiques_5874362.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Réchauffement climatique : les forêts françaises suffoquent",
+    "quote": "En France, le réchauffement climatique impacte directement les forêts. En dix ans, la mortalité des arbres a augmenté de 54 %. Ce phénomène est-il réversible ?",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/rechauffement-climatique-les-forets-francaises-suffoquent_5874314.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Soleil voilé et toux irrépressible : New York prise sous les fumées des incendies du Canada",
+    "quote": "L’indice de qualité de l’air ne cesse de se dégrader dans la mégapole américaine, où il est conseillé de ne pas sortir et d’utiliser des masques.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/07/soleil-voile-et-toux-irresistible-new-york-prise-sous-la-chappe-des-fumees-des-incendies-au-canada_6176637_3244.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "Le réchauffement des océans, signal du dérèglement climatique",
+    "quote": "Le service européen Copernicus annonce ce mercredi que les océans ont connu leur mois de mai le plus chaud jamais enregistré. Ils absorbent 90% de l'augmentation de chaleur causée par les activités humaines.",
+    "url": "https://www.francetvinfo.fr/replay-radio/un-monde-d-avance/le-rechauffement-des-oceans-signal-du-dereglement-climatique_5843546.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Vagues de chaleur : le Vietnam contraint de limiter sa consommation d’électricité",
+    "quote": "Les températures records, enregistrées en avril et en mai dans la partie continentale de l’Asie du Sud-Est, s’accompagnent au Vietnam d’une forte hausse de la consommation électrique, que les grandes villes vietnamiennes cherchent à contenir.",
+    "url": "https://www.lemonde.fr/international/article/2023/06/07/avec-la-multiplication-des-vagues-de-chaleur-le-vietnam-contraint-de-limiter-sa-consommation-d-electricite_6176627_3210.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "Le Monde",
+    "categoryId": "energy"
+  },
+  {
+    "title": "Dérèglement climatique : l'Arctique pourrait être privé de glace de mer en été dès les années 2030",
+    "quote": "Des scientifiques ont effectué de nouvelles simulations inquiétantes, d'autant que la banquise permet de rafraîchir l'océan.",
+    "url": "https://www.francetvinfo.fr/monde/environnement/crise-climatique/dereglement-climatique-l-arctique-pourrait-etre-prive-de-glace-de-mer-en-ete-des-les-annees-2030_5873984.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Morbihan : les méduses envahissent déjà les plages",
+    "quote": "Des méduses se retrouvent sur les plages de Ploemeur, dans le Morbihan, alors que l’été n’a pas encore commencé. C'est un effet du réchauffement climatique.",
+    "url": "https://www.francetvinfo.fr/france/bretagne/morbihan/morbihan-les-meduses-envahissent-deja-les-plages_5873894.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Les océans ont connu leur mois de mai le plus chaud jamais enregistré",
+    "quote": "La surface des océans vient de connaître son mois de mai le plus chaud jamais enregistré, a indiqué mercredi le service européen Copernicus, après un mois d'avril record.",
+    "url": "https://www.france24.com/fr/plan%C3%A8te/20230607-les-oc%C3%A9ans-ont-connu-leur-mois-de-mai-le-plus-chaud-jamais-enregistr%C3%A9",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "«Sécheresse éclair» dans la moitié nord de la France : l'agriculture est-elle en danger ?",
+    "quote": "Il n'a pas plus sur la partie nord du pays depuis plus de vingt jours. Certaines cultures comme les pommes de terre pourraient être endommagées par ce déficit.",
+    "url": "https://www.lefigaro.fr/sciences/secheresse-eclair-dans-la-moitie-nord-de-la-france-l-agriculture-est-elle-en-danger-20230607",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "Le Figaro",
+    "categoryId": "agriculture"
+  },
+  {
+    "title": "Barrage de Kakhovka : des ONG s'alarment des conséquences \"sans précédent\" sur l'environnemente",
+    "quote": "La destruction du barrage de Kakhovka, mardi dans le sud de l'Ukraine, pourrait avoir des conséquences environnementales et humaines \"sans précédent\", estiment mercredi plusieurs experts et associations de défense de l'environnement.",
+    "url": "https://www.france24.com/fr/europe/20230607-barrage-de-kakhovka-des-ong-s-alarment-des-cons%C3%A9quences-sans-pr%C3%A9c%C3%A9dent-sur-l-environnement",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France 24",
+    "categoryId": "environment"
+  },
+  {
+    "title": "L'Arctique pourrait être privé de glace de mer dès les années 2030, alerte une nouvelle étude",
+    "quote": "Dans un article publié mardi, des chercheurs internationaux s'inquiètent de voir l'Arctique privé de sa glace de mer en été dès les années 2030. Une conséquence directe des émissions de gaz à effet de serre qui viendrait accélérer encore le réchauffement de la région.",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20230607-l-arctique-priv%C3%A9-de-sa-banquise-en-%C3%A9t%C3%A9-d-ici-2030",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "L’Arctique pourrait être privé de banquise en été dès les années 2030",
+    "quote": "Les chercheurs estiment que le déclin de cette glace peut être attribué essentiellement aux émissions de gaz à effet de serre.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/07/l-arctique-pourrait-etre-prive-de-banquise-en-ete-des-les-annees-2030_6176584_3244.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Guerre en Ukraine : la destruction du barrage de Kakhovka marque le début d'une \"grande catastrophe écologique\", analyse un hydrologue de Kherson",
+    "quote": "Le professeur Yevhen Korzhov, chercheur à l'université de Kherson, estime que l'inondation a passé son pic mais qu'elle va encore durer 10 à 15 jours. Il est inquiet pour les conséquences à moyen et long terme de cet événement inédit.",
+    "url": "https://www.francetvinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-la-destruction-du-barrage-de-kakhovka-marque-le-debut-d-une-grande-catastrophe-ecologique-analyse-un-hydrologue-de-kherson_5872421.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France Info",
+    "categoryId": "environment"
+  },
+  {
+    "title": "« Les pays industriels ont “choisi” la croissance et le réchauffement climatique, et s’en sont remis à l’adaptation »",
+    "quote": "Dès la fin des années 1970, les gouvernements des pays industriels, constatant l’inéluctabilité du réchauffement, ont délibérément poursuivi leurs activités polluantes quitte à s’adapter à leurs effets sur le climat, rappelle Jean-Baptiste Fressoz dans sa chronique.",
+    "url": "https://www.lemonde.fr/idees/article/2023/06/07/les-pays-industriels-ont-choisi-la-croissance-et-le-rechauffement-climatique-et-s-en-sont-remis-a-l-adaptation_6176573_3232.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Incendies : New York devient subitement la ville la plus polluée au monde",
+    "quote": "Les fumées dégagées par de gigantesques incendies au Canada ont recouvert la ville américaine.",
+    "url": "https://www.lemonde.fr/planete/video/2023/06/07/incendies-new-york-devient-subitement-la-ville-la-plus-polluee-au-monde_6176572_3244.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "Le Monde",
+    "categoryId": "environment"
+  },
+  {
+    "title": "L'Arctique pourrait être privé de glace de mer dès les années 2030, alerte une nouvelle étude",
+    "quote": "Dans un article publié mardi, des chercheurs internationaux s'inquiètent de voir l'Arctique privé de sa glace de mer en été dès les années 2030. Une conséquence directe des émissions de gaz à effet de serre qui viendrait accélérer encore le réchauffement de la région.",
+    "url": "https://www.france24.com/fr/plan%C3%A8te/20230607-l-arctique-pourrait-%C3%AAtre-priv%C3%A9-de-glace-de-mer-d%C3%A8s-les-ann%C3%A9es-2030-alerte-une-nouvelle-%C3%A9tude",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "France 24",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Consommation de gaz et d’électricité : la France a du mal à passer d’une sobriété de crise à une sobriété plus structurelle",
+    "quote": "Une vaste enquête d’opinion menée par Ipsos pour RTE montre que la baisse de 12 % de l’utilisation d’énergie constatée en 2022 par rapport à 2018-2019 a été plus subie que choisie.",
+    "url": "https://www.lemonde.fr/economie/article/2023/06/07/consommation-de-gaz-et-d-electricite-la-france-a-du-mal-a-passer-d-une-sobriete-de-crise-a-une-sobriete-plus-structurelle_6176517_3234.html",
+    "publishedAt": "2023-06-07",
+    "publishedBy": "Le Monde",
+    "categoryId": "energy"
+  },
+  {
+    "title": "La forêt française, un puits de carbone en péril",
+    "quote": "La capacité de stockage du CO₂ par les écosystèmes forestiers a été divisée par deux en dix ans. Une tendance inquiétante, alors que la France doit réviser sa stratégie visant à atteindre la neutralité carbone.",
+    "url": "https://www.lemonde.fr/planete/article/2023/06/06/la-foret-francaise-un-puits-de-carbone-en-peril_6176474_3244.html",
+    "publishedAt": "2023-06-06",
+    "publishedBy": "Le Monde",
+    "categoryId": "climate"
+  },
+  {
+    "title": "Réchauffement de l’Arctique : d’ici à 2050, des septembres sans glace seront inéluctables",
+    "quote": "Une étude réévalue à la hausse l’impact des émissions de gaz à effet de serre sur la fonte de la banquise au pôle Nord.",
+    "url": "https://www.lefigaro.fr/sciences/rechauffement-de-l-arctique-d-ici-a-2050-des-septembres-sans-glace-seront-ineluctables-20230606",
+    "publishedAt": "2023-06-06",
+    "publishedBy": "Le Figaro",
+    "categoryId": "climate"
+  },
+  {
     "title": "À l’approche de l’été, le réchauffement climatique inquiète les Français",
     "quote": "Plus de 90% des personnes interrogées pour une étude Ifop témoignent d’une intensification des événements extrêmes dans leur région.",
     "url": "https://www.lefigaro.fr/sciences/a-l-approche-de-l-ete-le-rechauffement-climatique-inquiete-les-francais-20230606",
